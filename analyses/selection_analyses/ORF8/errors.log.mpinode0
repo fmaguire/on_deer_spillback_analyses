@@ -1,0 +1,2 @@
+
+Error:The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons in call to assert(absrel.codon_filter.sites*3==absrel.codon_data.sites, error_msg);

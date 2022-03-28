@@ -1,0 +1,129 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.1
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 109 duplicate sequences. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+
+>Loaded a multiple sequence alignment with **160** sequences, **275** codons, and **1** partitions from `/home/finlaymaguire/workspace/basic/clean_run/ORF3a/B1_and_deer_ORF3a.fasta`
+
+>branches –> on_deer
+
+>srv –> Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>rates –> 3
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>syn-rates –> 3
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size –> 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points –> 10
+
+
+### Branches to test for selection in the BUSTED analysis
+* Selected 12 branches to test in the BUSTED analysis: `4581, 4645, Node104, 4662, 4649, Node107, Node103, Node111, Canada_ON_PHL_21_44225_2021, 4658, Node114, __reroot_top_clade`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 141 zero-length internal branches: `Node10, Node100, Node101, Node103, Node104, Node107, Node11, Node111, Node114, Node12, Node124, Node125, Node126, Node127, Node128, Node129, Node13, Node130, Node131, Node132, Node133, Node134, Node135, Node136, Node137, Node138, Node139, Node14, Node140, Node141, Node144, Node145, Node146, Node147, Node148, Node15, Node151, Node152, Node153, Node154, Node155, Node156, Node157, Node158, Node159, Node16, Node160, Node161, Node162, Node163, Node164, Node165, Node166, Node167, Node168, Node169, Node17, Node170, Node18, Node19, Node193, Node2, Node20, Node209, Node21, Node210, Node212, Node214, Node216, Node218, Node220, Node222, Node224, Node226, Node239, Node241, Node243, Node249, Node250, Node251, Node252, Node265, Node266, Node267, Node268, Node269, Node28, Node288, Node290, Node292, Node294, Node296, Node298, Node3, Node300, Node302, Node304, Node306, Node308, Node310, Node312, Node314, Node4, Node40, Node5, Node56, Node57, Node58, Node59, Node6, Node61, Node62, Node63, Node64, Node65, Node66, Node67, Node68, Node69, Node7, Node70, Node71, Node72, Node74, Node75, Node76, Node78, Node8, Node80, Node82, Node84, Node86, Node88, Node9, Node92, Node93, Node95, Node96, Node97, Node98, Node99`
+* Log(L) = -1490.63, AIC-c =  3632.87 (325 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -1460.59, AIC-c =  3306.87 (192 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   1.7470
+* non-synonymous/synonymous rate ratio for *test* =   1.6476
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -1460.49, AIC-c =  3306.68 (192 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   1.8351
+* non-synonymous/synonymous rate ratio for *test* =   1.4324
+
+### Performing the full (dN/dS > 1 allowed) branch-site model fit
+[2KComputing LF on a grid[2KComputing LF on a grid 1/10[2KComputing LF on a grid 2/10[2KComputing LF on a grid 3/10[2KComputing LF on a grid 4/10[2KComputing LF on a grid 5/10[2KComputing LF on a grid 6/10[2KComputing LF on a grid 7/10[2KComputing LF on a grid 8/10[2KComputing LF on a grid 9/10[2K                           [2K[2KWorking on crude initial optimizations[2KStarting point 1/10. Best LogL = -1484.979874501569[2KStarting point 2/10. Best LogL = -1484.979874501569[2KStarting point 3/10. Best LogL = -1484.979874501569[2KStarting point 4/10. Best LogL = -1484.979874501569[2KStarting point 5/10. Best LogL = -1484.979874501569[2KStarting point 6/10. Best LogL = -1484.979874501569[2KStarting point 7/10. Best LogL = -1484.979874501569[2KStarting point 8/10. Best LogL = -1484.979874501569[2KStarting point 9/10. Best LogL = -1484.979874501569[2KStarting point 10/10. Best LogL = -1484.979874501569[2K                                                    [2K* Log(L) = -1454.44, AIC-c =  3320.81 (205 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|         Neutral evolution         |     1.000     |    7.689    |                                   |
+|         Neutral evolution         |     1.000     |   77.456    |       Collapsed rate class        |
+|      Diversifying selection       |     4.105     |   14.855    |                                   |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.997     |    0.000    |       Not supported by data       |
+|        Negative selection         |     0.998     |    0.000    |       Not supported by data       |
+|      Diversifying selection       |     1.902     |   100.000   |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.556               |    89.411     |                                   |
+|               0.556               |     3.522     |       Collapsed rate class        |
+|               6.840               |     7.067     |                                   |
+
+
+### Performing the constrained (dN/dS > 1 not allowed) model fit
+* Log(L) = -1454.50, AIC-c =  3318.92 (204 estimated parameters)
+* For *test* branches under the null (no dN/dS > 1 model), the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|         Neutral evolution         |     1.000     |   17.573    |                                   |
+|         Neutral evolution         |     1.000     |    8.508    |       Collapsed rate class        |
+|         Neutral evolution         |     1.000     |   73.918    |       Collapsed rate class        |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.555               |    89.322     |                                   |
+|               0.557               |     3.564     |       Collapsed rate class        |
+|               6.812               |     7.114     |                                   |
+
+----
+## Branch-site unrestricted statistical test of episodic diversification [BUSTED]
+Likelihood ratio test for episodic diversifying positive selection, **p =   0.4709**.
+
+
+

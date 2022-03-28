@@ -1,0 +1,107 @@
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 104 duplicate sequences. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+
+>Loaded a multiple sequence alignment with **160** sequences, **419** codons, and **1** partitions from `/home/finlaymaguire/workspace/basic/clean_run/N/B1_and_deer_N.fasta`
+
+>test –> on_deer
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size –> 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points –> 10
+
+
+### Branch sets for RELAX analysis
+* Selected 306 branches as the _Reference_ set: `hCoV_19_Burkina_Faso_49_2021, hCoV_19_mink_Denmark_mDK_159_2020, Node18, hCoV_19_mink_Denmark_mDK_152_2020, hCoV_19_Italy_VEN_UniVR_117_2020, hCoV_19_USA_KS_KHEL_0552_2020, Node35, hCoV_19_Italy_TAA_MUIV_0093_2020, hCoV_19_Italy_TAA_MUIV_0094_2020, Node42, hCoV_19_Canada_QC_1nIEOQ_7051594146_2021, Node41, hCoV_19_Indonesia_JB_GS_WJHL_ITB_GS_318_2020, Node40, hCoV_19_Spain_MD_IBV_003723_2020, Node39, hCoV_19_Egypt_CUNCI_HGC5I016_2020, Node38, Node34, hCoV_19_England_SHEF_CF270_2020, Node33, hCoV_19_Iceland_93_2020, Node32, hCoV_19_Spain_RI_IBV_006019_2020, Node31, hCoV_19_France_IDF_IPP2779_2020, Node30, hCoV_19_England_CAMB_78953_2020, Node29, hCoV_19_USA_NE_CDC_STM_000004255_2021, hCoV_19_Denmark_DCGC_41756_2021, hCoV_19_USA_CA_SEARCH_14715_2021, Node56, Node54, Node28, Node26, hCoV_19_USA_NY_Wadsworth_64197_01_2020, Node25, hCoV_19_Canada_QC_LSPQ_L00218337_2020, Node24, hCoV_19_USA_MI_MDHHS_SC21645_2020, Node23, hCoV_19_England_NORW_E7782_2020, Node22, hCoV_19_USA_MA_MASPHL_00230_2020, Node21, Node17, hCoV_19_USA_MI_MDHHS_SC20662_2020, Node16, hCoV_19_Turkey_HSGM_C7769_2021, hCoV_19_USA_MO_MSPHL_000490_2020, Node66, hCoV_19_Italy_TUS_DBM_11_2020, hCoV_19_mink_Denmark_mDK_532_2020, hCoV_19_Switzerland_BS_UHB_42200131_2020, hCoV_19_mink_USA_UT_CDC_4455738_001_2021, hCoV_19_cat_USA_UT_CDC_4159739_001_2020, hCoV_19_mink_USA_UT_CDC_4159747_001_2020, Node92, hCoV_19_mink_USA_UT_CDC_4455742_001_2021, Node91, hCoV_19_mink_USA_UT_CDC_4159780_001_2020, Node90, hCoV_19_mink_USA_UT_CDC_4455743_001_2021, Node89, Node87, hCoV_19_mink_USA_UT_CDC_4159696_001_2020, Node86, hCoV_19_USA_NY_PRL_2020_1229_01D09_2020, Node85, hCoV_19_USA_WI_GMF_B00788_2021, Node84, hCoV_19_USA_VA_DCLS_1402_2020, Node83, hCoV_19_mink_USA_UT_CDC_4168008_001_2020, Node82, hCoV_19_India_MH_NIV_99913_2020, Node81, hCoV_19_USA_NM_UNM_00086_2020, Node80, hCoV_19_USA_TX_HMH_MCoV_22700_2020, Node79, hCoV_19_Denmark_ALAB_HH20_2020, Node78, hCoV_19_USA_GA_EHC_580J_2020, Node77, hCoV_19_USA_NY_UB_00111_2020, Node76, hCoV_19_Wuhan_WH01_2019, hCoV_19_Sweden_01_SE100_21CS505850_2020, hCoV_19_England_20179044604_2020, hCoV_19_France_PAC_IHU_11489_Illu1_2020, hCoV_19_India_DL_NCDC_4475_2020, hCoV_19_USA_WA_S1461_2020, hCoV_19_USA_CA_CDPH_2000028319_2021, hCoV_19_mink_USA_WI_20_031493_003_2020, hCoV_19_mink_USA_WI_20_031493_001_2020, Node125, hCoV_19_Germany_BW_RKI_I_028376_2021, Node124, hCoV_19_mink_USA_UT_CDC_4455725_001_2021, hCoV_19_Germany_NW_RKI_I_031905_2021, hCoV_19_Turkey_HSGM_4816_2021, Node148, Node146, hCoV_19_mink_USA_UT_20_031894_014_2020, hCoV_19_mink_USA_WI_CDC_3892579_001_2020, hCoV_19_mink_USA_WI_CDC_3892577_001_2020, hCoV_19_mink_USA_WI_CDC_3892604_001_2020, hCoV_19_mink_USA_WI_CDC_3892917_001_2020, Node180, hCoV_19_mink_USA_WI_CDC_3892581_001_2020, hCoV_19_mink_USA_WI_CDC_3892916_001_2020, Node183, Node179, hCoV_19_mink_USA_WI_CDC_3892875_001_2020, Node178, hCoV_19_mink_USA_WI_CDC_3892587_001_2020, Node177, hCoV_19_mink_USA_WI_CDC_3892585_001_2020, Node176, hCoV_19_mink_USA_WI_CDC_3892590_001_2020, Node175, hCoV_19_mink_USA_WI_CDC_3892591_001_2020, Node174, hCoV_19_mink_USA_WI_CDC_3892594_001_2020, Node173, hCoV_19_mink_USA_WI_CDC_3892589_001_2020, Node172, hCoV_19_mink_USA_WI_CDC_3892586_001_2020, Node171, hCoV_19_mink_USA_WI_CDC_3892899_001_2020, Node170, hCoV_19_mink_USA_WI_CDC_3892876_001_2020, Node169, Node167, hCoV_19_mink_USA_WI_CDC_3892583_001_2020, Node166, hCoV_19_mink_USA_WI_CDC_3892883_001_2020, Node165, hCoV_19_mink_USA_WI_CDC_3892592_001_2020, Node164, Node162, hCoV_19_mink_USA_WI_CDC_3892894_001_2020, Node161, Node159, hCoV_19_mink_USA_UT_20_032048_008_2020, Node158, hCoV_19_USA_TX_HMH_MCoV_22346_2021, Node157, hCoV_19_mink_USA_UT_CDC_4455651_001_2021, Node156, hCoV_19_USA_MT_WL_774_2020, Node155, hCoV_19_mink_Denmark_mDK_560_2020, Node154, hCoV_19_mink_USA_UT_20_032048_005_2020, Node153, hCoV_19_USA_AZ_ASPHL_2860_2020, Node152, hCoV_19_England_202890228_2020, Node151, Node145, hCoV_19_mink_USA_UT_CDC_4168068_001_2020, Node144, hCoV_19_mink_USA_UT_CDC_4455698_001_2021, Node143, hCoV_19_mink_USA_UT_20_032049_004_2020, Node142, hCoV_19_mink_USA_UT_CDC_4168074_001_2020, Node141, hCoV_19_USA_WY_UNM_WY00429_2020, Node140, hCoV_19_mink_USA_UT_CDC_4455671_001_2021, Node139, hCoV_19_USA_TX_HMH_MCoV_25052_2021, Node138, hCoV_19_mink_USA_UT_CDC_4168073_001_2020, Node137, hCoV_19_mink_USA_UT_20_031893_001_2020, Node136, hCoV_19_Slovenia_70767_2020, Node135, hCoV_19_mink_USA_UT_CDC_4455648_001_2021, Node134, hCoV_19_mink_USA_UT_20_031894_017_2020, Node133, hCoV_19_mink_USA_UT_20_032049_008_2020, Node132, hCoV_19_USA_CA_UCSC_443_2020, Node131, hCoV_19_mink_Denmark_mDK_273_2020, Node130, hCoV_19_USA_MD_HP06635_PIDLEHQTMF_2020, hCoV_19_USA_TX_HMH_5813_2020, hCoV_19_Ireland_LK_NVRL_MPL24200_2020, hCoV_19_USA_MA_MGH_01071_2020, hCoV_19_USA_MD_MDH_0023_2020, hCoV_19_USA_VA_DCLS_1337_2020, hCoV_19_USA_MI_MDHHS_SC23517_2020, hCoV_19_USA_MI_MDHHS_SC22669_2020, Node237, Node236, hCoV_19_USA_UT_UPHL_201026584_2020, Node235, Node233, Node231, Node229, Node227, Node225, Node223, Node129, Node123, Node121, Node119, Node117, Node115, Node113, Node111, Node109, Node75, Node73, Node71, Node69, Node65, Node15, hCoV_19_Ireland_KE_20G31522_2020, Node14, hCoV_19_Zambia_ZMB_229_2020, Node13, hCoV_19_Hong_Kong_CUHK_NC1750_2020, Node12, hCoV_19_USA_LA_BIE_027_2020, Node11, hCoV_19_Switzerland_BL_UHB_42192973_2020, Node10, hCoV_19_USA_CT_CDC_QDX22257993_2021, Node9, hCoV_19_Australia_VIC243_2020, Node8, hCoV_19_Germany_BY_RKI_I_046626_2021, Node7, hCoV_19_USA_AZ_TG666168_2020, Node6, hCoV_19_Denmark_DCGC_1008_2020, Node5, hCoV_19_Brazil_SP_IB_125628_2021, Node4, hCoV_19_Turkey_HSGM_D23960_2021, Node3, Hu_1, Node2, hCoV_19_England_CAMB_7C166_2020, hCoV_19_Turkey_HSGM_D23630_2021, hCoV_19_Turkey_HSGM_D18014_2021, hCoV_19_Turkey_HSGM_D17236_2021, hCoV_19_Turkey_HSGM_D21054_2021, hCoV_19_Turkey_HSGM_D18026_2021, hCoV_19_Turkey_HSGM_D15451_2021, hCoV_19_India_MH_ACTREC_633_2020, hCoV_19_USA_TX_HMH_MCoV_49819_2020, Node294, hCoV_19_Australia_QLD1259_2020, Node293, hCoV_19_Turkey_HSGM_D16927_2021, __reroot_top_clade, Node290, Node288, Node286, Node284, Node282, Node280, hCoV_19_Germany_BY_RKI_I_074295_2021, Node279, hCoV_19_Spain_NC_CHN_01000166_2020, Node278, hCoV_19_England_NORW_E8D61_2020, Node277, hCoV_19_Austria_CeMM0647_2020, Node276, hCoV_19_France_PAC_IHU_0508_Illu2_2020, Node275, hCoV_19_USA_TX_HMH_5167_2020, Node274, hCoV_19_USA_MI_MDHHS_SC20437_2020, Node273, hCoV_19_Egypt_CUNCI_HGC015_2020, Node272, hCoV_19_Denmark_DCGC_2977_2020, Node271, hCoV_19_Zambia_ZMB_53639_2020, hCoV_19_USA_CA_CHLA_PLM75223157_2020, hCoV_19_USA_TX_HMH_MCoV_17294_2020, Node311, Node309, hCoV_19_USA_TX_TCH_TCMC02076_2021, Node308, Node270, hCoV_19_Panama_GMI_PA344037_2020, Node269, hCoV_19_Denmark_DCGC_22602_2020, Node268, hCoV_19_Wales_PHWC_163EC4_2020, Node267, hCoV_19_Australia_QLD1574_2020, Node266`
+* Selected 11 branches as the _Test_ set: `4581, 4649, Node244, 4662, Node243, Canada_ON_PHL_21_44225_2021, Node242, 4658, Node241, 4645, Node240`
+The number omega rate classes to include in the model (permissible range = [2,10], default value = 3, integer): 
+>rates –> 3
+
+>models –> Minimal
+
+>srv –> Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>syn-rates –> 3
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 139 zero-length internal branches: `Node10, Node109, Node11, Node111, Node113, Node115, Node117, Node119, Node12, Node121, Node123, Node129, Node13, Node132, Node133, Node134, Node135, Node136, Node137, Node138, Node139, Node14, Node140, Node141, Node142, Node143, Node144, Node145, Node15, Node151, Node152, Node153, Node154, Node155, Node156, Node157, Node158, Node159, Node16, Node162, Node164, Node165, Node166, Node167, Node169, Node17, Node170, Node171, Node172, Node173, Node174, Node175, Node176, Node177, Node178, Node179, Node18, Node180, Node183, Node2, Node21, Node22, Node223, Node225, Node227, Node229, Node23, Node231, Node233, Node235, Node24, Node241, Node242, Node243, Node244, Node25, Node26, Node266, Node267, Node268, Node269, Node270, Node271, Node272, Node273, Node274, Node275, Node276, Node277, Node278, Node279, Node28, Node282, Node284, Node286, Node288, Node29, Node290, Node293, Node294, Node3, Node30, Node31, Node311, Node32, Node33, Node34, Node35, Node38, Node39, Node4, Node40, Node5, Node56, Node6, Node65, Node66, Node69, Node7, Node71, Node73, Node75, Node76, Node77, Node78, Node79, Node8, Node80, Node81, Node83, Node84, Node85, Node87, Node89, Node9, Node90, Node91, Node92, __reroot_top_clade`
+* Log(L) = -2144.77, AIC-c =  4940.60 (325 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -2098.62, AIC-c =  4586.38 (194 estimated parameters)
+* non-synonymous/synonymous rate ratio for *Reference* =   1.2563
+* non-synonymous/synonymous rate ratio for *Test* =   1.7838
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -2097.71, AIC-c =  4584.55 (194 estimated parameters)
+* non-synonymous/synonymous rate ratio for *Reference* =   1.2251
+* non-synonymous/synonymous rate ratio for *Test* =  36.8220
+
+### Fitting the alternative model to test K != 1
+[2KComputing LF on a grid[2KComputing LF on a grid 1/10[2KComputing LF on a grid 2/10[2KComputing LF on a grid 3/10[2KComputing LF on a grid 4/10[2KComputing LF on a grid 5/10[2KComputing LF on a grid 6/10[2KComputing LF on a grid 7/10[2KComputing LF on a grid 8/10[2KComputing LF on a grid 9/10[2K                           [2K[2KWorking on crude initial optimizations[2KStarting point 1/10. Best LogL = -2092.787199371337[2KStarting point 2/10. Best LogL = -2092.787199371337[2KStarting point 3/10. Best LogL = -2092.787199371337[2KStarting point 4/10. Best LogL = -2092.787199371337[2KStarting point 5/10. Best LogL = -2092.787199371337[2KStarting point 6/10. Best LogL = -2092.576272263304[2KStarting point 7/10. Best LogL = -2092.576272263304[2KStarting point 8/10. Best LogL = -2092.576272263304[2KStarting point 9/10. Best LogL = -2092.576272263304[2KStarting point 10/10. Best LogL = -2092.576272263304[2K                                                    [2K* Log(L) = -2091.50, AIC-c =  4590.23 (203 estimated parameters)
+* Relaxation/intensification parameter (K) =     6.01
+* The following rate distribution was inferred for **test** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   28.061    |                                   |
+|        Negative selection         |     0.003     |   22.603    |                                   |
+|      Diversifying selection       |    91.099     |   49.336    |                                   |
+
+* The following rate distribution was inferred for **reference** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.266     |   28.061    |                                   |
+|        Negative selection         |     0.375     |   22.603    |                                   |
+|      Diversifying selection       |     2.119     |   49.336    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.000               |    66.564     |                                   |
+|               0.000               |     5.755     |       Collapsed rate class        |
+|               3.613               |    27.681     |                                   |
+
+
+### Fitting the null (K := 1) model
+* Log(L) = -2092.42, AIC-c =  4590.07 (202 estimated parameters)
+* The following rate distribution for test/reference branches was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.821     |   35.791    |                                   |
+|         Neutral evolution         |     1.000     |    8.254    |                                   |
+|      Diversifying selection       |     1.642     |   55.955    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.000               |    69.363     |                                   |
+|               0.000               |     3.088     |       Collapsed rate class        |
+|               3.630               |    27.549     |                                   |
+
+----
+## Test for relaxation (or intensification) of selection [RELAX]
+Likelihood ratio test **p =   0.1741**.
+>No significant evidence for relaxation (or intensification) of selection among **test** branches _relative_ to the **reference** branches at P<=0.05
+----
+
+
+
+

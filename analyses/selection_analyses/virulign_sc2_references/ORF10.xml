@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SARS-CoV-2 Spike from NC_045512.2 (29558-29674) -->
+  <orf name="ORF10" description="Hu-1" referenceSequence="ATGGGCTATATAAACGTTTTCGCTTTTCCGTTTACGATATATAGTCTACTCTTGTGCAGAATGAATTCTCGTAACTACATAGCACAAGTAGATGTAGTTAACTTTAATCTCACATAG" >
+         <protein abbreviation="orf10" startPosition="1" stopPosition="115" />
+  </orf>

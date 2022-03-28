@@ -1,0 +1,1592 @@
+{
+ "Synonymous site-posteriors":  [
+[0.0001653655816993132, 0.0001653577588531256, 0.0001653580245244674, 0.0001653662689874954, 0.0001653659411468752, 0.0001653662672876725, 0.000165366113077215, 0.0001653658980655057, 0.0001653660877628197, 0.0001653662545398216, 0.0001653653380200798, 0.0001653655821565943, 0.0001653662087883059, 0.0001653653299699995, 0.0001653655741103567, 0.0001653661834724622, 0.0001653662087883059, 0.0001653653380200798, 0.0001653652785245194, 0.0001653656742764611, 0.0001653659411468752, 0.00016536595626168, 0.0001653656180462798, 0.0001653653930944185, 0.0001653662672876725, 0.000165366285018526, 0.00016536595626168, 0.000165366285018526, 0.0001653662087883059, 0.0001653654765842075, 0.0001653656742764611, 0.0001653658980655057, 0.0001653660919833137, 0.0001653662087883059, 0.00016536595626168, 0.0001653652785245194, 0.000165366079240681, 0.000165358370003179, 0.0001653658377423745, 0.0001653662131903821, 0.0001653580884728453, 0.0001653657494320913, 0.0001653657354472547, 0.0001653657494320913, 0.000165366079240681, 0.0001653662486885345, 0.0001653658377423745, 0.0001653653930944185, 0.0001653658980655057, 0.0001653655741103567, 0.0001653659054394479, 0.0001653658980655057, 0.000165358432328971, 0.0001653661834724622, 0.0001653656742764611, 0.0001653666980215775, 0.0001653659054394479, 0.0001653656742764611, 0.0001653577232602312, 0.0001653656180462798, 0.000165366113077215, 0.0001653659054394479, 0.0001653662385048868, 0.0001653660919833137, 0.000165366079240681, 0.0001653663598075561, 0.0001653662087883059, 0.0001653662385048868, 0.0001653662385048868, 0.0001653662545398216, 0.0001653582562367038, 0.0001653655053770885, 0.0001653653930944185, 0.0001653657354472547, 0.0001653656742764611, 0.0001653661038021895, 0.0001653660877628197, 0.0001653662672876725, 0.0001653655134235122, 0.0001653658980655057, 0.0001653662385048868, 0.0001653504154780093, 0.0001653656020113452, 0.0001653655816993132, 0.0001653583942859846, 0.0001653660919833137, 0.0001653662087883059, 0.0001653656180462798, 0.0001653662419732496, 0.0001653662486885345, 0.0001653655816993132, 0.0001653656742764611, 0.0001653583356126075, 0.0001653582705853896, 0.000165366122447312, 0.000165366285018526, 0.0001653658980655057, 0.0001653662385048868, 0.0001653662943019185, 0.000165366285018526, 0.0001653655053770885, 0.0001653666980215775, 0.000165366079240681, 0.0001653584931714303, 0.0001653662215364241, 0.0001653662183447015, 0.0001653662215364241, 0.0001653662689874954, 0.0001653655816993132, 0.0001653656742764611, 0.0001653656578083225, 0.000165366285018526, 0.0001653657354472547, 0.0001653655562566295, 0.0001653653380200798, 0.000165366113077215, 0.0001653659411468752, 0.0001653658980655057, 0.0001653662087883059, 0.0001653583356125045, 0.0001653580884751462, 0.0001653663598075561, 0.0001653655562566295, 0.0001653583383929152, 0.0001653658151350234, 0.0001653662419732496, 0.000165366113077215, 0.0001653658980655057, 0.0001653588402197131, 0.0001653660877628197, 0.0001653655053770885, 0.0001653584474155071, 0.0001653662087883059, 0.00016536595626168, 0.0001653653380200798, 0.0001653659108149951, 0.0001653653380200798, 0.0001653661834724622, 0.0001653656180462798, 0.0001653661038021895, 0.0001653655134235122, 0.0001653662385048868, 0.0001653663598075561, 0.0001653661038021895, 0.0001653662087883059, 0.0001653662215364241, 0.0001653655134235122, 0.0001653579630444212, 0.0001653662087883059, 0.0001653583726163101, 0.0001653658980655057, 0.0001653662385048868, 0.0001653655134235122, 0.0001653660208529122, 0.0001653658151350234, 0.00016536595626168, 0.0001653655134235122, 0.000165366196221998, 0.0001653660919833137, 0.0001653660666271992, 0.0001653661038021895, 0.0001653655741103567, 0.0001653660666271992, 0.0001653666980215775, 0.0001653661927498449, 0.0001653653299699995, 0.0001653653380200798, 0.0001653661038021895, 0.000165366113077215, 0.0001653662545398216, 0.0001653662385048868, 0.0001653654765842075, 0.0001653656578083225, 0.0001653654539580114, 0.0001653662183447015, 0.0001653662087883059, 0.0001653662943019185, 0.0001653658377423745, 0.000165366122447312, 0.0001653653299699995, 0.0001653662486885345, 0.0001653655134235122, 0.0001653662385048868, 0.0001653663995697106, 0.0001653655226899826, 0.0001653662215364241, 0.0001653656180462798, 0.0001653656020113452, 0.0001653662672876725, 0.0001653660666271992, 0.0001653656578083225, 0.0001653662672876725, 0.000165366079240681, 0.0001653662385048868, 0.0001653656020113452, 0.0001653582681177271, 0.0001653659108149951, 0.000165366196221998, 0.000165366122447312, 0.0001653657494320913, 0.0001653658980655057, 0.000165358394110607, 0.0001653580671737202, 0.0001653658377423745, 0.0001653653299699995, 0.0001653659054394479, 0.0001653659411468752, 0.0001653654765842075, 0.0001653582219246825, 0.0001653658151350234, 0.0001653662689874954, 0.0001653659108149951, 0.000165366116554645, 0.0001653659108149951, 0.0001653660666271992, 0.0001653657354472547, 0.0001653658980655057, 0.0001653662385048868, 0.0001653662486885345, 0.0001653662087883059, 0.0001653656180462798, 0.0001653655226899826],
+  [0.9998346344183006, 0.9998346422411468, 0.9998346419754757, 0.9998346337310126, 0.9998346340588532, 0.9998346337327123, 0.9998346338869228, 0.9998346341019345, 0.9998346339122373, 0.9998346337454602, 0.9998346346619799, 0.9998346344178434, 0.9998346337912117, 0.9998346346700301, 0.9998346344258896, 0.9998346338165275, 0.9998346337912117, 0.9998346346619799, 0.9998346347214754, 0.9998346343257235, 0.9998346340588532, 0.9998346340437384, 0.9998346343819537, 0.9998346346069056, 0.9998346337327123, 0.9998346337149815, 0.9998346340437384, 0.9998346337149815, 0.9998346337912117, 0.9998346345234157, 0.9998346343257235, 0.9998346341019345, 0.9998346339080167, 0.9998346337912117, 0.9998346340437384, 0.9998346347214754, 0.9998346339207592, 0.9998346416299968, 0.9998346341622576, 0.9998346337868096, 0.9998346419115273, 0.9998346342505678, 0.9998346342645529, 0.9998346342505678, 0.9998346339207592, 0.9998346337513115, 0.9998346341622576, 0.9998346346069056, 0.9998346341019345, 0.9998346344258896, 0.9998346340945606, 0.9998346341019345, 0.999834641567671, 0.9998346338165275, 0.9998346343257235, 0.9998346333019784, 0.9998346340945606, 0.9998346343257235, 0.9998346422767398, 0.9998346343819537, 0.9998346338869228, 0.9998346340945606, 0.9998346337614951, 0.9998346339080167, 0.9998346339207592, 0.9998346336401923, 0.9998346337912117, 0.9998346337614951, 0.9998346337614951, 0.9998346337454602, 0.9998346417437632, 0.999834634494623, 0.9998346346069056, 0.9998346342645529, 0.9998346343257235, 0.9998346338961979, 0.9998346339122373, 0.9998346337327123, 0.9998346344865765, 0.9998346341019345, 0.9998346337614951, 0.999834649584522, 0.9998346343979887, 0.9998346344183006, 0.999834641605714, 0.9998346339080167, 0.9998346337912117, 0.9998346343819537, 0.9998346337580267, 0.9998346337513115, 0.9998346344183006, 0.9998346343257235, 0.9998346416643874, 0.9998346417294146, 0.9998346338775526, 0.9998346337149815, 0.9998346341019345, 0.9998346337614951, 0.9998346337056981, 0.9998346337149815, 0.999834634494623, 0.9998346333019784, 0.9998346339207592, 0.9998346415068285, 0.9998346337784636, 0.9998346337816555, 0.9998346337784636, 0.9998346337310126, 0.9998346344183006, 0.9998346343257235, 0.9998346343421918, 0.9998346337149815, 0.9998346342645529, 0.9998346344437433, 0.9998346346619799, 0.9998346338869228, 0.9998346340588532, 0.9998346341019345, 0.9998346337912117, 0.9998346416643875, 0.9998346419115248, 0.9998346336401923, 0.9998346344437433, 0.999834641661607, 0.9998346341848651, 0.9998346337580267, 0.9998346338869228, 0.9998346341019345, 0.9998346411597804, 0.9998346339122373, 0.999834634494623, 0.9998346415525845, 0.9998346337912117, 0.9998346340437384, 0.9998346346619799, 0.9998346340891849, 0.9998346346619799, 0.9998346338165275, 0.9998346343819537, 0.9998346338961979, 0.9998346344865765, 0.9998346337614951, 0.9998346336401923, 0.9998346338961979, 0.9998346337912117, 0.9998346337784636, 0.9998346344865765, 0.9998346420369555, 0.9998346337912117, 0.9998346416273836, 0.9998346341019345, 0.9998346337614951, 0.9998346344865765, 0.9998346339791472, 0.9998346341848651, 0.9998346340437384, 0.9998346344865765, 0.999834633803778, 0.9998346339080167, 0.9998346339333727, 0.9998346338961979, 0.9998346344258896, 0.9998346339333727, 0.9998346333019784, 0.9998346338072502, 0.9998346346700301, 0.9998346346619799, 0.9998346338961979, 0.9998346338869228, 0.9998346337454602, 0.9998346337614951, 0.9998346345234157, 0.9998346343421918, 0.9998346345460419, 0.9998346337816555, 0.9998346337912117, 0.9998346337056981, 0.9998346341622576, 0.9998346338775526, 0.9998346346700301, 0.9998346337513115, 0.9998346344865765, 0.9998346337614951, 0.9998346336004302, 0.9998346344773099, 0.9998346337784636, 0.9998346343819537, 0.9998346343979887, 0.9998346337327123, 0.9998346339333727, 0.9998346343421918, 0.9998346337327123, 0.9998346339207592, 0.9998346337614951, 0.9998346343979887, 0.9998346417318822, 0.9998346340891849, 0.999834633803778, 0.9998346338775526, 0.9998346342505678, 0.9998346341019345, 0.9998346416058894, 0.9998346419328262, 0.9998346341622576, 0.9998346346700301, 0.9998346340945606, 0.9998346340588532, 0.9998346345234157, 0.9998346417780754, 0.9998346341848651, 0.9998346337310126, 0.9998346340891849, 0.9998346338834454, 0.9998346340891849, 0.9998346339333727, 0.9998346342645529, 0.9998346341019345, 0.9998346337614951, 0.9998346337513115, 0.9998346337912117, 0.9998346343819537, 0.9998346344773099],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+  ],
+ "analysis":0,
+ "branch attributes":{
+   "0":{
+     "4581":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"4581"
+      },
+     "4645":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"4645"
+      },
+     "4649":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"4649"
+      },
+     "4658":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"4658"
+      },
+     "4662":{
+       "MG94xREV with separate rates for branch sets":0.001532290387880586,
+       "Nucleotide GTR":0.001502926479654086,
+       "RELAX alternative":0.001531460586356441,
+       "RELAX null":0.001518351165722708,
+       "original name":"4662"
+      },
+     "Canada_ON_PHL_21_44225_2021":{
+       "MG94xREV with separate rates for branch sets":0.001533154268661235,
+       "Nucleotide GTR":0.001502926480760944,
+       "RELAX alternative":0.001533092292771155,
+       "RELAX null":0.001520055979582237,
+       "original name":"Canada/ON-PHL-21-44225/2021"
+      },
+     "Hu_1":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"Hu-1"
+      },
+     "Node111":{
+       "MG94xREV with separate rates for branch sets":0.001516639404458923,
+       "Nucleotide GTR":0.001502791635954589,
+       "RELAX alternative":0.001515412649832298,
+       "RELAX null":0.001516813143384656
+      },
+     "Node128":{
+       "MG94xREV with separate rates for branch sets":0.001518644520944358,
+       "Nucleotide GTR":0.001503559474502635,
+       "RELAX alternative":0.001517730325218334,
+       "RELAX null":0.001518918681273699
+      },
+     "Node138":{
+       "MG94xREV with separate rates for branch sets":0.001516540087229262,
+       "Nucleotide GTR":0.001503124340511656,
+       "RELAX alternative":0.001518235132221155,
+       "RELAX null":0.001519415353054211
+      },
+     "Node156":{
+       "MG94xREV with separate rates for branch sets":0.00304114888017366,
+       "Nucleotide GTR":0.003010791451381924,
+       "RELAX alternative":0.003042249281177738,
+       "RELAX null":0.003045075086693902
+      },
+     "Node229":{
+       "MG94xREV with separate rates for branch sets":0.001516924303433689,
+       "Nucleotide GTR":0.001503223301776934,
+       "RELAX alternative":0.001516686680324781,
+       "RELAX null":0.001517848187390602
+      },
+     "hCoV_19_Australia_QLD1259_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Australia/QLD1259/2020"
+      },
+     "hCoV_19_Australia_QLD1574_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Australia/QLD1574/2020"
+      },
+     "hCoV_19_Australia_VIC243_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Australia/VIC243/2020"
+      },
+     "hCoV_19_Austria_CeMM0647_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Austria/CeMM0647/2020"
+      },
+     "hCoV_19_Brazil_SP_IB_125628_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Brazil/SP-IB_125628/2021"
+      },
+     "hCoV_19_Burkina_Faso_49_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Burkina_Faso/49/2021"
+      },
+     "hCoV_19_Canada_QC_1nIEOQ_7051594146_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Canada/QC-1nIEOQ-7051594146/2021"
+      },
+     "hCoV_19_Canada_QC_LSPQ_L00218337_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Canada/QC-LSPQ-L00218337/2020"
+      },
+     "hCoV_19_Denmark_ALAB_HH20_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Denmark/ALAB-HH20/2020"
+      },
+     "hCoV_19_Denmark_DCGC_1008_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Denmark/DCGC-1008/2020"
+      },
+     "hCoV_19_Denmark_DCGC_22602_2020":{
+       "MG94xREV with separate rates for branch sets":0.001514598787176983,
+       "Nucleotide GTR":0.001502200278523237,
+       "RELAX alternative":0.001514868327349261,
+       "RELAX null":0.001515996120855411,
+       "original name":"hCoV-19/Denmark/DCGC-22602/2020"
+      },
+     "hCoV_19_Denmark_DCGC_2977_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Denmark/DCGC-2977/2020"
+      },
+     "hCoV_19_Denmark_DCGC_41756_2021":{
+       "MG94xREV with separate rates for branch sets":0.001516580012907966,
+       "Nucleotide GTR":0.001502200277226566,
+       "RELAX alternative":0.001516280823487185,
+       "RELAX null":0.001517317017416504,
+       "original name":"hCoV-19/Denmark/DCGC-41756/2021"
+      },
+     "hCoV_19_Egypt_CUNCI_HGC015_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Egypt/CUNCI-HGC015/2020"
+      },
+     "hCoV_19_Egypt_CUNCI_HGC5I016_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Egypt/CUNCI-HGC5I016/2020"
+      },
+     "hCoV_19_England_20179044604_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/England/20179044604/2020"
+      },
+     "hCoV_19_England_202890228_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/England/202890228/2020"
+      },
+     "hCoV_19_England_CAMB_78953_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/England/CAMB-78953/2020"
+      },
+     "hCoV_19_England_CAMB_7C166_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/England/CAMB-7C166/2020"
+      },
+     "hCoV_19_England_NORW_E7782_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/England/NORW-E7782/2020"
+      },
+     "hCoV_19_England_NORW_E8D61_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/England/NORW-E8D61/2020"
+      },
+     "hCoV_19_England_SHEF_CF270_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/England/SHEF-CF270/2020"
+      },
+     "hCoV_19_France_IDF_IPP2779_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/France/IDF-IPP2779/2020"
+      },
+     "hCoV_19_France_PAC_IHU_0508_Illu2_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/France/PAC-IHU-0508_Illu2/2020"
+      },
+     "hCoV_19_France_PAC_IHU_11489_Illu1_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/France/PAC-IHU-11489_Illu1/2020"
+      },
+     "hCoV_19_Germany_BW_RKI_I_028376_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Germany/BW-RKI-I-028376/2021"
+      },
+     "hCoV_19_Germany_BY_RKI_I_046626_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Germany/BY-RKI-I-046626/2021"
+      },
+     "hCoV_19_Germany_BY_RKI_I_074295_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Germany/BY-RKI-I-074295/2021"
+      },
+     "hCoV_19_Germany_NW_RKI_I_031905_2021":{
+       "MG94xREV with separate rates for branch sets":0.001516639397615579,
+       "Nucleotide GTR":0.0015027916503832,
+       "RELAX alternative":0.001516409943144669,
+       "RELAX null":0.001517564691648202,
+       "original name":"hCoV-19/Germany/NW-RKI-I-031905/2021"
+      },
+     "hCoV_19_Hong_Kong_CUHK_NC1750_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Hong_Kong/CUHK-NC1750/2020"
+      },
+     "hCoV_19_Iceland_93_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Iceland/93/2020"
+      },
+     "hCoV_19_India_DL_NCDC_4475_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/India/DL-NCDC-4475/2020"
+      },
+     "hCoV_19_India_MH_ACTREC_633_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/India/MH-ACTREC-633/2020"
+      },
+     "hCoV_19_India_MH_NIV_99913_2020":{
+       "MG94xREV with separate rates for branch sets":0.00151725096418623,
+       "Nucleotide GTR":0.00150279164932908,
+       "RELAX alternative":0.001516001911411384,
+       "RELAX null":0.001517396950337159,
+       "original name":"hCoV-19/India/MH-NIV-99913/2020"
+      },
+     "hCoV_19_Indonesia_JB_GS_WJHL_ITB_GS_318_2020":{
+       "MG94xREV with separate rates for branch sets":0.001519658244300258,
+       "Nucleotide GTR":0.001502692727272588,
+       "RELAX alternative":0.001519826051610743,
+       "RELAX null":0.001520992995059875,
+       "original name":"hCoV-19/Indonesia/JB-GS-WJHL-ITB-GS-318/2020"
+      },
+     "hCoV_19_Ireland_KE_20G31522_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Ireland/KE-20G31522/2020"
+      },
+     "hCoV_19_Ireland_LK_NVRL_MPL24200_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Ireland/LK-NVRL-MPL24200/2020"
+      },
+     "hCoV_19_Italy_TAA_MUIV_0093_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Italy/TAA-MUIV-0093/2020"
+      },
+     "hCoV_19_Italy_TAA_MUIV_0094_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Italy/TAA-MUIV-0094/2020"
+      },
+     "hCoV_19_Italy_TUS_DBM_11_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Italy/TUS-DBM-11/2020"
+      },
+     "hCoV_19_Italy_VEN_UniVR_117_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Italy/VEN-UniVR-117/2020"
+      },
+     "hCoV_19_Panama_GMI_PA344037_2020":{
+       "MG94xREV with separate rates for branch sets":0.001516540084631172,
+       "Nucleotide GTR":0.001503124342728783,
+       "RELAX alternative":0.001518235120672472,
+       "RELAX null":0.001519415344435131,
+       "original name":"hCoV-19/Panama/GMI-PA344037/2020"
+      },
+     "hCoV_19_Slovenia_70767_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Slovenia/70767/2020"
+      },
+     "hCoV_19_Spain_MD_IBV_003723_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Spain/MD-IBV-003723/2020"
+      },
+     "hCoV_19_Spain_NC_CHN_01000166_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Spain/NC-CHN-01000166/2020"
+      },
+     "hCoV_19_Spain_RI_IBV_006019_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Spain/RI-IBV-006019/2020"
+      },
+     "hCoV_19_Sweden_01_SE100_21CS505850_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Sweden/01_SE100_21CS505850/2020"
+      },
+     "hCoV_19_Switzerland_BL_UHB_42192973_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Switzerland/BL-UHB-42192973/2020"
+      },
+     "hCoV_19_Switzerland_BS_UHB_42200131_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Switzerland/BS-UHB-42200131/2020"
+      },
+     "hCoV_19_Turkey_HSGM_4816_2021":{
+       "MG94xREV with separate rates for branch sets":0.001516615971275608,
+       "Nucleotide GTR":0.001503123959507391,
+       "RELAX alternative":0.0015171207963058,
+       "RELAX null":0.001518260536439121,
+       "original name":"hCoV-19/Turkey/HSGM-4816/2021"
+      },
+     "hCoV_19_Turkey_HSGM_C7769_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-C7769/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D15451_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D15451/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D16927_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D16927/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D17236_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D17236/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D18014_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D18014/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D18026_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D18026/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D21054_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D21054/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D23630_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D23630/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D23960_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Turkey/HSGM-D23960/2021"
+      },
+     "hCoV_19_USA_AZ_ASPHL_2860_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/AZ-ASPHL-2860/2020"
+      },
+     "hCoV_19_USA_AZ_TG666168_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/AZ-TG666168/2020"
+      },
+     "hCoV_19_USA_CA_CDPH_2000028319_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/CA-CDPH-2000028319/2021"
+      },
+     "hCoV_19_USA_CA_CHLA_PLM75223157_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/CA-CHLA-PLM75223157/2020"
+      },
+     "hCoV_19_USA_CA_SEARCH_14715_2021":{
+       "MG94xREV with separate rates for branch sets":0.001518160369421404,
+       "Nucleotide GTR":0.001503124364949912,
+       "RELAX alternative":0.001517923791700948,
+       "RELAX null":0.001519096499792172,
+       "original name":"hCoV-19/USA/CA-SEARCH-14715/2021"
+      },
+     "hCoV_19_USA_CA_UCSC_443_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/CA-UCSC-443/2020"
+      },
+     "hCoV_19_USA_CT_CDC_QDX22257993_2021":{
+       "MG94xREV with separate rates for branch sets":0.00151784430296138,
+       "Nucleotide GTR":0.001502791652550733,
+       "RELAX alternative":0.00151755260390002,
+       "RELAX null":0.00151872851611363,
+       "original name":"hCoV-19/USA/CT-CDC-QDX22257993/2021"
+      },
+     "hCoV_19_USA_GA_EHC_580J_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/GA-EHC-580J/2020"
+      },
+     "hCoV_19_USA_KS_KHEL_0552_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/KS-KHEL-0552/2020"
+      },
+     "hCoV_19_USA_LA_BIE_027_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/LA-BIE-027/2020"
+      },
+     "hCoV_19_USA_MA_MASPHL_00230_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MA-MASPHL-00230/2020"
+      },
+     "hCoV_19_USA_MA_MGH_01071_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MA-MGH-01071/2020"
+      },
+     "hCoV_19_USA_MD_HP06635_PIDLEHQTMF_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MD-HP06635-PIDLEHQTMF/2020"
+      },
+     "hCoV_19_USA_MD_MDH_0023_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MD-MDH-0023/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC20437_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC20437/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC20662_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC20662/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC21645_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC21645/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC22669_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC22669/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC23517_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC23517/2020"
+      },
+     "hCoV_19_USA_MO_MSPHL_000490_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MO-MSPHL-000490/2020"
+      },
+     "hCoV_19_USA_MT_WL_774_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/MT-WL-774/2020"
+      },
+     "hCoV_19_USA_NE_CDC_STM_000004255_2021":{
+       "MG94xREV with separate rates for branch sets":0.001516972855922326,
+       "Nucleotide GTR":0.001503223306180047,
+       "RELAX alternative":0.001517386047635754,
+       "RELAX null":0.001518502816787036,
+       "original name":"hCoV-19/USA/NE-CDC-STM-000004255/2021"
+      },
+     "hCoV_19_USA_NM_UNM_00086_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/NM-UNM-00086/2020"
+      },
+     "hCoV_19_USA_NY_PRL_2020_1229_01D09_2020":{
+       "MG94xREV with separate rates for branch sets":0.001518160395771524,
+       "Nucleotide GTR":0.001503124338201648,
+       "RELAX alternative":0.001517923904457491,
+       "RELAX null":0.001519096450935407,
+       "original name":"hCoV-19/USA/NY-PRL-2020_1229_01D09/2020"
+      },
+     "hCoV_19_USA_NY_UB_00111_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/NY-UB-00111/2020"
+      },
+     "hCoV_19_USA_NY_Wadsworth_64197_01_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/NY-Wadsworth-64197-01/2020"
+      },
+     "hCoV_19_USA_TX_HMH_5167_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/TX-HMH-5167/2020"
+      },
+     "hCoV_19_USA_TX_HMH_5813_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/TX-HMH-5813/2020"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_17294_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-17294/2020"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_22346_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-22346/2021"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_22700_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-22700/2020"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_25052_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-25052/2021"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_49819_2020":{
+       "MG94xREV with separate rates for branch sets":0.00151663939503015,
+       "Nucleotide GTR":0.001502791649335515,
+       "RELAX alternative":0.001515412336497018,
+       "RELAX null":0.001516812941477795,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-49819/2020"
+      },
+     "hCoV_19_USA_TX_TCH_TCMC02076_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/TX-TCH-TCMC02076/2021"
+      },
+     "hCoV_19_USA_UT_UPHL_201026584_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/UT-UPHL-201026584/2020"
+      },
+     "hCoV_19_USA_VA_DCLS_1337_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/VA-DCLS-1337/2020"
+      },
+     "hCoV_19_USA_VA_DCLS_1402_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/VA-DCLS-1402/2020"
+      },
+     "hCoV_19_USA_WA_S1461_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/WA-S1461/2020"
+      },
+     "hCoV_19_USA_WI_GMF_B00788_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/USA/WI-GMF-B00788/2021"
+      },
+     "hCoV_19_USA_WY_UNM_WY00429_2020":{
+       "MG94xREV with separate rates for branch sets":0.001516615626941495,
+       "Nucleotide GTR":0.001503124342766608,
+       "RELAX alternative":0.001517120521248219,
+       "RELAX null":0.00151826035814694,
+       "original name":"hCoV-19/USA/WY-UNM-WY00429/2020"
+      },
+     "hCoV_19_Wales_PHWC_163EC4_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Wales/PHWC-163EC4/2020"
+      },
+     "hCoV_19_Wuhan_WH01_2019":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Wuhan/WH01/2019"
+      },
+     "hCoV_19_Zambia_ZMB_229_2020":{
+       "MG94xREV with separate rates for branch sets":0.001517293305329225,
+       "Nucleotide GTR":0.001503124340184485,
+       "RELAX alternative":0.001518910222229223,
+       "RELAX null":0.001520055642551388,
+       "original name":"hCoV-19/Zambia/ZMB-229/2020"
+      },
+     "hCoV_19_Zambia_ZMB_53639_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/Zambia/ZMB-53639/2020"
+      },
+     "hCoV_19_cat_USA_UT_CDC_4159739_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/cat/USA/UT-CDC-4159739-001/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_152_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/Denmark/mDK-152/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_159_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/Denmark/mDK-159/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_273_2020":{
+       "MG94xREV with separate rates for branch sets":0.001516698649759519,
+       "Nucleotide GTR":0.001503123958211668,
+       "RELAX alternative":0.001516458841596114,
+       "RELAX null":0.001517552795115654,
+       "original name":"hCoV-19/mink/Denmark/mDK-273/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_532_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/Denmark/mDK-532/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_560_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/Denmark/mDK-560/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_031893_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-20-031893-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_031894_014_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-20-031894-014/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_031894_017_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-20-031894-017/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032048_005_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-20-032048-005/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032048_008_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-20-032048-008/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032049_004_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-20-032049-004/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032049_008_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-20-032049-008/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4159696_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4159696-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4159747_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4159747-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4159780_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4159780-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168008_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168008-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168068_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168068-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168073_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168073-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168074_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168074-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455648_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455648-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455651_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455651-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455671_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455671-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455698_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455698-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455725_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455725-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455738_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455738-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455742_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455742-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455743_001_2021":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455743-001/2021"
+      },
+     "hCoV_19_mink_USA_WI_20_031493_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-20-031493-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_20_031493_003_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-20-031493-003/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892577_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892577-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892579_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892579-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892581_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892581-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892583_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892583-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892585_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892585-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892586_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892586-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892587_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892587-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892589_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892589-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892590_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892590-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892591_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892591-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892592_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892592-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892594_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892594-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892604_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892604-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892875_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892875-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892876_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892876-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892883_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892883-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892894_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892894-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892899_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892899-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892916_001_2020":{
+       "MG94xREV with separate rates for branch sets":0.001513245080432504,
+       "Nucleotide GTR":0.001502200280655041,
+       "RELAX alternative":0.001513894301904306,
+       "RELAX null":0.001515184914905199,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892916-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892917_001_2020":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892917-001/2020"
+      }
+    },
+   "attributes":{
+     "MG94xREV with separate rates for branch sets":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "RELAX alternative":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "RELAX null":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221] 
+      ],
+     "name":"relax.filter.default"
+    }
+  },
+ "fits":{
+   "MG94xREV with separate rates for branch sets":{
+     "AIC-c":2506.765564384645,
+     "Equilibrium frequencies":      [
+[0.01845223265426104],
+      [0.0157619367921201],
+      [0.01185808481976748],
+      [0.02547686937691248],
+      [0.01551344167919153],
+      [0.01325161522495722],
+      [0.009969509420633103],
+      [0.02141930110315642],
+      [0.01620792606199267],
+      [0.01384484527738117],
+      [0.01041581068246756],
+      [0.02237817086360487],
+      [0.02766721453394434],
+      [0.02363339411923979],
+      [0.01777997182332591],
+      [0.03819993081116627],
+      [0.01348847584080438],
+      [0.01152188505360637],
+      [0.008668191736283318],
+      [0.01862344484424532],
+      [0.01134023655664137],
+      [0.009686854439925721],
+      [0.007287653992040267],
+      [0.01565738579554074],
+      [0.01184790064232402],
+      [0.01012050219302359],
+      [0.007613897645085932],
+      [0.01635831407021758],
+      [0.02022457454422363],
+      [0.01727587504376935],
+      [0.01299705704359484],
+      [0.02792392950604977],
+      [0.0159562823653498],
+      [0.01362989069085831],
+      [0.01025409516787038],
+      [0.02203072816065298],
+      [0.01341500839110678],
+      [0.01145912900017322],
+      [0.008620978845229462],
+      [0.01852200884706975],
+      [0.01401555300367115],
+      [0.01197211549895887],
+      [0.00900691094825864],
+      [0.01935117661966326],
+      [0.02392479520706571],
+      [0.02043661148674637],
+      [0.01537495522502196],
+      [0.03303279845753738],
+      [0.01336772395229143],
+      [0.0216069739075095],
+      [0.01315697484722058],
+      [0.01123871619240159],
+      [0.008455156979275413],
+      [0.01816574372644043],
+      [0.01174183555429188],
+      [0.008833665797477568],
+      [0.01897896271297277],
+      [0.02346460915916705],
+      [0.02004351957556676],
+      [0.01507922270901145],
+      [0.0323974227796416] 
+      ],
+     "Log Likelihood":-1071.450584558048,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *Reference*":        [
+[0.2941046696235206, 1] 
+        ],
+       "non-synonymous/synonymous rate ratio for *Test*":        [
+[0, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":181
+    },
+   "Nucleotide GTR":{
+     "AIC-c":2844.620059962688,
+     "Equilibrium frequencies":      [
+[0.2537514076576576],
+      [0.2189634947447447],
+      [0.2086172109609609],
+      [0.3186678866366366] 
+      ],
+     "Log Likelihood":-1096.312703325095,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0,
+       "Substitution rate from nucleotide C to nucleotide G":0,
+       "Substitution rate from nucleotide C to nucleotide T":3.471226235324735,
+       "Substitution rate from nucleotide G to nucleotide T":1.823038819939789
+      },
+     "display order":0,
+     "estimated parameters":325
+    },
+   "RELAX alternative":{
+     "AIC-c":2524.955909341952,
+     "Log Likelihood":-1071.450753221741,
+     "Rate Distributions":{
+       "Reference":{
+         "0":{
+           "omega":0.04844794776884161,
+           "proportion":0.2866076086068179
+          },
+         "1":{
+           "omega":0.3895302079484219,
+           "proportion":0.7133923913931821
+          },
+         "2":{
+           "omega":5.463553769233264,
+           "proportion":0
+          }
+        },
+       "Synonymous site-to-site rates":{
+         "0":{
+           "proportion":0.0001653651023870869,
+           "rate":0.9999525389811359
+          },
+         "1":{
+           "proportion":0.9998346348976129,
+           "rate":1.000000007849694
+          },
+         "2":{
+           "proportion":0,
+           "rate":1.037047157008814
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":1.80498854815475e-46,
+           "proportion":0.2866076086068179
+          },
+         "1":{
+           "omega":5.670231626990416e-15,
+           "proportion":0.7133923913931821
+          },
+         "2":{
+           "omega":4.561948837126003e+25,
+           "proportion":0
+          }
+        }
+      },
+     "display order":2,
+     "estimated parameters":190
+    },
+   "RELAX null":{
+     "AIC-c":2524.930080983646,
+     "Log Likelihood":-1072.448623848743,
+     "Rate Distributions":{
+       "Reference":{
+         "0":{
+           "omega":0.07094852999213702,
+           "proportion":0.3147043115960735
+          },
+         "1":{
+           "omega":0.3389045369322038,
+           "proportion":0.6852956884039265
+          },
+         "2":{
+           "omega":1.019966002995398,
+           "proportion":0
+          }
+        },
+       "Synonymous site-to-site rates":{
+         "0":{
+           "proportion":0,
+           "rate":0.9719694957471439
+          },
+         "1":{
+           "proportion":0.0001654041007553647,
+           "rate":0.9999525389829869
+          },
+         "2":{
+           "proportion":0.9998345958992446,
+           "rate":1.000000007851545
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":0.07094852999213702,
+           "proportion":0.3147043115960735
+          },
+         "1":{
+           "omega":0.3389045369322038,
+           "proportion":0.6852956884039265
+          },
+         "2":{
+           "omega":1.019966002995398,
+           "proportion":0
+          }
+        }
+      },
+     "display order":3,
+     "estimated parameters":189
+    }
+  },
+ "input":{
+   "file name":"/home/finlaymaguire/workspace/basic/clean_run/M/B1_and_deer_M.fasta",
+   "number of sequences":160,
+   "number of sites":222,
+   "partition count":1,
+   "trees":{
+     "0":"(hCoV_19_Spain_RI_IBV_006019_2020,Hu_1,hCoV_19_mink_USA_UT_CDC_4168074_001_2020,hCoV_19_USA_TX_HMH_5813_2020,hCoV_19_Switzerland_BS_UHB_42200131_2020,hCoV_19_mink_USA_UT_20_031893_001_2020,hCoV_19_mink_Denmark_mDK_159_2020,hCoV_19_mink_USA_WI_CDC_3892875_001_2020,hCoV_19_Turkey_HSGM_D16927_2021,hCoV_19_Denmark_DCGC_22602_2020,hCoV_19_mink_USA_UT_20_032049_004_2020,hCoV_19_Italy_VEN_UniVR_117_2020,hCoV_19_France_PAC_IHU_11489_Illu1_2020,hCoV_19_England_202890228_2020,hCoV_19_Iceland_93_2020,hCoV_19_Ireland_KE_20G31522_2020,hCoV_19_Zambia_ZMB_229_2020,hCoV_19_mink_USA_UT_CDC_4455725_001_2021,hCoV_19_mink_USA_UT_CDC_4455671_001_2021,hCoV_19_Turkey_HSGM_D23960_2021,hCoV_19_Hong_Kong_CUHK_NC1750_2020,hCoV_19_mink_USA_WI_CDC_3892899_001_2020,hCoV_19_mink_Denmark_mDK_560_2020,hCoV_19_Canada_QC_1nIEOQ_7051594146_2021,hCoV_19_USA_AZ_ASPHL_2860_2020,hCoV_19_USA_GA_EHC_580J_2020,hCoV_19_France_IDF_IPP2779_2020,hCoV_19_USA_CA_CDPH_2000028319_2021,hCoV_19_USA_WA_S1461_2020,hCoV_19_mink_USA_UT_20_032048_005_2020,hCoV_19_mink_USA_WI_CDC_3892604_001_2020,hCoV_19_Ireland_LK_NVRL_MPL24200_2020,hCoV_19_Turkey_HSGM_D21054_2021,hCoV_19_mink_Denmark_mDK_152_2020,hCoV_19_Wuhan_WH01_2019,hCoV_19_Burkina_Faso_49_2021,hCoV_19_USA_CA_UCSC_443_2020,hCoV_19_Turkey_HSGM_D18026_2021,hCoV_19_USA_WY_UNM_WY00429_2020,hCoV_19_England_CAMB_7C166_2020,hCoV_19_mink_USA_UT_CDC_4168073_001_2020,hCoV_19_mink_USA_UT_20_032049_008_2020,hCoV_19_Denmark_DCGC_41756_2021,hCoV_19_Canada_QC_LSPQ_L00218337_2020,(hCoV_19_Turkey_HSGM_D15451_2021,hCoV_19_Turkey_HSGM_C7769_2021)Node229,hCoV_19_USA_WI_GMF_B00788_2021,hCoV_19_USA_MA_MGH_01071_2020,hCoV_19_Australia_QLD1259_2020,hCoV_19_mink_USA_WI_CDC_3892591_001_2020,hCoV_19_Turkey_HSGM_D23630_2021,hCoV_19_USA_TX_HMH_MCoV_49819_2020,hCoV_19_Spain_NC_CHN_01000166_2020,hCoV_19_England_NORW_E8D61_2020,hCoV_19_France_PAC_IHU_0508_Illu2_2020,hCoV_19_mink_USA_UT_CDC_4168008_001_2020,hCoV_19_Denmark_DCGC_1008_2020,hCoV_19_mink_USA_WI_CDC_3892916_001_2020,hCoV_19_mink_USA_UT_20_031894_017_2020,hCoV_19_Wales_PHWC_163EC4_2020,hCoV_19_mink_USA_WI_CDC_3892577_001_2020,hCoV_19_USA_KS_KHEL_0552_2020,hCoV_19_mink_USA_WI_CDC_3892883_001_2020,hCoV_19_England_20179044604_2020,hCoV_19_USA_TX_HMH_MCoV_17294_2020,hCoV_19_USA_NE_CDC_STM_000004255_2021,hCoV_19_England_CAMB_78953_2020,hCoV_19_USA_VA_DCLS_1337_2020,hCoV_19_mink_USA_UT_CDC_4455698_001_2021,hCoV_19_Austria_CeMM0647_2020,hCoV_19_Slovenia_70767_2020,hCoV_19_USA_MI_MDHHS_SC20662_2020,hCoV_19_Denmark_ALAB_HH20_2020,hCoV_19_India_DL_NCDC_4475_2020,hCoV_19_Germany_BY_RKI_I_074295_2021,hCoV_19_USA_AZ_TG666168_2020,hCoV_19_USA_MO_MSPHL_000490_2020,hCoV_19_USA_TX_HMH_MCoV_22346_2021,hCoV_19_mink_USA_WI_CDC_3892917_001_2020,hCoV_19_USA_NY_UB_00111_2020,hCoV_19_Turkey_HSGM_D17236_2021,hCoV_19_mink_USA_UT_20_031894_014_2020,hCoV_19_USA_TX_HMH_MCoV_22700_2020,hCoV_19_India_MH_NIV_99913_2020,hCoV_19_mink_USA_WI_CDC_3892586_001_2020,hCoV_19_mink_USA_WI_CDC_3892590_001_2020,hCoV_19_mink_USA_WI_CDC_3892594_001_2020,hCoV_19_mink_USA_WI_CDC_3892579_001_2020,hCoV_19_mink_USA_WI_20_031493_001_2020,hCoV_19_mink_USA_UT_CDC_4455651_001_2021,hCoV_19_USA_CA_SEARCH_14715_2021,hCoV_19_Turkey_HSGM_4816_2021,hCoV_19_mink_USA_WI_CDC_3892589_001_2020,hCoV_19_mink_USA_WI_CDC_3892587_001_2020,hCoV_19_mink_USA_WI_CDC_3892583_001_2020,hCoV_19_Italy_TUS_DBM_11_2020,hCoV_19_USA_NY_Wadsworth_64197_01_2020,hCoV_19_Australia_QLD1574_2020,hCoV_19_USA_LA_BIE_027_2020,hCoV_19_mink_Denmark_mDK_273_2020,hCoV_19_mink_USA_UT_20_032048_008_2020,hCoV_19_mink_USA_WI_CDC_3892592_001_2020,hCoV_19_mink_USA_UT_CDC_4168068_001_2020,hCoV_19_USA_CT_CDC_QDX22257993_2021,hCoV_19_mink_USA_WI_CDC_3892585_001_2020,hCoV_19_Germany_NW_RKI_I_031905_2021,hCoV_19_Brazil_SP_IB_125628_2021,hCoV_19_Germany_BY_RKI_I_046626_2021,hCoV_19_mink_USA_UT_CDC_4455648_001_2021,hCoV_19_Panama_GMI_PA344037_2020,(hCoV_19_USA_MI_MDHHS_SC23517_2020,hCoV_19_USA_MI_MDHHS_SC22669_2020,4662,4645,4658,4581,4649,Canada_ON_PHL_21_44225_2021)Node156,hCoV_19_Turkey_HSGM_D18014_2021,hCoV_19_Germany_BW_RKI_I_028376_2021,hCoV_19_Sweden_01_SE100_21CS505850_2020,hCoV_19_USA_MA_MASPHL_00230_2020,hCoV_19_Switzerland_BL_UHB_42192973_2020,hCoV_19_USA_UT_UPHL_201026584_2020,hCoV_19_USA_TX_TCH_TCMC02076_2021,hCoV_19_USA_MI_MDHHS_SC21645_2020,hCoV_19_Egypt_CUNCI_HGC5I016_2020,(hCoV_19_Denmark_DCGC_2977_2020,hCoV_19_India_MH_ACTREC_633_2020,hCoV_19_USA_CA_CHLA_PLM75223157_2020,hCoV_19_Indonesia_JB_GS_WJHL_ITB_GS_318_2020)Node138,hCoV_19_USA_MI_MDHHS_SC20437_2020,hCoV_19_Spain_MD_IBV_003723_2020,hCoV_19_Australia_VIC243_2020,hCoV_19_England_SHEF_CF270_2020,hCoV_19_USA_TX_HMH_MCoV_25052_2021,hCoV_19_USA_NY_PRL_2020_1229_01D09_2020,hCoV_19_mink_Denmark_mDK_532_2020,(hCoV_19_Italy_TAA_MUIV_0094_2020,hCoV_19_Italy_TAA_MUIV_0093_2020)Node128,hCoV_19_USA_MT_WL_774_2020,hCoV_19_USA_VA_DCLS_1402_2020,hCoV_19_USA_MD_MDH_0023_2020,(hCoV_19_mink_USA_UT_CDC_4455743_001_2021,hCoV_19_mink_USA_UT_CDC_4159747_001_2020,hCoV_19_mink_USA_UT_CDC_4455742_001_2021,hCoV_19_mink_USA_UT_CDC_4159780_001_2020,hCoV_19_mink_USA_UT_CDC_4455738_001_2021,hCoV_19_mink_USA_UT_CDC_4159696_001_2020,hCoV_19_cat_USA_UT_CDC_4159739_001_2020)Node111,hCoV_19_England_NORW_E7782_2020,hCoV_19_USA_NM_UNM_00086_2020,hCoV_19_mink_USA_WI_CDC_3892894_001_2020,hCoV_19_Egypt_CUNCI_HGC015_2020,hCoV_19_mink_USA_WI_20_031493_003_2020,hCoV_19_USA_MD_HP06635_PIDLEHQTMF_2020,hCoV_19_USA_TX_HMH_5167_2020,hCoV_19_Zambia_ZMB_53639_2020,hCoV_19_mink_USA_WI_CDC_3892876_001_2020,hCoV_19_mink_USA_WI_CDC_3892581_001_2020)"
+    }
+  },
+ "test results":{
+   "LRT":1.99574125400386,
+   "p-value":0.1577418732089262,
+   "relaxation or intensification parameter":34.7932373341724
+  },
+ "tested":{
+   "0":{
+     "4581":"Test",
+     "4645":"Test",
+     "4649":"Test",
+     "4658":"Test",
+     "4662":"Test",
+     "Canada_ON_PHL_21_44225_2021":"Test",
+     "Hu_1":"Reference",
+     "Node111":"Reference",
+     "Node128":"Reference",
+     "Node138":"Reference",
+     "Node156":"Reference",
+     "Node229":"Reference",
+     "hCoV_19_Australia_QLD1259_2020":"Reference",
+     "hCoV_19_Australia_QLD1574_2020":"Reference",
+     "hCoV_19_Australia_VIC243_2020":"Reference",
+     "hCoV_19_Austria_CeMM0647_2020":"Reference",
+     "hCoV_19_Brazil_SP_IB_125628_2021":"Reference",
+     "hCoV_19_Burkina_Faso_49_2021":"Reference",
+     "hCoV_19_Canada_QC_1nIEOQ_7051594146_2021":"Reference",
+     "hCoV_19_Canada_QC_LSPQ_L00218337_2020":"Reference",
+     "hCoV_19_Denmark_ALAB_HH20_2020":"Reference",
+     "hCoV_19_Denmark_DCGC_1008_2020":"Reference",
+     "hCoV_19_Denmark_DCGC_22602_2020":"Reference",
+     "hCoV_19_Denmark_DCGC_2977_2020":"Reference",
+     "hCoV_19_Denmark_DCGC_41756_2021":"Reference",
+     "hCoV_19_Egypt_CUNCI_HGC015_2020":"Reference",
+     "hCoV_19_Egypt_CUNCI_HGC5I016_2020":"Reference",
+     "hCoV_19_England_20179044604_2020":"Reference",
+     "hCoV_19_England_202890228_2020":"Reference",
+     "hCoV_19_England_CAMB_78953_2020":"Reference",
+     "hCoV_19_England_CAMB_7C166_2020":"Reference",
+     "hCoV_19_England_NORW_E7782_2020":"Reference",
+     "hCoV_19_England_NORW_E8D61_2020":"Reference",
+     "hCoV_19_England_SHEF_CF270_2020":"Reference",
+     "hCoV_19_France_IDF_IPP2779_2020":"Reference",
+     "hCoV_19_France_PAC_IHU_0508_Illu2_2020":"Reference",
+     "hCoV_19_France_PAC_IHU_11489_Illu1_2020":"Reference",
+     "hCoV_19_Germany_BW_RKI_I_028376_2021":"Reference",
+     "hCoV_19_Germany_BY_RKI_I_046626_2021":"Reference",
+     "hCoV_19_Germany_BY_RKI_I_074295_2021":"Reference",
+     "hCoV_19_Germany_NW_RKI_I_031905_2021":"Reference",
+     "hCoV_19_Hong_Kong_CUHK_NC1750_2020":"Reference",
+     "hCoV_19_Iceland_93_2020":"Reference",
+     "hCoV_19_India_DL_NCDC_4475_2020":"Reference",
+     "hCoV_19_India_MH_ACTREC_633_2020":"Reference",
+     "hCoV_19_India_MH_NIV_99913_2020":"Reference",
+     "hCoV_19_Indonesia_JB_GS_WJHL_ITB_GS_318_2020":"Reference",
+     "hCoV_19_Ireland_KE_20G31522_2020":"Reference",
+     "hCoV_19_Ireland_LK_NVRL_MPL24200_2020":"Reference",
+     "hCoV_19_Italy_TAA_MUIV_0093_2020":"Reference",
+     "hCoV_19_Italy_TAA_MUIV_0094_2020":"Reference",
+     "hCoV_19_Italy_TUS_DBM_11_2020":"Reference",
+     "hCoV_19_Italy_VEN_UniVR_117_2020":"Reference",
+     "hCoV_19_Panama_GMI_PA344037_2020":"Reference",
+     "hCoV_19_Slovenia_70767_2020":"Reference",
+     "hCoV_19_Spain_MD_IBV_003723_2020":"Reference",
+     "hCoV_19_Spain_NC_CHN_01000166_2020":"Reference",
+     "hCoV_19_Spain_RI_IBV_006019_2020":"Reference",
+     "hCoV_19_Sweden_01_SE100_21CS505850_2020":"Reference",
+     "hCoV_19_Switzerland_BL_UHB_42192973_2020":"Reference",
+     "hCoV_19_Switzerland_BS_UHB_42200131_2020":"Reference",
+     "hCoV_19_Turkey_HSGM_4816_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_C7769_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D15451_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D16927_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D17236_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D18014_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D18026_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D21054_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D23630_2021":"Reference",
+     "hCoV_19_Turkey_HSGM_D23960_2021":"Reference",
+     "hCoV_19_USA_AZ_ASPHL_2860_2020":"Reference",
+     "hCoV_19_USA_AZ_TG666168_2020":"Reference",
+     "hCoV_19_USA_CA_CDPH_2000028319_2021":"Reference",
+     "hCoV_19_USA_CA_CHLA_PLM75223157_2020":"Reference",
+     "hCoV_19_USA_CA_SEARCH_14715_2021":"Reference",
+     "hCoV_19_USA_CA_UCSC_443_2020":"Reference",
+     "hCoV_19_USA_CT_CDC_QDX22257993_2021":"Reference",
+     "hCoV_19_USA_GA_EHC_580J_2020":"Reference",
+     "hCoV_19_USA_KS_KHEL_0552_2020":"Reference",
+     "hCoV_19_USA_LA_BIE_027_2020":"Reference",
+     "hCoV_19_USA_MA_MASPHL_00230_2020":"Reference",
+     "hCoV_19_USA_MA_MGH_01071_2020":"Reference",
+     "hCoV_19_USA_MD_HP06635_PIDLEHQTMF_2020":"Reference",
+     "hCoV_19_USA_MD_MDH_0023_2020":"Reference",
+     "hCoV_19_USA_MI_MDHHS_SC20437_2020":"Reference",
+     "hCoV_19_USA_MI_MDHHS_SC20662_2020":"Reference",
+     "hCoV_19_USA_MI_MDHHS_SC21645_2020":"Reference",
+     "hCoV_19_USA_MI_MDHHS_SC22669_2020":"Reference",
+     "hCoV_19_USA_MI_MDHHS_SC23517_2020":"Reference",
+     "hCoV_19_USA_MO_MSPHL_000490_2020":"Reference",
+     "hCoV_19_USA_MT_WL_774_2020":"Reference",
+     "hCoV_19_USA_NE_CDC_STM_000004255_2021":"Reference",
+     "hCoV_19_USA_NM_UNM_00086_2020":"Reference",
+     "hCoV_19_USA_NY_PRL_2020_1229_01D09_2020":"Reference",
+     "hCoV_19_USA_NY_UB_00111_2020":"Reference",
+     "hCoV_19_USA_NY_Wadsworth_64197_01_2020":"Reference",
+     "hCoV_19_USA_TX_HMH_5167_2020":"Reference",
+     "hCoV_19_USA_TX_HMH_5813_2020":"Reference",
+     "hCoV_19_USA_TX_HMH_MCoV_17294_2020":"Reference",
+     "hCoV_19_USA_TX_HMH_MCoV_22346_2021":"Reference",
+     "hCoV_19_USA_TX_HMH_MCoV_22700_2020":"Reference",
+     "hCoV_19_USA_TX_HMH_MCoV_25052_2021":"Reference",
+     "hCoV_19_USA_TX_HMH_MCoV_49819_2020":"Reference",
+     "hCoV_19_USA_TX_TCH_TCMC02076_2021":"Reference",
+     "hCoV_19_USA_UT_UPHL_201026584_2020":"Reference",
+     "hCoV_19_USA_VA_DCLS_1337_2020":"Reference",
+     "hCoV_19_USA_VA_DCLS_1402_2020":"Reference",
+     "hCoV_19_USA_WA_S1461_2020":"Reference",
+     "hCoV_19_USA_WI_GMF_B00788_2021":"Reference",
+     "hCoV_19_USA_WY_UNM_WY00429_2020":"Reference",
+     "hCoV_19_Wales_PHWC_163EC4_2020":"Reference",
+     "hCoV_19_Wuhan_WH01_2019":"Reference",
+     "hCoV_19_Zambia_ZMB_229_2020":"Reference",
+     "hCoV_19_Zambia_ZMB_53639_2020":"Reference",
+     "hCoV_19_cat_USA_UT_CDC_4159739_001_2020":"Reference",
+     "hCoV_19_mink_Denmark_mDK_152_2020":"Reference",
+     "hCoV_19_mink_Denmark_mDK_159_2020":"Reference",
+     "hCoV_19_mink_Denmark_mDK_273_2020":"Reference",
+     "hCoV_19_mink_Denmark_mDK_532_2020":"Reference",
+     "hCoV_19_mink_Denmark_mDK_560_2020":"Reference",
+     "hCoV_19_mink_USA_UT_20_031893_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_20_031894_014_2020":"Reference",
+     "hCoV_19_mink_USA_UT_20_031894_017_2020":"Reference",
+     "hCoV_19_mink_USA_UT_20_032048_005_2020":"Reference",
+     "hCoV_19_mink_USA_UT_20_032048_008_2020":"Reference",
+     "hCoV_19_mink_USA_UT_20_032049_004_2020":"Reference",
+     "hCoV_19_mink_USA_UT_20_032049_008_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4159696_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4159747_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4159780_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4168008_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4168068_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4168073_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4168074_001_2020":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455648_001_2021":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455651_001_2021":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455671_001_2021":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455698_001_2021":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455725_001_2021":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455738_001_2021":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455742_001_2021":"Reference",
+     "hCoV_19_mink_USA_UT_CDC_4455743_001_2021":"Reference",
+     "hCoV_19_mink_USA_WI_20_031493_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_20_031493_003_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892577_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892579_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892581_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892583_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892585_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892586_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892587_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892589_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892590_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892591_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892592_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892594_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892604_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892875_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892876_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892883_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892894_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892899_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892916_001_2020":"Reference",
+     "hCoV_19_mink_USA_WI_CDC_3892917_001_2020":"Reference"
+    }
+  },
+ "timers":{
+   "Overall":{
+     "order":0,
+     "timer":427
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":18
+    },
+   "RELAX alternative model fitting":{
+     "order":3,
+     "timer":385
+    },
+   "RELAX null model fitting":{
+     "order":4,
+     "timer":24
+    }
+  }
+}

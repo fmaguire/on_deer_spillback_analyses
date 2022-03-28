@@ -1,0 +1,272 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+*** PROBLEM WITH SEQUENCE ' 4658' (363 nt long, stop codons shown in capital letters)
+
+atgaaatttcttgttttcttaggaatcatcacaactgtagctgcatttcaccaagaatgtagtttacagtcatgtactcaacatcaaccatatgtagttgattacccgtgtcctattcacttctattctaaatggtatattagagtaggagctagaaaatcagcacctttaattgaattgtgcgtggatgaggctggttctaaatcacccattcagtacatcgatatcggtaattatacagtttcctgtttaccttttacaattaattgccaggaacctaaattgggtagtcttgtagtgcgttgttcgttctatTAAgactttttagagtatcatgacgttcgtgttgttttagatttcatc
+Error:
+
+Master node received an error:The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons in call to assert(absrel.codon_filter.sites*3==absrel.codon_data.sites, error_msg);
+
+Function call stack
+1 :  assert(absrel.codon_filter.sites*3==absrel.codon_data.sites, error_msg);
+
+	Keyword arguments:
+		{
+		 "branches":"on_deer",
+		 "output":"ORF8.absrel.json",
+		 "tree":"B1_and_deer_ORF8.fasta.raxml.labelled.bestTree"
+		}
+-------
+2 :  ExecuteCommands("assert (`statement`, error_msg)", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/libv3/);
+-------
+3 :  io.CheckAssertion("`datafilter_name`.sites*3==`dataset_name`.sites","The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons");
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+-------
+5 :  [namespace = absrel] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(prefix+".codon_data",prefix+".codon_filter");
+-------
+6 :  [namespace = absrel] load_file("absrel");
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file("absrel");;
+-------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+[upswing:2926146] 9 more processes have sent help message help-mpi-api.txt / mpi-abort
+[upswing:2926146] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+*** PROBLEM WITH SEQUENCE ' 4658' (363 nt long, stop codons shown in capital letters)
+
+atgaaatttcttgttttcttaggaatcatcacaactgtagctgcatttcaccaagaatgtagtttacagtcatgtactcaacatcaaccatatgtagttgattacccgtgtcctattcacttctattctaaatggtatattagagtaggagctagaaaatcagcacctttaattgaattgtgcgtggatgaggctggttctaaatcacccattcagtacatcgatatcggtaattatacagtttcctgtttaccttttacaattaattgccaggaacctaaattgggtagtcttgtagtgcgttgttcgttctatTAAgactttttagagtatcatgacgttcgtgttgttttagatttcatc
+Error:
+
+Master node received an error:The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons in call to assert(absrel.codon_filter.sites*3==absrel.codon_data.sites, error_msg);
+
+Function call stack
+1 :  assert(absrel.codon_filter.sites*3==absrel.codon_data.sites, error_msg);
+
+	Keyword arguments:
+		{
+		 "branches":"on_deer",
+		 "output":"ORF8.absrel.json",
+		 "tree":"B1_and_deer_ORF8.fasta.raxml.labelled.bestTree"
+		}
+-------
+2 :  ExecuteCommands("assert (`statement`, error_msg)", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/libv3/);
+-------
+3 :  io.CheckAssertion("`datafilter_name`.sites*3==`dataset_name`.sites","The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons");
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+-------
+5 :  [namespace = absrel] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(prefix+".codon_data",prefix+".codon_filter");
+-------
+6 :  [namespace = absrel] load_file("absrel");
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file("absrel");;
+-------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+[upswing:3951941] 19 more processes have sent help message help-mpi-api.txt / mpi-abort
+[upswing:3951941] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

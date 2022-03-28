@@ -1,0 +1,121 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.1
+
+
+>code –> Universal
+*** PROBLEM WITH SEQUENCE ' Hu-1' (117 nt long, stop codons shown in capital letters)
+
+atgggctatataaacgttttcgcttttccgtttacgatatatagtctactcttgtgcagaatgaattctcgtaactacatagcacaagtagatgtagttaactttaatctcacaTAG
+Error:
+
+Master node received an error:The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons in call to assert(busted.codon_filter.sites*3==busted.codon_data.sites, error_msg);
+
+Function call stack
+1 :  assert(busted.codon_filter.sites*3==busted.codon_data.sites, error_msg);
+
+	Keyword arguments:
+		{
+		 "branches":"on_deer",
+		 "output":"ORF10.busted.json",
+		 "starting-points":"10",
+		 "tree":"B1_and_deer_ORF10.fasta.raxml.labelled.bestTree"
+		}
+-------
+2 :  ExecuteCommands("assert (`statement`, error_msg)", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/libv3/);
+-------
+3 :  io.CheckAssertion("`datafilter_name`.sites*3==`dataset_name`.sites","The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons");
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+-------
+5 :  [namespace = busted] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(prefix+".codon_data",prefix+".codon_filter");
+-------
+6 :  [namespace = busted] load_file("busted");
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file("busted");;
+-------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+[upswing:2926130] 9 more processes have sent help message help-mpi-api.txt / mpi-abort
+[upswing:2926130] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

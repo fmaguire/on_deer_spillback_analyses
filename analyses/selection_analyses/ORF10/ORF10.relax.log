@@ -1,0 +1,97 @@
+
+
+>code –> Universal
+*** PROBLEM WITH SEQUENCE ' Hu-1' (117 nt long, stop codons shown in capital letters)
+
+atgggctatataaacgttttcgcttttccgtttacgatatatagtctactcttgtgcagaatgaattctcgtaactacatagcacaagtagatgtagttaactttaatctcacaTAG
+Error:
+
+Master node received an error:The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons in call to assert(relax.codon_filter.sites*3==relax.codon_data.sites, error_msg);
+
+Function call stack
+1 :  assert(relax.codon_filter.sites*3==relax.codon_data.sites, error_msg);
+
+	Keyword arguments:
+		{
+		 "models":"Minimal",
+		 "output":"ORF10.relax.json",
+		 "refererence":"Hu-1",
+		 "srv":"Yes",
+		 "starting-points":"10",
+		 "test":"on_deer",
+		 "tree":"B1_and_deer_ORF10.fasta.raxml.labelled.bestTree"
+		}
+-------
+2 :  ExecuteCommands("assert (`statement`, error_msg)", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/libv3/);
+-------
+3 :  io.CheckAssertion("`datafilter_name`.sites*3==`dataset_name`.sites","The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons");
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+-------
+5 :  [namespace = relax] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(prefix+".codon_data",prefix+".codon_filter");
+-------
+6 :  [namespace = relax] load_file({utility.getGlobalValue("terms.prefix"):"relax",utility.getGlobalValue("terms.settings"):{utility.getGlobalValue("terms.settings.branch_selector"):"relax.select_branches"}});
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file({utility.getGlobalValue("terms.prefix"):"relax",utility.getGlobalValue("terms.settings"):{utility.getGlobalValue("terms.settings.branch_selector"):"relax.select_branches"}});
+
+Step 2.LoadFunctionLibrary("modules/grid_compute.ibf", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);;
+-------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+[upswing:2926132] 9 more processes have sent help message help-mpi-api.txt / mpi-abort
+[upswing:2926132] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

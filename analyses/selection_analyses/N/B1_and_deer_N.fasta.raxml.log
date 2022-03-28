@@ -1,0 +1,230 @@
+
+RAxML-NG v. 1.1 released on 29.11.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6238 CPU @ 2.10GHz, 44 cores, 1510 GB RAM
+
+RAxML-NG was called at 23-Mar-2022 00:17:56 as follows:
+
+raxml-ng --model GTR --msa B1_and_deer_N.fasta --threads 10 --tree pars{3} --redo
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): parsimony (3)
+  random seed: 1647994676
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (10 threads), thread pinning: OFF
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+[00:00:00] Reading alignment from file: B1_and_deer_N.fasta
+[00:00:00] Loaded alignment with 160 taxa and 1257 sites
+
+WARNING: Sequences Hu-1 and hCoV-19/USA/MA-MGH-01071/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Brazil/SP-IB_125628/2021 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Spain/NC-CHN-01000166/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Iceland/93/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Canada/QC-LSPQ-L00218337/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/India/MH-NIV-99913/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Australia/VIC243/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Denmark/ALAB-HH20/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/England/CAMB-78953/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/England/CAMB-7C166/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/India/DL-NCDC-4475/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/England/NORW-E8D61/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/England/NORW-E7782/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Wales/PHWC-163EC4/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/MI-MDHHS-SC20437/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Spain/MD-IBV-003723/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/NM-UNM-00086/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Egypt/CUNCI-HGC015/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/LA-BIE-027/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/MI-MDHHS-SC20662/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/England/SHEF-CF270/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Egypt/CUNCI-HGC5I016/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/MD-MDH-0023/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/WA-S1461/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/MI-MDHHS-SC21645/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/England/20179044604/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Austria/CeMM0647/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Denmark/DCGC-1008/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Denmark/DCGC-2977/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/NY-Wadsworth-64197-01/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/AZ-TG666168/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Italy/VEN-UniVR-117/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Denmark/DCGC-22602/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Ireland/LK-NVRL-MPL24200/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Ireland/KE-20G31522/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Zambia/ZMB-229/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/NY-UB-00111/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Australia/QLD1574/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/France/PAC-IHU-11489_Illu1/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Switzerland/BL-UHB-42192973/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Switzerland/BS-UHB-42200131/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/TX-HMH-5813/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Germany/BY-RKI-I-074295/2021 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Panama/GMI-PA344037/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Turkey/HSGM-D23960/2021 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/MD-HP06635-PIDLEHQTMF/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Hong_Kong/CUHK-NC1750/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/France/IDF-IPP2779/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Sweden/01_SE100_21CS505850/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/CA-CDPH-2000028319/2021 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/USA/TX-HMH-5167/2020 are exactly identical!
+WARNING: Sequences Hu-1 and hCoV-19/Wuhan/WH01/2019 are exactly identical!
+WARNING: Sequences 4658 and 4645 are exactly identical!
+WARNING: Sequences 4658 and 4662 are exactly identical!
+WARNING: Sequences 4658 and Canada/ON-PHL-21-44225/2021 are exactly identical!
+WARNING: Sequences 4658 and 4649 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Australia/QLD1259/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/India/MH-ACTREC-633/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D18014/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D18026/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D16927/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D21054/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D23630/2021 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/USA/MT-WL-774/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/England/202890228/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/USA/AZ-ASPHL-2860/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-CDC-4455698-001/2021 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-CDC-4455648-001/2021 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-CDC-4168074-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-032049-008/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-031893-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-031894-014/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-032048-005/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-032048-008/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-032049-004/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Italy/TAA-MUIV-0093/2020 and hCoV-19/Italy/TAA-MUIV-0094/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/Denmark/mDK-532/2020 and hCoV-19/mink/Denmark/mDK-152/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/Denmark/mDK-532/2020 and hCoV-19/mink/Denmark/mDK-273/2020 are exactly identical!
+WARNING: Sequences hCoV-19/USA/VA-DCLS-1402/2020 and hCoV-19/USA/NY-PRL-2020_1229_01D09/2020 are exactly identical!
+WARNING: Sequences hCoV-19/USA/MI-MDHHS-SC22669/2020 and hCoV-19/USA/MI-MDHHS-SC23517/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892590-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892875-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892894-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892899-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892577-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892579-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892581-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892583-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892585-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892586-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892587-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892589-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892591-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892592-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892594-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-4816/2021 and hCoV-19/Germany/NW-RKI-I-031905/2021 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892917-001/2020 and hCoV-19/mink/USA/WI-CDC-3892916-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892917-001/2020 and hCoV-19/mink/USA/WI-CDC-3892604-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-CDC-4159780-001/2020 and hCoV-19/mink/USA/UT-CDC-4455742-001/2021 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-CDC-4159780-001/2020 and hCoV-19/cat/USA/UT-CDC-4159739-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-CDC-4159780-001/2020 and hCoV-19/mink/USA/UT-CDC-4159747-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-CDC-4159780-001/2020 and hCoV-19/mink/USA/UT-CDC-4455738-001/2021 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-CDC-4159780-001/2020 and hCoV-19/mink/USA/UT-CDC-4159696-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-20-031493-001/2020 and hCoV-19/mink/USA/WI-20-031493-003/2020 are exactly identical!
+WARNING: Duplicate sequences found: 104
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/finlaymaguire/workspace/basic/clean_run/N/B1_and_deer_N.fasta.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 81 patterns
+
+Partition 0: noname
+Model: GTR+FO
+Alignment sites / patterns: 1257 / 81
+Gaps: 0.09 %
+Invariant sites: 96.58 %
+
+
+NOTE: Binary MSA file created: B1_and_deer_N.fasta.raxml.rba
+
+Parallelization scheme autoconfig: 2 worker(s) x 5 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 3 parsimony starting tree(s) with 160 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 17 / 68
+[00:00:00] Data distribution: max. searches per worker: 2
+
+Starting ML tree search with 3 distinct starting trees
+
+[00:00:00 -41031.415958] Initial branch length optimization
+[00:00:00 -2193.913202] Model parameter optimization (eps = 10.000000)
+[00:00:00 -2152.176922] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -2150.688658] AUTODETECT spr round 2 (radius: 10)
+[00:00:00 -2148.327227] AUTODETECT spr round 3 (radius: 15)
+[00:00:00 -2148.324654] SPR radius for FAST iterations: 10 (autodetect)
+[00:00:00 -2148.324654] Model parameter optimization (eps = 3.000000)
+[00:00:00 -2148.083125] FAST spr round 1 (radius: 10)
+[00:00:00 -2148.083108] Model parameter optimization (eps = 1.000000)
+[00:00:00 -2148.082914] SLOW spr round 1 (radius: 5)
+[00:00:01 -2148.081254] SLOW spr round 2 (radius: 10)
+[00:00:01] [worker #1] ML tree search #2, logLikelihood: -2145.086724
+[00:00:01 -2148.081253] SLOW spr round 3 (radius: 15)
+[00:00:02 -2148.081158] SLOW spr round 4 (radius: 20)
+[00:00:02 -2148.079023] SLOW spr round 5 (radius: 25)
+[00:00:02 -2148.077773] Model parameter optimization (eps = 0.100000)
+
+[00:00:02] [worker #0] ML tree search #1, logLikelihood: -2148.077771
+
+[00:00:02 -41029.297000] Initial branch length optimization
+[00:00:02 -2186.936754] Model parameter optimization (eps = 10.000000)
+[00:00:02 -2146.216819] AUTODETECT spr round 1 (radius: 5)
+[00:00:02 -2146.213694] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:03 -2146.213694] Model parameter optimization (eps = 3.000000)
+[00:00:03 -2146.213688] FAST spr round 1 (radius: 5)
+[00:00:03 -2146.210576] Model parameter optimization (eps = 1.000000)
+[00:00:03 -2146.210574] SLOW spr round 1 (radius: 5)
+[00:00:03 -2146.207466] SLOW spr round 2 (radius: 10)
+[00:00:03 -2146.204909] SLOW spr round 3 (radius: 15)
+[00:00:03 -2146.204909] SLOW spr round 4 (radius: 20)
+[00:00:04 -2144.957161] SLOW spr round 5 (radius: 5)
+[00:00:04 -2144.957161] SLOW spr round 6 (radius: 10)
+[00:00:04 -2144.957161] SLOW spr round 7 (radius: 15)
+[00:00:04 -2144.957159] SLOW spr round 8 (radius: 20)
+[00:00:04 -2144.955223] SLOW spr round 9 (radius: 25)
+[00:00:05 -2144.955223] Model parameter optimization (eps = 0.100000)
+
+[00:00:05] [worker #0] ML tree search #3, logLikelihood: -2144.729366
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   Base frequencies (ML): 0.316183 0.245684 0.218175 0.219957 
+   Substitution rates (ML): 0.040467 0.364361 0.093119 0.064600 1.365402 1.000000 
+
+
+Final LogLikelihood: -2144.729366
+
+AIC score: 4939.458731 / AICc score: 5167.063457 / BIC score: 6608.815774
+Free parameters (model + branch lengths): 325
+
+WARNING: Best ML tree contains 141 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /home/finlaymaguire/workspace/basic/clean_run/N/B1_and_deer_N.fasta.raxml.bestTreeCollapsed
+Best ML tree saved to: /home/finlaymaguire/workspace/basic/clean_run/N/B1_and_deer_N.fasta.raxml.bestTree
+All ML trees saved to: /home/finlaymaguire/workspace/basic/clean_run/N/B1_and_deer_N.fasta.raxml.mlTrees
+Optimized model saved to: /home/finlaymaguire/workspace/basic/clean_run/N/B1_and_deer_N.fasta.raxml.bestModel
+
+Execution log saved to: /home/finlaymaguire/workspace/basic/clean_run/N/B1_and_deer_N.fasta.raxml.log
+
+Analysis started: 23-Mar-2022 00:17:56 / finished: 23-Mar-2022 00:18:01
+
+Elapsed time: 5.247 seconds
+
+Consumed energy: 0.345 Wh
+

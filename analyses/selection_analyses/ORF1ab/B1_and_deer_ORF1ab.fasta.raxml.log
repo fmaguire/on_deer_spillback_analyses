@@ -1,0 +1,150 @@
+
+RAxML-NG v. 1.1 released on 29.11.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6238 CPU @ 2.10GHz, 44 cores, 1510 GB RAM
+
+RAxML-NG was called at 22-Mar-2022 22:31:30 as follows:
+
+raxml-ng --model GTR --msa B1_and_deer_ORF1ab.fasta --threads 10 --tree pars{3} --redo
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): parsimony (3)
+  random seed: 1647988290
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (10 threads), thread pinning: OFF
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+[00:00:00] Reading alignment from file: B1_and_deer_ORF1ab.fasta
+[00:00:00] Loaded alignment with 160 taxa and 21288 sites
+
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Iceland/93/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/England/NORW-E7782/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Italy/TUS-DBM-11/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D18026/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D16927/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D21054/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D23960/2021 are exactly identical!
+WARNING: Sequences hCoV-19/Turkey/HSGM-D17236/2021 and hCoV-19/Turkey/HSGM-D23630/2021 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-032049-008/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-031894-014/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/UT-20-031894-017/2020 and hCoV-19/mink/USA/UT-20-032048-005/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Spain/NC-CHN-01000166/2020 and hCoV-19/Spain/RI-IBV-006019/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Italy/TAA-MUIV-0093/2020 and hCoV-19/Italy/TAA-MUIV-0094/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Canada/QC-LSPQ-L00218337/2020 and hCoV-19/USA/MD-MDH-0023/2020 are exactly identical!
+WARNING: Sequences hCoV-19/Canada/QC-LSPQ-L00218337/2020 and hCoV-19/Austria/CeMM0647/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892899-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892577-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892579-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892581-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892583-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892587-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892589-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892591-001/2020 are exactly identical!
+WARNING: Sequences hCoV-19/mink/USA/WI-CDC-3892883-001/2020 and hCoV-19/mink/USA/WI-CDC-3892592-001/2020 are exactly identical!
+WARNING: Duplicate sequences found: 24
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/finlaymaguire/workspace/basic/clean_run/ORF1ab/B1_and_deer_ORF1ab.fasta.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 514 patterns
+
+Partition 0: noname
+Model: GTR+FO
+Alignment sites / patterns: 21288 / 514
+Gaps: 0.10 %
+Invariant sites: 98.20 %
+
+
+NOTE: Binary MSA file created: B1_and_deer_ORF1ab.fasta.raxml.rba
+
+Parallelization scheme autoconfig: 2 worker(s) x 5 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 3 parsimony starting tree(s) with 160 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 103 / 412
+[00:00:00] Data distribution: max. searches per worker: 2
+
+Starting ML tree search with 3 distinct starting trees
+
+[00:00:00 -693333.685444] Initial branch length optimization
+[00:00:00 -33737.894242] Model parameter optimization (eps = 10.000000)
+[00:00:00 -32676.965216] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -32670.521092] AUTODETECT spr round 2 (radius: 10)
+[00:00:00 -32670.521092] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:00 -32670.521092] Model parameter optimization (eps = 3.000000)
+[00:00:00 -32670.520958] FAST spr round 1 (radius: 5)
+[00:00:00 -32670.499614] Model parameter optimization (eps = 1.000000)
+[00:00:00 -32670.499500] SLOW spr round 1 (radius: 5)
+[00:00:01 -32670.496841] SLOW spr round 2 (radius: 10)
+[00:00:01 -32670.496841] SLOW spr round 3 (radius: 15)
+[00:00:02 -32670.475496] SLOW spr round 4 (radius: 20)
+[00:00:03 -32668.317861] SLOW spr round 5 (radius: 5)
+[00:00:03] [worker #1] ML tree search #2, logLikelihood: -32686.378605
+[00:00:03 -32668.317861] SLOW spr round 6 (radius: 10)
+[00:00:03 -32668.296799] SLOW spr round 7 (radius: 15)
+[00:00:04 -32668.274166] SLOW spr round 8 (radius: 20)
+[00:00:05 -32668.274145] SLOW spr round 9 (radius: 25)
+[00:00:05 -32668.274145] Model parameter optimization (eps = 0.100000)
+
+[00:00:05] [worker #0] ML tree search #1, logLikelihood: -32668.274126
+
+[00:00:05 -693331.258543] Initial branch length optimization
+[00:00:05 -33729.057914] Model parameter optimization (eps = 10.000000)
+[00:00:06 -32669.560470] AUTODETECT spr round 1 (radius: 5)
+[00:00:06 -32668.446285] AUTODETECT spr round 2 (radius: 10)
+[00:00:06 -32668.403875] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:06 -32668.403875] Model parameter optimization (eps = 3.000000)
+[00:00:06 -32668.403872] FAST spr round 1 (radius: 5)
+[00:00:06 -32668.382545] Model parameter optimization (eps = 1.000000)
+[00:00:06 -32668.382542] SLOW spr round 1 (radius: 5)
+[00:00:06 -32668.361205] SLOW spr round 2 (radius: 10)
+[00:00:07 -32668.339859] SLOW spr round 3 (radius: 15)
+[00:00:07 -32668.335596] SLOW spr round 4 (radius: 20)
+[00:00:08 -32668.335596] SLOW spr round 5 (radius: 25)
+[00:00:08 -32668.314262] Model parameter optimization (eps = 0.100000)
+
+[00:00:08] [worker #0] ML tree search #3, logLikelihood: -32668.314259
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   Base frequencies (ML): 0.301495 0.171552 0.198057 0.328896 
+   Substitution rates (ML): 0.338071 1.339223 0.107860 0.102346 5.338413 1.000000 
+
+
+Final LogLikelihood: -32668.274126
+
+AIC score: 65986.548253 / AICc score: 65996.657021 / BIC score: 68575.465367
+Free parameters (model + branch lengths): 325
+
+WARNING: Best ML tree contains 118 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /home/finlaymaguire/workspace/basic/clean_run/ORF1ab/B1_and_deer_ORF1ab.fasta.raxml.bestTreeCollapsed
+Best ML tree saved to: /home/finlaymaguire/workspace/basic/clean_run/ORF1ab/B1_and_deer_ORF1ab.fasta.raxml.bestTree
+All ML trees saved to: /home/finlaymaguire/workspace/basic/clean_run/ORF1ab/B1_and_deer_ORF1ab.fasta.raxml.mlTrees
+Optimized model saved to: /home/finlaymaguire/workspace/basic/clean_run/ORF1ab/B1_and_deer_ORF1ab.fasta.raxml.bestModel
+
+Execution log saved to: /home/finlaymaguire/workspace/basic/clean_run/ORF1ab/B1_and_deer_ORF1ab.fasta.raxml.log
+
+Analysis started: 22-Mar-2022 22:31:30 / finished: 22-Mar-2022 22:31:38
+
+Elapsed time: 8.774 seconds
+
+Consumed energy: 0.592 Wh
+

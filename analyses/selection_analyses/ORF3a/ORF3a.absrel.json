@@ -1,0 +1,3200 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "citation":"Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32 (5): 1342-1353. v2.2 adds support for multiple-hit models",
+   "contact":"spond@temple.edu",
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"2.2"
+  },
+ "branch attributes":{
+   "0":{
+     "4581":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"4581"
+      },
+     "4645":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"4645"
+      },
+     "4649":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"4649"
+      },
+     "4658":{
+       "Baseline MG94xREV":0.001201442922367138,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.001200977352971515,
+       "Full adaptive model (non-synonymous subs/site)":0.001200977352971515,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.7995887234792463,
+       "Nucleotide GTR":0.001213406106293347,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.275380643679807,
+       "original name":"4658"
+      },
+     "4662":{
+       "Baseline MG94xREV":0.001283870949119408,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.001281108604349898,
+       "Full adaptive model (non-synonymous subs/site)":0.001281108604349898,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.7986663328965733,
+       "Nucleotide GTR":0.001301385642655609,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.275528638787199,
+       "original name":"4662"
+      },
+     "Canada_ON_PHL_21_44225_2021":{
+       "Baseline MG94xREV":0.001766904973455635,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.001762041511731133,
+       "Full adaptive model (non-synonymous subs/site)":0.001762041511731133,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.8077886878822937,
+       "Nucleotide GTR":0.001776053974408078,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.2740693665851679,
+       "original name":"Canada/ON-PHL-21-44225/2021"
+      },
+     "Hu_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Hu-1"
+      },
+     "Node102":{
+       "Baseline MG94xREV":0.001200171312269152,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001198992111774247,
+       "Full adaptive model (non-synonymous subs/site)":0.001198992111774247,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001213563133827817,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node143":{
+       "Baseline MG94xREV":0.001200297790165807,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.00119909974069258,
+       "Full adaptive model (non-synonymous subs/site)":0.00119909974069258,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001213348970373234,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node149":{
+       "Baseline MG94xREV":0.001201107955372982,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001199813147029389,
+       "Full adaptive model (non-synonymous subs/site)":0.001199813147029389,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001213868947668086,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node192":{
+       "Baseline MG94xREV":0.001266380812975384,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001262140584416529,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001262140584416529,
+       "LRT":null,
+       "Nucleotide GTR":0.001213868947646864,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node22":{
+       "Baseline MG94xREV":0.001202372588535849,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001201773743734044,
+       "Full adaptive model (non-synonymous subs/site)":0.001201773743734044,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212992415446003,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node248":{
+       "Baseline MG94xREV":0.002470626506782063,
+       "Baseline MG94xREV omega ratio":0.4587248299926017,
+       "Corrected P-value":null,
+       "Full adaptive model":0.3293383566262897,
+       "Full adaptive model (non-synonymous subs/site)":0.3288801457471248,
+       "Full adaptive model (synonymous subs/site)":0.000458210879164946,
+       "LRT":null,
+       "Nucleotide GTR":0.002433220200495174,
+       "Rate Distributions":        [
+[0, 0.9963270249846398],
+        [100000, 0.003672975015360236] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null
+      },
+     "Node25":{
+       "Baseline MG94xREV":0.002407678788062995,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.002408097349499497,
+       "Full adaptive model (non-synonymous subs/site)":0.002408097349499497,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.002428675029525482,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node253":{
+       "Baseline MG94xREV":0.0005080110552959602,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.0005968879764951127,
+       "Full adaptive model (non-synonymous subs/site)":0.0005968879764951127,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":1.177436034802954e-06,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node255":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":8.098726012356887e-07,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node256":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":3.088816652147235e-06,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node257":{
+       "Baseline MG94xREV":0.000693926158196601,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.000604869187955071,
+       "Full adaptive model (non-synonymous subs/site)":0.000604869187955071,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001210095236967838,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node36":{
+       "Baseline MG94xREV":0.001267890546543902,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001263939959359152,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001263939959359152,
+       "LRT":null,
+       "Nucleotide GTR":0.0012129909863357,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node47":{
+       "Baseline MG94xREV":0.001200521448561559,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001200405074445063,
+       "Full adaptive model (non-synonymous subs/site)":0.001200405074445063,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212992413612417,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node73":{
+       "Baseline MG94xREV":0.001200421339584904,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001199406850916247,
+       "Full adaptive model (non-synonymous subs/site)":0.001199406850916247,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212846367201594,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node89":{
+       "Baseline MG94xREV":0.001199885741991837,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001198600505463601,
+       "Full adaptive model (non-synonymous subs/site)":0.001198600505463601,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.00121334897205004,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "__reroot_top_clade":{
+       "Baseline MG94xREV":0.001262310775712375,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.001258227616207049,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001258227616207049,
+       "LRT":0,
+       "Nucleotide GTR":0.001213388753936681,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "hCoV_19_Australia_QLD1259_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Australia/QLD1259/2020"
+      },
+     "hCoV_19_Australia_QLD1574_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Australia/QLD1574/2020"
+      },
+     "hCoV_19_Australia_VIC243_2020":{
+       "Baseline MG94xREV":0.001266695517316046,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001261721833420553,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001261721833420553,
+       "LRT":null,
+       "Nucleotide GTR":0.001213348973424994,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Australia/VIC243/2020"
+      },
+     "hCoV_19_Austria_CeMM0647_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Austria/CeMM0647/2020"
+      },
+     "hCoV_19_Brazil_SP_IB_125628_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Brazil/SP-IB_125628/2021"
+      },
+     "hCoV_19_Burkina_Faso_49_2021":{
+       "Baseline MG94xREV":0.002402109456179761,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.002400539152171214,
+       "Full adaptive model (non-synonymous subs/site)":0.002400539152171214,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.002428006340659317,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Burkina_Faso/49/2021"
+      },
+     "hCoV_19_Canada_QC_1nIEOQ_7051594146_2021":{
+       "Baseline MG94xREV":0.001201264539681458,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001200359700328198,
+       "Full adaptive model (non-synonymous subs/site)":0.001200359700328198,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212990989145099,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Canada/QC-1nIEOQ-7051594146/2021"
+      },
+     "hCoV_19_Canada_QC_LSPQ_L00218337_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Canada/QC-LSPQ-L00218337/2020"
+      },
+     "hCoV_19_Denmark_ALAB_HH20_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Denmark/ALAB-HH20/2020"
+      },
+     "hCoV_19_Denmark_DCGC_1008_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Denmark/DCGC-1008/2020"
+      },
+     "hCoV_19_Denmark_DCGC_22602_2020":{
+       "Baseline MG94xREV":0.001201557333403912,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001201345962821828,
+       "Full adaptive model (non-synonymous subs/site)":0.001201345962821828,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001213576071647759,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Denmark/DCGC-22602/2020"
+      },
+     "hCoV_19_Denmark_DCGC_2977_2020":{
+       "Baseline MG94xREV":0.001266208945177442,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001261396943134299,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001261396943134299,
+       "LRT":null,
+       "Nucleotide GTR":0.001213348973443181,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Denmark/DCGC-2977/2020"
+      },
+     "hCoV_19_Denmark_DCGC_41756_2021":{
+       "Baseline MG94xREV":0.003609835894817668,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.003608872788504535,
+       "Full adaptive model (non-synonymous subs/site)":0.003608872788504535,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.003643981405752449,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Denmark/DCGC-41756/2021"
+      },
+     "hCoV_19_Egypt_CUNCI_HGC015_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Egypt/CUNCI-HGC015/2020"
+      },
+     "hCoV_19_Egypt_CUNCI_HGC5I016_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Egypt/CUNCI-HGC5I016/2020"
+      },
+     "hCoV_19_England_20179044604_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/England/20179044604/2020"
+      },
+     "hCoV_19_England_202890228_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/England/202890228/2020"
+      },
+     "hCoV_19_England_CAMB_78953_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/England/CAMB-78953/2020"
+      },
+     "hCoV_19_England_CAMB_7C166_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/England/CAMB-7C166/2020"
+      },
+     "hCoV_19_England_NORW_E7782_2020":{
+       "Baseline MG94xREV":0.001201910111913323,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001200610627509144,
+       "Full adaptive model (non-synonymous subs/site)":0.001200610627509144,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212990989902716,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/England/NORW-E7782/2020"
+      },
+     "hCoV_19_England_NORW_E8D61_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/England/NORW-E8D61/2020"
+      },
+     "hCoV_19_England_SHEF_CF270_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/England/SHEF-CF270/2020"
+      },
+     "hCoV_19_France_IDF_IPP2779_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/France/IDF-IPP2779/2020"
+      },
+     "hCoV_19_France_PAC_IHU_0508_Illu2_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/France/PAC-IHU-0508_Illu2/2020"
+      },
+     "hCoV_19_France_PAC_IHU_11489_Illu1_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/France/PAC-IHU-11489_Illu1/2020"
+      },
+     "hCoV_19_Germany_BW_RKI_I_028376_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Germany/BW-RKI-I-028376/2021"
+      },
+     "hCoV_19_Germany_BY_RKI_I_046626_2021":{
+       "Baseline MG94xREV":0.001268679889090753,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001264702808647953,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001264702808647953,
+       "LRT":null,
+       "Nucleotide GTR":0.001212992415648991,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Germany/BY-RKI-I-046626/2021"
+      },
+     "hCoV_19_Germany_BY_RKI_I_074295_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Germany/BY-RKI-I-074295/2021"
+      },
+     "hCoV_19_Germany_NW_RKI_I_031905_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Germany/NW-RKI-I-031905/2021"
+      },
+     "hCoV_19_Hong_Kong_CUHK_NC1750_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Hong_Kong/CUHK-NC1750/2020"
+      },
+     "hCoV_19_Iceland_93_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Iceland/93/2020"
+      },
+     "hCoV_19_India_DL_NCDC_4475_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/India/DL-NCDC-4475/2020"
+      },
+     "hCoV_19_India_MH_ACTREC_633_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/India/MH-ACTREC-633/2020"
+      },
+     "hCoV_19_India_MH_NIV_99913_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/India/MH-NIV-99913/2020"
+      },
+     "hCoV_19_Indonesia_JB_GS_WJHL_ITB_GS_318_2020":{
+       "Baseline MG94xREV":0.001220285568444077,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.00121905622095361,
+       "Full adaptive model (non-synonymous subs/site)":0.00121905622095361,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001228700956111714,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Indonesia/JB-GS-WJHL-ITB-GS-318/2020"
+      },
+     "hCoV_19_Ireland_KE_20G31522_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Ireland/KE-20G31522/2020"
+      },
+     "hCoV_19_Ireland_LK_NVRL_MPL24200_2020":{
+       "Baseline MG94xREV":0.00119956163008904,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001198283867933377,
+       "Full adaptive model (non-synonymous subs/site)":0.001198283867933377,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001216804490794585,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Ireland/LK-NVRL-MPL24200/2020"
+      },
+     "hCoV_19_Italy_TAA_MUIV_0093_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Italy/TAA-MUIV-0093/2020"
+      },
+     "hCoV_19_Italy_TAA_MUIV_0094_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Italy/TAA-MUIV-0094/2020"
+      },
+     "hCoV_19_Italy_TUS_DBM_11_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Italy/TUS-DBM-11/2020"
+      },
+     "hCoV_19_Italy_VEN_UniVR_117_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Italy/VEN-UniVR-117/2020"
+      },
+     "hCoV_19_Panama_GMI_PA344037_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Panama/GMI-PA344037/2020"
+      },
+     "hCoV_19_Slovenia_70767_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Slovenia/70767/2020"
+      },
+     "hCoV_19_Spain_MD_IBV_003723_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Spain/MD-IBV-003723/2020"
+      },
+     "hCoV_19_Spain_NC_CHN_01000166_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Spain/NC-CHN-01000166/2020"
+      },
+     "hCoV_19_Spain_RI_IBV_006019_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Spain/RI-IBV-006019/2020"
+      },
+     "hCoV_19_Sweden_01_SE100_21CS505850_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Sweden/01_SE100_21CS505850/2020"
+      },
+     "hCoV_19_Switzerland_BL_UHB_42192973_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Switzerland/BL-UHB-42192973/2020"
+      },
+     "hCoV_19_Switzerland_BS_UHB_42200131_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Switzerland/BS-UHB-42200131/2020"
+      },
+     "hCoV_19_Turkey_HSGM_4816_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-4816/2021"
+      },
+     "hCoV_19_Turkey_HSGM_C7769_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-C7769/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D15451_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D15451/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D16927_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D16927/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D17236_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D17236/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D18014_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D18014/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D18026_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D18026/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D21054_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D21054/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D23630_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D23630/2021"
+      },
+     "hCoV_19_Turkey_HSGM_D23960_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Turkey/HSGM-D23960/2021"
+      },
+     "hCoV_19_USA_AZ_ASPHL_2860_2020":{
+       "Baseline MG94xREV":0.001265838311785271,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001261734507341606,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001261734507341606,
+       "LRT":null,
+       "Nucleotide GTR":0.001212226390437648,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/AZ-ASPHL-2860/2020"
+      },
+     "hCoV_19_USA_AZ_TG666168_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/AZ-TG666168/2020"
+      },
+     "hCoV_19_USA_CA_CDPH_2000028319_2021":{
+       "Baseline MG94xREV":0.001200865509865554,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001200088958489057,
+       "Full adaptive model (non-synonymous subs/site)":0.001200088958489057,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001213504134253453,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/CA-CDPH-2000028319/2021"
+      },
+     "hCoV_19_USA_CA_CHLA_PLM75223157_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/CA-CHLA-PLM75223157/2020"
+      },
+     "hCoV_19_USA_CA_SEARCH_14715_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/CA-SEARCH-14715/2021"
+      },
+     "hCoV_19_USA_CA_UCSC_443_2020":{
+       "Baseline MG94xREV":0.001200520158379297,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.00120139549588981,
+       "Full adaptive model (non-synonymous subs/site)":0.00120139549588981,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212990989140488,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/CA-UCSC-443/2020"
+      },
+     "hCoV_19_USA_CT_CDC_QDX22257993_2021":{
+       "Baseline MG94xREV":0.004877749116803503,
+       "Baseline MG94xREV omega ratio":1.379548730028003,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004872682270616662,
+       "Full adaptive model (non-synonymous subs/site)":0.003611919063966116,
+       "Full adaptive model (synonymous subs/site)":0.001260763206650547,
+       "LRT":null,
+       "Nucleotide GTR":0.004869678307272946,
+       "Rate Distributions":        [
+[1.466054779544465, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/CT-CDC-QDX22257993/2021"
+      },
+     "hCoV_19_USA_GA_EHC_580J_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/GA-EHC-580J/2020"
+      },
+     "hCoV_19_USA_KS_KHEL_0552_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/KS-KHEL-0552/2020"
+      },
+     "hCoV_19_USA_LA_BIE_027_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/LA-BIE-027/2020"
+      },
+     "hCoV_19_USA_MA_MASPHL_00230_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MA-MASPHL-00230/2020"
+      },
+     "hCoV_19_USA_MA_MGH_01071_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MA-MGH-01071/2020"
+      },
+     "hCoV_19_USA_MD_HP06635_PIDLEHQTMF_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MD-HP06635-PIDLEHQTMF/2020"
+      },
+     "hCoV_19_USA_MD_MDH_0023_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MD-MDH-0023/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC20437_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC20437/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC20662_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC20662/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC21645_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC21645/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC22669_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC22669/2020"
+      },
+     "hCoV_19_USA_MI_MDHHS_SC23517_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MI-MDHHS-SC23517/2020"
+      },
+     "hCoV_19_USA_MO_MSPHL_000490_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MO-MSPHL-000490/2020"
+      },
+     "hCoV_19_USA_MT_WL_774_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/MT-WL-774/2020"
+      },
+     "hCoV_19_USA_NE_CDC_STM_000004255_2021":{
+       "Baseline MG94xREV":0.001200519335124631,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001199686739624938,
+       "Full adaptive model (non-synonymous subs/site)":0.001199686739624938,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212990989161694,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/NE-CDC-STM-000004255/2021"
+      },
+     "hCoV_19_USA_NM_UNM_00086_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/NM-UNM-00086/2020"
+      },
+     "hCoV_19_USA_NY_PRL_2020_1229_01D09_2020":{
+       "Baseline MG94xREV":0.001199431136580813,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001198141462717828,
+       "Full adaptive model (non-synonymous subs/site)":0.001198141462717828,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001213347549903429,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/NY-PRL-2020_1229_01D09/2020"
+      },
+     "hCoV_19_USA_NY_UB_00111_2020":{
+       "Baseline MG94xREV":0.001199009127535767,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001197778250609662,
+       "Full adaptive model (non-synonymous subs/site)":0.001197778250609662,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212001839092869,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/NY-UB-00111/2020"
+      },
+     "hCoV_19_USA_NY_Wadsworth_64197_01_2020":{
+       "Baseline MG94xREV":0.001204939106476462,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001204957043581783,
+       "Full adaptive model (non-synonymous subs/site)":0.001204957043581783,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001216804490781717,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/NY-Wadsworth-64197-01/2020"
+      },
+     "hCoV_19_USA_TX_HMH_5167_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-HMH-5167/2020"
+      },
+     "hCoV_19_USA_TX_HMH_5813_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-HMH-5813/2020"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_17294_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-17294/2020"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_22346_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-22346/2021"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_22700_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-22700/2020"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_25052_2021":{
+       "Baseline MG94xREV":0.001201264537809684,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001200359702225836,
+       "Full adaptive model (non-synonymous subs/site)":0.001200359702225836,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001212990986331034,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-25052/2021"
+      },
+     "hCoV_19_USA_TX_HMH_MCoV_49819_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-HMH-MCoV-49819/2020"
+      },
+     "hCoV_19_USA_TX_TCH_TCMC02076_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/TX-TCH-TCMC02076/2021"
+      },
+     "hCoV_19_USA_UT_UPHL_201026584_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/UT-UPHL-201026584/2020"
+      },
+     "hCoV_19_USA_VA_DCLS_1337_2020":{
+       "Baseline MG94xREV":0.002466738599550978,
+       "Baseline MG94xREV omega ratio":0.4576566065955747,
+       "Corrected P-value":null,
+       "Full adaptive model":0.002460845843499569,
+       "Full adaptive model (non-synonymous subs/site)":0.001198326759466296,
+       "Full adaptive model (synonymous subs/site)":0.001262519084033275,
+       "LRT":null,
+       "Nucleotide GTR":0.00242904630450444,
+       "Rate Distributions":        [
+[0.4857166826192768, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/VA-DCLS-1337/2020"
+      },
+     "hCoV_19_USA_VA_DCLS_1402_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/VA-DCLS-1402/2020"
+      },
+     "hCoV_19_USA_WA_S1461_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/WA-S1461/2020"
+      },
+     "hCoV_19_USA_WI_GMF_B00788_2021":{
+       "Baseline MG94xREV":0.001199885450451537,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001198996106666513,
+       "Full adaptive model (non-synonymous subs/site)":0.001198996106666513,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001213348973428788,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/WI-GMF-B00788/2021"
+      },
+     "hCoV_19_USA_WY_UNM_WY00429_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/USA/WY-UNM-WY00429/2020"
+      },
+     "hCoV_19_Wales_PHWC_163EC4_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Wales/PHWC-163EC4/2020"
+      },
+     "hCoV_19_Wuhan_WH01_2019":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Wuhan/WH01/2019"
+      },
+     "hCoV_19_Zambia_ZMB_229_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Zambia/ZMB-229/2020"
+      },
+     "hCoV_19_Zambia_ZMB_53639_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/Zambia/ZMB-53639/2020"
+      },
+     "hCoV_19_cat_USA_UT_CDC_4159739_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/cat/USA/UT-CDC-4159739-001/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_152_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/Denmark/mDK-152/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_159_2020":{
+       "Baseline MG94xREV":0.002405261867146815,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.002404326611876897,
+       "Full adaptive model (non-synonymous subs/site)":0.002404326611876897,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.002428676142001784,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/Denmark/mDK-159/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_273_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/Denmark/mDK-273/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_532_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/Denmark/mDK-532/2020"
+      },
+     "hCoV_19_mink_Denmark_mDK_560_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/Denmark/mDK-560/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_031893_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-20-031893-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_031894_014_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-20-031894-014/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_031894_017_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-20-031894-017/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032048_005_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-20-032048-005/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032048_008_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-20-032048-008/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032049_004_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-20-032049-004/2020"
+      },
+     "hCoV_19_mink_USA_UT_20_032049_008_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-20-032049-008/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4159696_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4159696-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4159747_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4159747-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4159780_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4159780-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168008_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168008-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168068_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168068-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168073_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168073-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4168074_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4168074-001/2020"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455648_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455648-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455651_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455651-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455671_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455671-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455698_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455698-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455725_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455725-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455738_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455738-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455742_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455742-001/2021"
+      },
+     "hCoV_19_mink_USA_UT_CDC_4455743_001_2021":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/UT-CDC-4455743-001/2021"
+      },
+     "hCoV_19_mink_USA_WI_20_031493_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-20-031493-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_20_031493_003_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-20-031493-003/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892577_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892577-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892579_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892579-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892581_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892581-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892583_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892583-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892585_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892585-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892586_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892586-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892587_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892587-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892589_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892589-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892590_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892590-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892591_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892591-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892592_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892592-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892594_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892594-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892604_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892604-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892875_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892875-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892876_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892876-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892883_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892883-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892894_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892894-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892899_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892899-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892916_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892916-001/2020"
+      },
+     "hCoV_19_mink_USA_WI_CDC_3892917_001_2020":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"hCoV-19/mink/USA/WI-CDC-3892917-001/2020"
+      }
+    },
+   "attributes":{
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Full adaptive model (non-synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":10
+      },
+     "Full adaptive model (synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":9
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274] 
+      ],
+     "name":"absrel.filter.default"
+    }
+  },
+ "fits":{
+   "Baseline MG94xREV":{
+     "AIC-c":3620.19667434905,
+     "Equilibrium frequencies":      [
+[0.02329993733823609],
+      [0.01836569809663179],
+      [0.01204632933393087],
+      [0.0331883707241425],
+      [0.01701120669956809],
+      [0.01340873505230291],
+      [0.00879498495192442],
+      [0.0242307190021406],
+      [0.01159343634044293],
+      [0.009138288598814475],
+      [0.005993936818008223],
+      [0.01651366085873322],
+      [0.02514743114343274],
+      [0.01982194722593557],
+      [0.01300150438426346],
+      [0.03581993614113624],
+      [0.01437728785378071],
+      [0.01133260250179271],
+      [0.007433219321630933],
+      [0.02047897178315366],
+      [0.01049681000894781],
+      [0.008273895367335466],
+      [0.005426968686133803],
+      [0.0149516291370517],
+      [0.007153760504218106],
+      [0.00563880510787779],
+      [0.003698574539445631],
+      [0.01018979803418188],
+      [0.01551728878424672],
+      [0.01223118487198904],
+      [0.008022612608403644],
+      [0.02210278617187672],
+      [0.02241529357241578],
+      [0.01766839577816327],
+      [0.01158895856972747],
+      [0.0319282864229429],
+      [0.01636533123057454],
+      [0.01289963695047711],
+      [0.008461060079283867],
+      [0.02331073564787591],
+      [0.01115326085695883],
+      [0.008791329294939367],
+      [0.005766361148520469],
+      [0.01588667603394677],
+      [0.02419264238737347],
+      [0.01906935455646659],
+      [0.01250786787216223],
+      [0.03445993749653316],
+      [0.019770883929951],
+      [0.03572766044387628],
+      [0.01831275845851167],
+      [0.01443465655221487],
+      [0.009467901831733436],
+      [0.02608464597479355],
+      [0.009837472131739454],
+      [0.006452541498220204],
+      [0.01777714467366023],
+      [0.02707149707336343],
+      [0.02133855276328751],
+      [0.01399626808322436],
+      [0.03856057069535199] 
+      ],
+     "Log Likelihood":-1441.019887377353,
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "2.5%":0,
+         "97.5%":10000000000,
+         "Mean":1666666667.215988,
+         "Median":0.7293624149963008
+        }
+      },
+     "display order":1,
+     "estimated parameters":366
+    },
+   "Full adaptive model":{
+     "AIC-c":3607.700191750249,
+     "Log Likelihood":-1432.737813323728,
+     "Rate Distributions":{
+      },
+     "display order":2,
+     "estimated parameters":368
+    },
+   "Nucleotide GTR":{
+     "AIC-c":3632.870712285488,
+     "Equilibrium frequencies":      [
+[0.270355048415693],
+      [0.2104339985755633],
+      [0.1848964252701126],
+      [0.334314527738631] 
+      ],
+     "Log Likelihood":-1490.630717413762,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.144006401777008,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0,
+       "Substitution rate from nucleotide C to nucleotide G":0.4206124522275401,
+       "Substitution rate from nucleotide C to nucleotide T":3.155223253785437,
+       "Substitution rate from nucleotide G to nucleotide T":1.594333515623505
+      },
+     "display order":0,
+     "estimated parameters":325
+    }
+  },
+ "input":{
+   "file name":"/home/finlaymaguire/workspace/basic/clean_run/ORF3a/B1_and_deer_ORF3a.fasta",
+   "number of sequences":160,
+   "number of sites":275,
+   "partition count":1,
+   "trees":{
+     "0":"(hCoV_19_Australia_QLD1259_2020,Hu_1,hCoV_19_Turkey_HSGM_D21054_2021,hCoV_19_Brazil_SP_IB_125628_2021,hCoV_19_Turkey_HSGM_D23630_2021,hCoV_19_Switzerland_BL_UHB_42192973_2020,hCoV_19_Spain_RI_IBV_006019_2020,hCoV_19_India_DL_NCDC_4475_2020,hCoV_19_USA_WY_UNM_WY00429_2020,hCoV_19_Wuhan_WH01_2019,hCoV_19_Panama_GMI_PA344037_2020,hCoV_19_France_PAC_IHU_0508_Illu2_2020,hCoV_19_Turkey_HSGM_D23960_2021,hCoV_19_England_CAMB_78953_2020,hCoV_19_USA_UT_UPHL_201026584_2020,hCoV_19_England_CAMB_7C166_2020,hCoV_19_Denmark_DCGC_1008_2020,hCoV_19_mink_Denmark_mDK_152_2020,hCoV_19_Italy_VEN_UniVR_117_2020,hCoV_19_Iceland_93_2020,hCoV_19_England_NORW_E7782_2020,hCoV_19_Germany_BY_RKI_I_046626_2021,hCoV_19_Denmark_DCGC_22602_2020,hCoV_19_Spain_MD_IBV_003723_2020,hCoV_19_USA_CA_UCSC_443_2020,hCoV_19_USA_TX_HMH_MCoV_49819_2020,hCoV_19_USA_NE_CDC_STM_000004255_2021,hCoV_19_Spain_NC_CHN_01000166_2020,hCoV_19_USA_MT_WL_774_2020,hCoV_19_Turkey_HSGM_D16927_2021,hCoV_19_England_20179044604_2020,hCoV_19_USA_TX_HMH_MCoV_25052_2021,hCoV_19_Turkey_HSGM_D18026_2021,(hCoV_19_Turkey_HSGM_4816_2021,hCoV_19_Germany_NW_RKI_I_031905_2021)Node47,hCoV_19_Hong_Kong_CUHK_NC1750_2020,hCoV_19_Switzerland_BS_UHB_42200131_2020,(hCoV_19_USA_TX_HMH_MCoV_17294_2020,hCoV_19_Germany_BW_RKI_I_028376_2021,hCoV_19_USA_KS_KHEL_0552_2020,hCoV_19_USA_MI_MDHHS_SC20437_2020,hCoV_19_France_PAC_IHU_11489_Illu1_2020,hCoV_19_Burkina_Faso_49_2021,hCoV_19_USA_TX_HMH_5167_2020,hCoV_19_USA_MI_MDHHS_SC20662_2020,hCoV_19_USA_NY_Wadsworth_64197_01_2020,hCoV_19_Australia_QLD1574_2020,hCoV_19_Zambia_ZMB_229_2020,hCoV_19_USA_WA_S1461_2020,(hCoV_19_USA_TX_HMH_MCoV_22700_2020,hCoV_19_USA_CA_CDPH_2000028319_2021)Node89,hCoV_19_USA_MA_MASPHL_00230_2020,hCoV_19_USA_TX_HMH_5813_2020,hCoV_19_USA_MO_MSPHL_000490_2020,hCoV_19_USA_NM_UNM_00086_2020,hCoV_19_USA_CA_SEARCH_14715_2021,hCoV_19_Zambia_ZMB_53639_2020,hCoV_19_USA_MA_MGH_01071_2020,hCoV_19_USA_CA_CHLA_PLM75223157_2020,hCoV_19_Austria_CeMM0647_2020,hCoV_19_USA_MI_MDHHS_SC21645_2020,hCoV_19_USA_VA_DCLS_1337_2020,hCoV_19_France_IDF_IPP2779_2020,hCoV_19_Indonesia_JB_GS_WJHL_ITB_GS_318_2020,hCoV_19_Australia_VIC243_2020,hCoV_19_Ireland_KE_20G31522_2020,hCoV_19_Wales_PHWC_163EC4_2020,hCoV_19_USA_CT_CDC_QDX22257993_2021,(hCoV_19_cat_USA_UT_CDC_4159739_001_2020,hCoV_19_mink_USA_UT_CDC_4159696_001_2020,hCoV_19_mink_USA_UT_CDC_4168008_001_2020,hCoV_19_mink_USA_UT_CDC_4159747_001_2020,hCoV_19_mink_USA_UT_CDC_4159780_001_2020,(hCoV_19_mink_USA_WI_CDC_3892581_001_2020,hCoV_19_mink_USA_WI_CDC_3892583_001_2020,hCoV_19_mink_USA_WI_CDC_3892592_001_2020,hCoV_19_mink_USA_WI_CDC_3892604_001_2020,hCoV_19_mink_USA_WI_CDC_3892875_001_2020,hCoV_19_mink_USA_WI_CDC_3892589_001_2020,hCoV_19_mink_USA_WI_CDC_3892585_001_2020,hCoV_19_mink_USA_WI_CDC_3892586_001_2020,hCoV_19_mink_USA_WI_CDC_3892579_001_2020,hCoV_19_mink_USA_WI_CDC_3892883_001_2020,hCoV_19_mink_USA_WI_20_031493_003_2020,hCoV_19_mink_USA_WI_CDC_3892594_001_2020,hCoV_19_mink_USA_WI_CDC_3892876_001_2020,hCoV_19_mink_USA_WI_CDC_3892917_001_2020,hCoV_19_mink_USA_WI_CDC_3892577_001_2020,hCoV_19_mink_USA_WI_CDC_3892916_001_2020,hCoV_19_mink_USA_WI_20_031493_001_2020,hCoV_19_mink_USA_WI_CDC_3892590_001_2020,hCoV_19_mink_USA_WI_CDC_3892587_001_2020,hCoV_19_mink_USA_WI_CDC_3892591_001_2020,hCoV_19_mink_USA_WI_CDC_3892894_001_2020,hCoV_19_mink_USA_WI_CDC_3892899_001_2020)Node149,(hCoV_19_mink_USA_UT_CDC_4455742_001_2021,hCoV_19_mink_USA_UT_CDC_4455738_001_2021,hCoV_19_mink_USA_UT_CDC_4455743_001_2021)Node192)Node143,hCoV_19_USA_WI_GMF_B00788_2021,hCoV_19_USA_GA_EHC_580J_2020,hCoV_19_USA_VA_DCLS_1402_2020,hCoV_19_Ireland_LK_NVRL_MPL24200_2020,hCoV_19_Sweden_01_SE100_21CS505850_2020,hCoV_19_India_MH_ACTREC_633_2020,hCoV_19_Canada_QC_LSPQ_L00218337_2020,hCoV_19_USA_TX_TCH_TCMC02076_2021,hCoV_19_USA_LA_BIE_027_2020,hCoV_19_Egypt_CUNCI_HGC5I016_2020,hCoV_19_Denmark_DCGC_2977_2020,hCoV_19_Egypt_CUNCI_HGC015_2020,hCoV_19_USA_NY_PRL_2020_1229_01D09_2020,hCoV_19_USA_NY_UB_00111_2020,hCoV_19_USA_AZ_TG666168_2020,hCoV_19_USA_MD_HP06635_PIDLEHQTMF_2020,hCoV_19_USA_MD_MDH_0023_2020,hCoV_19_Denmark_ALAB_HH20_2020,((hCoV_19_USA_MI_MDHHS_SC23517_2020,hCoV_19_USA_MI_MDHHS_SC22669_2020,Canada_ON_PHL_21_44225_2021,4658)__reroot_top_clade,4581,4645,4662,4649)Node102,hCoV_19_Slovenia_70767_2020)Node73,(hCoV_19_mink_USA_UT_20_031894_014_2020,hCoV_19_mink_USA_UT_CDC_4455671_001_2021,hCoV_19_mink_USA_UT_20_032049_004_2020,(hCoV_19_mink_USA_UT_CDC_4455648_001_2021,(((hCoV_19_mink_USA_UT_CDC_4168074_001_2020,hCoV_19_mink_USA_UT_CDC_4168068_001_2020)Node257,hCoV_19_mink_USA_UT_CDC_4455725_001_2021)Node256,hCoV_19_mink_USA_UT_CDC_4455698_001_2021)Node255)Node253,hCoV_19_mink_USA_UT_20_032048_008_2020,hCoV_19_mink_USA_UT_20_031894_017_2020,hCoV_19_mink_USA_UT_CDC_4455651_001_2021,hCoV_19_mink_USA_UT_20_032049_008_2020,hCoV_19_mink_USA_UT_CDC_4168073_001_2020,hCoV_19_mink_USA_UT_20_032048_005_2020,hCoV_19_mink_USA_UT_20_031893_001_2020)Node248,hCoV_19_Canada_QC_1nIEOQ_7051594146_2021,hCoV_19_England_SHEF_CF270_2020,hCoV_19_Italy_TUS_DBM_11_2020,hCoV_19_India_MH_NIV_99913_2020,hCoV_19_England_NORW_E8D61_2020,(hCoV_19_Italy_TAA_MUIV_0093_2020,hCoV_19_Italy_TAA_MUIV_0094_2020)Node36,hCoV_19_Turkey_HSGM_D18014_2021,hCoV_19_mink_Denmark_mDK_159_2020,hCoV_19_USA_TX_HMH_MCoV_22346_2021,hCoV_19_Germany_BY_RKI_I_074295_2021,hCoV_19_England_202890228_2020,(hCoV_19_Turkey_HSGM_D15451_2021,hCoV_19_Turkey_HSGM_C7769_2021)Node22,(hCoV_19_mink_Denmark_mDK_532_2020,hCoV_19_mink_Denmark_mDK_560_2020)Node25,hCoV_19_Turkey_HSGM_D17236_2021,hCoV_19_mink_Denmark_mDK_273_2020,hCoV_19_USA_AZ_ASPHL_2860_2020,hCoV_19_Denmark_DCGC_41756_2021)"
+    }
+  },
+ "test results":{
+   "P-value threshold":0.05,
+   "positive test results":0,
+   "tested":7
+  },
+ "tested":{
+   "0":{
+     "4581":"test",
+     "4645":"test",
+     "4649":"test",
+     "4658":"test",
+     "4662":"test",
+     "Canada_ON_PHL_21_44225_2021":"test",
+     "Hu_1":"background",
+     "Node102":"background",
+     "Node143":"background",
+     "Node149":"background",
+     "Node192":"background",
+     "Node22":"background",
+     "Node248":"background",
+     "Node25":"background",
+     "Node253":"background",
+     "Node255":"background",
+     "Node256":"background",
+     "Node257":"background",
+     "Node36":"background",
+     "Node47":"background",
+     "Node73":"background",
+     "Node89":"background",
+     "__reroot_top_clade":"test",
+     "hCoV_19_Australia_QLD1259_2020":"background",
+     "hCoV_19_Australia_QLD1574_2020":"background",
+     "hCoV_19_Australia_VIC243_2020":"background",
+     "hCoV_19_Austria_CeMM0647_2020":"background",
+     "hCoV_19_Brazil_SP_IB_125628_2021":"background",
+     "hCoV_19_Burkina_Faso_49_2021":"background",
+     "hCoV_19_Canada_QC_1nIEOQ_7051594146_2021":"background",
+     "hCoV_19_Canada_QC_LSPQ_L00218337_2020":"background",
+     "hCoV_19_Denmark_ALAB_HH20_2020":"background",
+     "hCoV_19_Denmark_DCGC_1008_2020":"background",
+     "hCoV_19_Denmark_DCGC_22602_2020":"background",
+     "hCoV_19_Denmark_DCGC_2977_2020":"background",
+     "hCoV_19_Denmark_DCGC_41756_2021":"background",
+     "hCoV_19_Egypt_CUNCI_HGC015_2020":"background",
+     "hCoV_19_Egypt_CUNCI_HGC5I016_2020":"background",
+     "hCoV_19_England_20179044604_2020":"background",
+     "hCoV_19_England_202890228_2020":"background",
+     "hCoV_19_England_CAMB_78953_2020":"background",
+     "hCoV_19_England_CAMB_7C166_2020":"background",
+     "hCoV_19_England_NORW_E7782_2020":"background",
+     "hCoV_19_England_NORW_E8D61_2020":"background",
+     "hCoV_19_England_SHEF_CF270_2020":"background",
+     "hCoV_19_France_IDF_IPP2779_2020":"background",
+     "hCoV_19_France_PAC_IHU_0508_Illu2_2020":"background",
+     "hCoV_19_France_PAC_IHU_11489_Illu1_2020":"background",
+     "hCoV_19_Germany_BW_RKI_I_028376_2021":"background",
+     "hCoV_19_Germany_BY_RKI_I_046626_2021":"background",
+     "hCoV_19_Germany_BY_RKI_I_074295_2021":"background",
+     "hCoV_19_Germany_NW_RKI_I_031905_2021":"background",
+     "hCoV_19_Hong_Kong_CUHK_NC1750_2020":"background",
+     "hCoV_19_Iceland_93_2020":"background",
+     "hCoV_19_India_DL_NCDC_4475_2020":"background",
+     "hCoV_19_India_MH_ACTREC_633_2020":"background",
+     "hCoV_19_India_MH_NIV_99913_2020":"background",
+     "hCoV_19_Indonesia_JB_GS_WJHL_ITB_GS_318_2020":"background",
+     "hCoV_19_Ireland_KE_20G31522_2020":"background",
+     "hCoV_19_Ireland_LK_NVRL_MPL24200_2020":"background",
+     "hCoV_19_Italy_TAA_MUIV_0093_2020":"background",
+     "hCoV_19_Italy_TAA_MUIV_0094_2020":"background",
+     "hCoV_19_Italy_TUS_DBM_11_2020":"background",
+     "hCoV_19_Italy_VEN_UniVR_117_2020":"background",
+     "hCoV_19_Panama_GMI_PA344037_2020":"background",
+     "hCoV_19_Slovenia_70767_2020":"background",
+     "hCoV_19_Spain_MD_IBV_003723_2020":"background",
+     "hCoV_19_Spain_NC_CHN_01000166_2020":"background",
+     "hCoV_19_Spain_RI_IBV_006019_2020":"background",
+     "hCoV_19_Sweden_01_SE100_21CS505850_2020":"background",
+     "hCoV_19_Switzerland_BL_UHB_42192973_2020":"background",
+     "hCoV_19_Switzerland_BS_UHB_42200131_2020":"background",
+     "hCoV_19_Turkey_HSGM_4816_2021":"background",
+     "hCoV_19_Turkey_HSGM_C7769_2021":"background",
+     "hCoV_19_Turkey_HSGM_D15451_2021":"background",
+     "hCoV_19_Turkey_HSGM_D16927_2021":"background",
+     "hCoV_19_Turkey_HSGM_D17236_2021":"background",
+     "hCoV_19_Turkey_HSGM_D18014_2021":"background",
+     "hCoV_19_Turkey_HSGM_D18026_2021":"background",
+     "hCoV_19_Turkey_HSGM_D21054_2021":"background",
+     "hCoV_19_Turkey_HSGM_D23630_2021":"background",
+     "hCoV_19_Turkey_HSGM_D23960_2021":"background",
+     "hCoV_19_USA_AZ_ASPHL_2860_2020":"background",
+     "hCoV_19_USA_AZ_TG666168_2020":"background",
+     "hCoV_19_USA_CA_CDPH_2000028319_2021":"background",
+     "hCoV_19_USA_CA_CHLA_PLM75223157_2020":"background",
+     "hCoV_19_USA_CA_SEARCH_14715_2021":"background",
+     "hCoV_19_USA_CA_UCSC_443_2020":"background",
+     "hCoV_19_USA_CT_CDC_QDX22257993_2021":"background",
+     "hCoV_19_USA_GA_EHC_580J_2020":"background",
+     "hCoV_19_USA_KS_KHEL_0552_2020":"background",
+     "hCoV_19_USA_LA_BIE_027_2020":"background",
+     "hCoV_19_USA_MA_MASPHL_00230_2020":"background",
+     "hCoV_19_USA_MA_MGH_01071_2020":"background",
+     "hCoV_19_USA_MD_HP06635_PIDLEHQTMF_2020":"background",
+     "hCoV_19_USA_MD_MDH_0023_2020":"background",
+     "hCoV_19_USA_MI_MDHHS_SC20437_2020":"background",
+     "hCoV_19_USA_MI_MDHHS_SC20662_2020":"background",
+     "hCoV_19_USA_MI_MDHHS_SC21645_2020":"background",
+     "hCoV_19_USA_MI_MDHHS_SC22669_2020":"background",
+     "hCoV_19_USA_MI_MDHHS_SC23517_2020":"background",
+     "hCoV_19_USA_MO_MSPHL_000490_2020":"background",
+     "hCoV_19_USA_MT_WL_774_2020":"background",
+     "hCoV_19_USA_NE_CDC_STM_000004255_2021":"background",
+     "hCoV_19_USA_NM_UNM_00086_2020":"background",
+     "hCoV_19_USA_NY_PRL_2020_1229_01D09_2020":"background",
+     "hCoV_19_USA_NY_UB_00111_2020":"background",
+     "hCoV_19_USA_NY_Wadsworth_64197_01_2020":"background",
+     "hCoV_19_USA_TX_HMH_5167_2020":"background",
+     "hCoV_19_USA_TX_HMH_5813_2020":"background",
+     "hCoV_19_USA_TX_HMH_MCoV_17294_2020":"background",
+     "hCoV_19_USA_TX_HMH_MCoV_22346_2021":"background",
+     "hCoV_19_USA_TX_HMH_MCoV_22700_2020":"background",
+     "hCoV_19_USA_TX_HMH_MCoV_25052_2021":"background",
+     "hCoV_19_USA_TX_HMH_MCoV_49819_2020":"background",
+     "hCoV_19_USA_TX_TCH_TCMC02076_2021":"background",
+     "hCoV_19_USA_UT_UPHL_201026584_2020":"background",
+     "hCoV_19_USA_VA_DCLS_1337_2020":"background",
+     "hCoV_19_USA_VA_DCLS_1402_2020":"background",
+     "hCoV_19_USA_WA_S1461_2020":"background",
+     "hCoV_19_USA_WI_GMF_B00788_2021":"background",
+     "hCoV_19_USA_WY_UNM_WY00429_2020":"background",
+     "hCoV_19_Wales_PHWC_163EC4_2020":"background",
+     "hCoV_19_Wuhan_WH01_2019":"background",
+     "hCoV_19_Zambia_ZMB_229_2020":"background",
+     "hCoV_19_Zambia_ZMB_53639_2020":"background",
+     "hCoV_19_cat_USA_UT_CDC_4159739_001_2020":"background",
+     "hCoV_19_mink_Denmark_mDK_152_2020":"background",
+     "hCoV_19_mink_Denmark_mDK_159_2020":"background",
+     "hCoV_19_mink_Denmark_mDK_273_2020":"background",
+     "hCoV_19_mink_Denmark_mDK_532_2020":"background",
+     "hCoV_19_mink_Denmark_mDK_560_2020":"background",
+     "hCoV_19_mink_USA_UT_20_031893_001_2020":"background",
+     "hCoV_19_mink_USA_UT_20_031894_014_2020":"background",
+     "hCoV_19_mink_USA_UT_20_031894_017_2020":"background",
+     "hCoV_19_mink_USA_UT_20_032048_005_2020":"background",
+     "hCoV_19_mink_USA_UT_20_032048_008_2020":"background",
+     "hCoV_19_mink_USA_UT_20_032049_004_2020":"background",
+     "hCoV_19_mink_USA_UT_20_032049_008_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4159696_001_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4159747_001_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4159780_001_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4168008_001_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4168068_001_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4168073_001_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4168074_001_2020":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455648_001_2021":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455651_001_2021":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455671_001_2021":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455698_001_2021":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455725_001_2021":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455738_001_2021":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455742_001_2021":"background",
+     "hCoV_19_mink_USA_UT_CDC_4455743_001_2021":"background",
+     "hCoV_19_mink_USA_WI_20_031493_001_2020":"background",
+     "hCoV_19_mink_USA_WI_20_031493_003_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892577_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892579_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892581_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892583_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892585_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892586_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892587_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892589_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892590_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892591_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892592_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892594_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892604_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892875_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892876_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892883_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892894_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892899_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892916_001_2020":"background",
+     "hCoV_19_mink_USA_WI_CDC_3892917_001_2020":"background"
+    }
+  },
+ "timers":{
+   "Baseline model fitting":{
+     "order":2,
+     "timer":12
+    },
+   "Complexity analysis":{
+     "order":3,
+     "timer":397
+    },
+   "Full adaptive model fitting":{
+     "order":4,
+     "timer":23
+    },
+   "Overall":{
+     "order":0,
+     "timer":563
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":2
+    },
+   "Testing for selection":{
+     "order":5,
+     "timer":129
+    }
+  }
+}

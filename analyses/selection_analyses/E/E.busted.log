@@ -1,0 +1,303 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.1
+
+
+>code –> Universal
+Error:
+
+Master node received an error:Empty File Encountered By ReadDataSet.
+
+Function call stack
+1 :  [namespace = uXcNqnLS] DataSet ^dataset_name = ReadDataFile(PROMPT_FOR_FILE);
+
+	Keyword arguments:
+		{
+		 "branches":"on_deer",
+		 "output":"E.busted.json",
+		 "starting-points":"10",
+		 "tree":"B1_and_deer_E.fasta.raxml.labelled.bestTree"
+		}
+-------
+2 :  [namespace = pWHCLMAp] code_info=alignments.LoadGeneticCode(None);
+-------
+3 :  [namespace = rCDMUZBV] return alignments.ReadCodonDataSetFromPath(dataset_name,None);
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+-------
+5 :  [namespace = busted] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(prefix+".codon_data",prefix+".codon_filter");
+-------
+6 :  [namespace = busted] load_file("busted");
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file("busted");;
+-------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+HYPHYMPI terminated.
+Error:
+HyPhy killed by signal 15
+
+
+[upswing:2926112] 9 more processes have sent help message help-mpi-api.txt / mpi-abort
+[upswing:2926112] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[warn] Epoll MOD(1) on fd 29 failed.  Old events were 6; read change was 0 (none); write change was 2 (del): Bad file descriptor
+[warn] Epoll MOD(4) on fd 29 failed.  Old events were 6; read change was 2 (del); write change was 0 (none): Bad file descriptor
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.1
+
+
+>code –> Universal
+Error:
+
+Master node received an error:Empty File Encountered By ReadDataSet.
+
+Function call stack
+1 :  [namespace = FgIlDKSH] DataSet ^dataset_name = ReadDataFile(PROMPT_FOR_FILE);
+
+	Keyword arguments:
+		{
+		 "branches":"on_deer",
+		 "output":"E.busted.json",
+		 "starting-points":"10",
+		 "tree":"B1_and_deer_E.fasta.raxml.labelled.bestTree"
+		}
+-------
+2 :  [namespace = YESJWabR] code_info=alignments.LoadGeneticCode(None);
+-------
+3 :  [namespace = JoyEaXde] return alignments.ReadCodonDataSetFromPath(dataset_name,None);
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+-------
+5 :  [namespace = busted] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(prefix+".codon_data",prefix+".codon_filter");
+-------
+6 :  [namespace = busted] load_file("busted");
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /workspace/home/finlaymaguire/miniconda3/envs/RASCL/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file("busted");;
+-------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.1
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 152 duplicate sequences. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+
+>Loaded a multiple sequence alignment with **160** sequences, **75** codons, and **1** partitions from `/home/finlaymaguire/workspace/basic/clean_run/E/B1_and_deer_E.fasta`
+
+>branches –> on_deer
+
+>srv –> Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>rates –> 3
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>syn-rates –> 3
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size –> 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points –> 10
+
+
+### Branches to test for selection in the BUSTED analysis
+* Selected 11 branches to test in the BUSTED analysis: `4645, 4658, 4649, Node26, 4662, Node25, Canada_ON_PHL_21_44225_2021, Node24, 4581, Node23, Node21`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 156 zero-length internal branches: `Node10, Node100, Node101, Node102, Node103, Node104, Node105, Node106, Node107, Node108, Node109, Node11, Node110, Node111, Node112, Node113, Node114, Node115, Node116, Node117, Node118, Node119, Node12, Node120, Node121, Node122, Node123, Node124, Node125, Node126, Node127, Node128, Node129, Node13, Node130, Node131, Node132, Node133, Node134, Node135, Node136, Node137, Node138, Node139, Node14, Node140, Node141, Node142, Node143, Node144, Node145, Node146, Node147, Node148, Node149, Node15, Node150, Node151, Node152, Node153, Node154, Node155, Node156, Node157, Node158, Node159, Node16, Node160, Node161, Node162, Node163, Node164, Node165, Node166, Node167, Node168, Node169, Node17, Node170, Node171, Node172, Node173, Node174, Node175, Node176, Node177, Node178, Node179, Node18, Node180, Node181, Node182, Node183, Node184, Node185, Node186, Node187, Node188, Node189, Node19, Node190, Node191, Node192, Node193, Node194, Node195, Node196, Node199, Node2, Node201, Node203, Node205, Node207, Node209, Node211, Node23, Node24, Node25, Node26, Node3, Node32, Node33, Node34, Node35, Node36, Node37, Node38, Node39, Node4, Node40, Node41, Node42, Node43, Node44, Node45, Node46, Node47, Node48, Node49, Node5, Node50, Node51, Node52, Node6, Node7, Node8, Node9, Node92, Node93, Node94, Node95, Node96, Node97, Node98, Node99, __reroot_top_clade`
+* Log(L) =  -331.26, AIC-c =  1318.45 (325 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) =  -324.23, AIC-c =  1007.80 (177 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.5886
+* non-synonymous/synonymous rate ratio for *test* =   0.5828
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) =  -324.23, AIC-c =  1007.80 (177 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.5902
+* non-synonymous/synonymous rate ratio for *test* =   0.5812
+
+### Performing the full (dN/dS > 1 allowed) branch-site model fit
+[2KComputing LF on a grid[2KComputing LF on a grid 1/20[2KComputing LF on a grid 2/20[2KComputing LF on a grid 3/20[2KComputing LF on a grid 4/20[2KComputing LF on a grid 5/20[2KComputing LF on a grid 6/20[2KComputing LF on a grid 7/20[2KComputing LF on a grid 8/20[2KComputing LF on a grid 9/20[2KComputing LF on a grid 10/20[2KComputing LF on a grid 11/20[2KComputing LF on a grid 12/20[2KComputing LF on a grid 13/20[2KComputing LF on a grid 14/20[2KComputing LF on a grid 15/20[2KComputing LF on a grid 16/20[2KComputing LF on a grid 17/20[2KComputing LF on a grid 18/20[2KComputing LF on a grid 19/20[2K                            [2K[2KWorking on crude initial optimizations[2KStarting point 1/10. Best LogL = -330.7239111691626[2KStarting point 2/10. Best LogL = -330.7239111691626[2KStarting point 3/10. Best LogL = -330.7223822488552[2KStarting point 4/10. Best LogL = -330.6654339561028[2KStarting point 5/10. Best LogL = -330.6440141943892[2KStarting point 6/10. Best LogL = -330.6440141943892[2KStarting point 7/10. Best LogL = -330.6440141943892[2KStarting point 8/10. Best LogL = -330.6440141943892[2KStarting point 9/10. Best LogL = -330.6440141943892[2KStarting point 10/10. Best LogL = -330.6440141943892[2K                                                    [2K* Log(L) =  -324.23, AIC-c =  1034.61 (190 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.451     |    0.000    |       Not supported by data       |
+|        Negative selection         |     0.586     |   100.000   |                                   |
+|      Diversifying selection       |     1.497     |    0.000    |       Not supported by data       |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.593     |   100.000   |                                   |
+|        Negative selection         |     0.895     |    0.000    |       Not supported by data       |
+|      Diversifying selection       |     2.682     |    0.000    |       Not supported by data       |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.969               |     0.000     |       Not supported by data       |
+|               0.991               |     0.000     |       Not supported by data       |
+|               1.000               |    100.000    |       Collapsed rate class        |
+
+
+### No evidence for episodic diversifying positive selection under the unconstrained model, skipping constrained model fitting
+----
+## Branch-site unrestricted statistical test of episodic diversification [BUSTED]
+Likelihood ratio test for episodic diversifying positive selection, **p =   0.5000**.
+
+
+

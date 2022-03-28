@@ -1,0 +1,441 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 59 duplicate sequences. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+
+>Loaded a multiple sequence alignment with **160** sequences, **1273** codons, and **1** partitions from `/home/finlaymaguire/workspace/basic/clean_run/S/B1_and_deer_S.fasta`
+
+>branches –> on_deer
+
+>multiple-hits –> None
+
+
+### * Selected 11 branches for testing: `4581, 4662, Node267, 4645, Node266, Canada_ON_PHL_21_44225_2021, Node265, 4649, Node264, 4658, Node263`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 134 zero-length internal branches: `Node100, Node105, Node11, Node111, Node113, Node115, Node117, Node12, Node13, Node14, Node15, Node16, Node17, Node18, Node184, Node19, Node2, Node20, Node203, Node204, Node208, Node209, Node21, Node213, Node215, Node22, Node222, Node223, Node224, Node225, Node226, Node227, Node228, Node229, Node23, Node24, Node246, Node247, Node25, Node255, Node256, Node257, Node258, Node259, Node26, Node262, Node264, Node265, Node266, Node267, Node27, Node278, Node279, Node28, Node280, Node281, Node282, Node283, Node284, Node285, Node286, Node287, Node288, Node289, Node29, Node290, Node291, Node292, Node293, Node294, Node295, Node3, Node30, Node31, Node32, Node33, Node34, Node35, Node36, Node37, Node38, Node39, Node40, Node41, Node42, Node43, Node44, Node45, Node46, Node47, Node48, Node49, Node50, Node51, Node52, Node53, Node54, Node55, Node56, Node57, Node58, Node59, Node60, Node61, Node62, Node63, Node64, Node65, Node66, Node67, Node68, Node69, Node70, Node71, Node72, Node73, Node74, Node75, Node76, Node77, Node78, Node79, Node80, Node81, Node82, Node83, Node84, Node85, Node87, Node88, Node92, Node93, Node94, Node95`
+* Log(L) = -6196.43, AIC-c = 13043.20 (325 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -5963.67, AIC-c = 12688.76 (380 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.35, and 95% of the weight in  0.00 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|  hCoV_19_USA_WI_GMF_B00788_2021   |   0.00   |    2     |    0.96 (23.57%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_CA_SEARCH_14715_2021...|   0.00   |    2     |   28.00 ( 5.00%)   |   -5963.68    |   12692.80    |    12688.76     |
+|hCoV_19_Germany_BY_RKI_I_046626_...|   0.00   |    2     |   29.22 ( 5.00%)   |   -5963.66    |   12692.75    |    12688.76     |
+|hCoV_19_USA_CT_CDC_QDX22257993_2...|   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D15451_2021  |   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node263              |   0.00   |    2     |    0.70 (22.11%)   |   -5963.67    |   12692.78    |    12688.76     |
+|               4662                |   0.00   |    2     |    0.70 (25.21%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node132              |   0.00   |    2     |    0.71 (25.08%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Indonesia_JB_GS_WJHL_ITB...|   0.00   |    2     |    0.71 (23.96%)   |   -5963.67    |   12692.78    |    12688.76     |
+|               4658                |   0.00   |    2     |    1.00 (25.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|               Node4               |   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_India_MH_ACTREC_633_2020...|   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node261              |   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_CA_CDPH_2000028319_2...|   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_Denmark_mDK_152_202...|   0.00   |    2     |    0.29 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|        __reroot_top_clade         |   0.00   |    2     |    0.50 (50.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Denmark_DCGC_22602_2020  |   0.00   |    2     |    0.50 (50.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_MD_HP06635_PIDLEHQTM...|   0.00   |    2     |    0.50 (50.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node104              |   0.00   |    2     |    0.96 ( 0.04%)   |   -5964.39    |   12694.22    |    12688.76     |
+|    Canada_ON_PHL_21_44225_2021    |   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_Burkina_Faso_49_2021    |   0.00   |    2     |   1.00 (100.00%)   |   -5964.27    |   12693.98    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_C7769_2021   |   0.00   |    2     |    1.15 ( 0.00%)   |   -5964.27    |   12693.98    |    12688.76     |
+|hCoV_19_Canada_QC_1nIEOQ_7051594...|   0.00   |    2     |    1.23 ( 0.00%)   |   -5964.27    |   12693.98    |    12688.76     |
+|              Node216              |   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_USA_TX_HMH_5813_2020    |   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Germany_BY_RKI_I_074295_...|   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|    hCoV_19_Zambia_ZMB_229_2020    |   0.00   |    2     |    0.25 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Denmark_DCGC_1008_2020   |   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node231              |   0.00   |    2     |    0.27 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_England_NORW_E7782_2020  |   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_Denmark_mDK_159_202...|   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Denmark_DCGC_41756_2021  |   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|    hCoV_19_USA_MT_WL_774_2020     |   0.00   |    2     |    0.28 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_Denmark_mDK_532_202...|   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node86               |   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|              Node233              |   0.00   |    2     |  888.88 (100.00%)  |   -5963.67    |   12692.78    |    12688.76     |
+|              Node221              |   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|hCoV_19_Ireland_LK_NVRL_MPL24200...|   0.00   |    2     |    1.05 ( 2.25%)   |   -5964.02    |   12693.49    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4159696_...|   0.00   |    2     |  735.58 (100.00%)  |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D23630_2021  |   0.00   |    2     |    0.99 ( 2.06%)   |   -5964.02    |   12693.49    |    12688.76     |
+|  hCoV_19_Australia_QLD1259_2020   |   0.00   |    2     |    1.05 ( 2.25%)   |   -5964.02    |   12693.49    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4168074_...|   0.00   |    2     |    0.97 (53.64%)   |   -5964.00    |   12693.44    |    12688.76     |
+|hCoV_19_USA_MA_MASPHL_00230_2020...|   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|              Node183              |   0.00   |    2     |    1.05 ( 2.25%)   |   -5964.02    |   12693.49    |    12688.76     |
+|              Node210              |   0.00   |    2     |    0.98 (49.77%)   |   -5964.00    |   12693.44    |    12688.76     |
+|              Node10               |   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|hCoV_19_USA_NY_PRL_2020_1229_01D...|   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Wales_PHWC_163EC4_2020   |   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|   hCoV_19_USA_MD_MDH_0023_2020    |   0.00   |    2     |    1.06 (26.84%)   |   -5964.01    |   12693.45    |    12688.76     |
+|   hCoV_19_USA_GA_EHC_580J_2020    |   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|              Node190              |   0.00   |    2     |  >1000 (100.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node277              |   0.00   |    2     |    0.99 (16.32%)   |   -5964.01    |   12693.47    |    12688.76     |
+|   hCoV_19_USA_CA_UCSC_443_2020    |   0.00   |    2     |    0.98 (35.25%)   |   -5963.98    |   12693.40    |    12688.76     |
+|  hCoV_19_England_CAMB_78953_2020  |   0.00   |    2     |    1.05 ( 2.25%)   |   -5964.02    |   12693.49    |    12688.76     |
+|hCoV_19_USA_NE_CDC_STM_000004255...|   0.00   |    2     |    1.06 (27.19%)   |   -5964.01    |   12693.45    |    12688.76     |
+|              Node245              |   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|    hCoV_19_Slovenia_70767_2020    |   0.00   |    2     |    0.90 (36.72%)   |   -5964.00    |   12693.44    |    12688.76     |
+|   hCoV_19_USA_VA_DCLS_1402_2020   |   0.00   |    2     |    1.06 (17.87%)   |   -5964.02    |   12693.47    |    12688.76     |
+|              Node141              |   0.00   |    2     |    0.96 ( 0.00%)   |   -5964.03    |   12693.50    |    12688.76     |
+|   hCoV_19_USA_AZ_TG666168_2020    |   0.00   |    2     |    1.05 ( 2.25%)   |   -5964.02    |   12693.49    |    12688.76     |
+|              Node254              |   0.00   |    2     |   >1000 (92.37%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node123              |   0.00   |    2     |    0.26 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|              Node200              |   0.00   |    2     |    0.25 ( 2.00%)   |   -5964.21    |   12693.85    |    12688.76     |
+|              Node202              |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.72    |   12692.88    |    12688.76     |
+|              Node125              |   0.00   |    2     |    0.25 ( 0.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_France_PAC_IHU_0508_Illu...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_England_SHEF_CF270_2020  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_England_202890228_2020   |   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_France_IDF_IPP2779_2020  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_England_NORW_E8D61_2020  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Sweden_01_SE100_21CS5058...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Germany_NW_RKI_I_031905_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Egypt_CUNCI_HGC015_2020  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Egypt_CUNCI_HGC5I016_202...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_England_20179044604_2020...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_England_CAMB_7C166_2020  |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Spain_RI_IBV_006019_2020...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_France_PAC_IHU_11489_Ill...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Ireland_KE_20G31522_2020...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D18014_2021  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Germany_BW_RKI_I_028376_...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Denmark_DCGC_2977_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_India_DL_NCDC_4475_2020  |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D17236_2021  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Hong_Kong_CUHK_NC1750_20...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Canada_QC_LSPQ_L00218337...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892917_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Switzerland_BL_UHB_42192...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Denmark_ALAB_HH20_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|      hCoV_19_Iceland_93_2020      |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_India_MH_NIV_99913_2020  |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D16927_2021  |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Switzerland_BS_UHB_42200...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Italy_TAA_MUIV_0093_2020...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Brazil_SP_IB_125628_2021...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892916_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Spain_NC_CHN_01000166_20...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_Turkey_HSGM_4816_2021   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892899_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Spain_MD_IBV_003723_2020...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Italy_TAA_MUIV_0094_2020...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_Italy_TUS_DBM_11_2020   |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Panama_GMI_PA344037_2020...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_Italy_VEN_UniVR_117_2020...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_Austria_CeMM0647_2020   |   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_USA_AZ_ASPHL_2860_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|               4649                |   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|               4581                |   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|               4645                |   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|               Hu_1                |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Australia_QLD1574_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_Australia_VIC243_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D18026_2021  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D23960_2021  |   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_Turkey_HSGM_D21054_2021  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892894_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4168008_...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4159780_...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4159747_...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4168068_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455651_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455648_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4168073_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_20_032049_00...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_20_031893_00...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_Denmark_mDK_560_202...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_Denmark_mDK_273_202...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_20_031894_01...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_20_032049_00...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_20_032048_00...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_20_031894_01...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_20_032048_00...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455671_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892585_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892583_...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892581_...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892586_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892590_...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892589_...|   0.00   |    2     |    0.29 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892587_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892579_...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455738_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455725_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455698_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455742_...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892577_...|   0.00   |    2     |    0.29 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_20_031493_00...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_UT_CDC_4455743_...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_20_031493_00...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_cat_USA_UT_CDC_4159739_0...|   0.00   |    2     |    0.29 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_MI_MDHHS_SC20437_202...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_USA_MA_MGH_01071_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|    hCoV_19_USA_LA_BIE_027_2020    |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_MI_MDHHS_SC20662_202...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_MI_MDHHS_SC23517_202...|   0.00   |    2     |    0.29 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_MI_MDHHS_SC22669_202...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_MI_MDHHS_SC21645_202...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_USA_KS_KHEL_0552_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892875_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892876_...|   0.00   |    2     |    0.25 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892883_...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892604_...|   0.00   |    2     |    0.29 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_CA_CHLA_PLM75223157_...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892591_...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892594_...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_mink_USA_WI_CDC_3892592_...|   0.00   |    2     |    0.29 (23.78%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_MO_MSPHL_000490_2020...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_USA_VA_DCLS_1337_2020   |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_UT_UPHL_201026584_20...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_TX_TCH_TCMC02076_202...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|     hCoV_19_USA_WA_S1461_2020     |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_Zambia_ZMB_53639_2020   |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|      hCoV_19_Wuhan_WH01_2019      |   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|  hCoV_19_USA_WY_UNM_WY00429_2020  |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_TX_HMH_MCoV_49819_20...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_NY_Wadsworth_64197_0...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_USA_NY_UB_00111_2020    |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_USA_NM_UNM_00086_2020   |   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|   hCoV_19_USA_TX_HMH_5167_2020    |   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_TX_HMH_MCoV_25052_20...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_TX_HMH_MCoV_22700_20...|   0.00   |    2     |    0.25 (29.22%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_TX_HMH_MCoV_17294_20...|   0.00   |    2     |    0.25 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+|hCoV_19_USA_TX_HMH_MCoV_22346_20...|   0.00   |    2     |    0.29 ( 2.00%)   |   -5963.67    |   12692.78    |    12688.76     |
+
+### Rate class analyses summary
+*  183 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -5963.53, AIC-c = 12688.49 (380 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|  hCoV_19_USA_WI_GMF_B00788_2021   |     1    |   0.69 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_CA_SEARCH_14715_2021...|     1    |   1.73 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Germany_BY_RKI_I_046626_...|     1    |   1.39 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_CT_CDC_QDX22257993_2...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D15451_2021  |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node263              |     1    |   0.15 (100.00%)   |        0.00        |       1.00000      |
+|               4662                |     1    |   0.17 (100.00%)   |        0.00        |       1.00000      |
+|              Node132              |     1    |   0.17 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Indonesia_JB_GS_WJHL_ITB...|     1    |   0.17 (100.00%)   |    Not selected    |    for testing     |
+|               4658                |     1    |   0.69 (100.00%)   |        0.00        |       1.00000      |
+|               Node4               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_India_MH_ACTREC_633_2020...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node261              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_CA_CDPH_2000028319_2...|     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_Denmark_mDK_152_202...|     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|        __reroot_top_clade         |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Denmark_DCGC_22602_2020  |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MD_HP06635_PIDLEHQTM...|     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|              Node104              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|    Canada_ON_PHL_21_44225_2021    |     1    |  >1000 (100.00%)   |        1.19        |       0.22043      |
+|   hCoV_19_Burkina_Faso_49_2021    |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_C7769_2021   |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Canada_QC_1nIEOQ_7051594...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node216              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_TX_HMH_5813_2020    |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Germany_BY_RKI_I_074295_...|     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|    hCoV_19_Zambia_ZMB_229_2020    |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Denmark_DCGC_1008_2020   |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node231              |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_England_NORW_E7782_2020  |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_Denmark_mDK_159_202...|     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Denmark_DCGC_41756_2021  |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|    hCoV_19_USA_MT_WL_774_2020     |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_Denmark_mDK_532_202...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node86               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node233              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node221              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Ireland_LK_NVRL_MPL24200...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4159696_...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D23630_2021  |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Australia_QLD1259_2020   |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4168074_...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MA_MASPHL_00230_2020...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node183              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node210              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node10               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_NY_PRL_2020_1229_01D...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Wales_PHWC_163EC4_2020   |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_MD_MDH_0023_2020    |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_GA_EHC_580J_2020    |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node190              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node277              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_CA_UCSC_443_2020    |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_England_CAMB_78953_2020  |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_NE_CDC_STM_000004255...|     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node245              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|    hCoV_19_Slovenia_70767_2020    |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_VA_DCLS_1402_2020   |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node141              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_AZ_TG666168_2020    |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node254              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node123              |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node200              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node202              |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node125              |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_France_PAC_IHU_0508_Illu...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_England_SHEF_CF270_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_England_202890228_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_France_IDF_IPP2779_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_England_NORW_E8D61_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Sweden_01_SE100_21CS5058...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Germany_NW_RKI_I_031905_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Egypt_CUNCI_HGC015_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Egypt_CUNCI_HGC5I016_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_England_20179044604_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_England_CAMB_7C166_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Spain_RI_IBV_006019_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_France_PAC_IHU_11489_Ill...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Ireland_KE_20G31522_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D18014_2021  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Germany_BW_RKI_I_028376_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Denmark_DCGC_2977_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_India_DL_NCDC_4475_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D17236_2021  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Hong_Kong_CUHK_NC1750_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Canada_QC_LSPQ_L00218337...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892917_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Switzerland_BL_UHB_42192...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Denmark_ALAB_HH20_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|      hCoV_19_Iceland_93_2020      |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_India_MH_NIV_99913_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D16927_2021  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Switzerland_BS_UHB_42200...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Italy_TAA_MUIV_0093_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Brazil_SP_IB_125628_2021...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892916_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Spain_NC_CHN_01000166_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_Turkey_HSGM_4816_2021   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892899_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Spain_MD_IBV_003723_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Italy_TAA_MUIV_0094_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_Italy_TUS_DBM_11_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Panama_GMI_PA344037_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_Italy_VEN_UniVR_117_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_Austria_CeMM0647_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_USA_AZ_ASPHL_2860_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|               4649                |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|               4581                |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|               4645                |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|               Hu_1                |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Australia_QLD1574_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_Australia_VIC243_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D18026_2021  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D23960_2021  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_Turkey_HSGM_D21054_2021  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892894_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4168008_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4159780_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4159747_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4168068_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455651_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455648_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4168073_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_20_032049_00...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_20_031893_00...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_Denmark_mDK_560_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_Denmark_mDK_273_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_20_031894_01...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_20_032049_00...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_20_032048_00...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_20_031894_01...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_20_032048_00...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455671_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892585_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892583_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892581_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892586_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892590_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892589_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892587_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892579_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455738_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455725_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455698_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455742_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892577_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_20_031493_00...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_UT_CDC_4455743_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_20_031493_00...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_cat_USA_UT_CDC_4159739_0...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MI_MDHHS_SC20437_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_MA_MGH_01071_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|    hCoV_19_USA_LA_BIE_027_2020    |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MI_MDHHS_SC20662_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MI_MDHHS_SC23517_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MI_MDHHS_SC22669_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MI_MDHHS_SC21645_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_KS_KHEL_0552_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892875_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892876_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892883_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892604_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_CA_CHLA_PLM75223157_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892591_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892594_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_mink_USA_WI_CDC_3892592_...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_MO_MSPHL_000490_2020...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_VA_DCLS_1337_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_UT_UPHL_201026584_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_TX_TCH_TCMC02076_202...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|     hCoV_19_USA_WA_S1461_2020     |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_Zambia_ZMB_53639_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|      hCoV_19_Wuhan_WH01_2019      |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|  hCoV_19_USA_WY_UNM_WY00429_2020  |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_TX_HMH_MCoV_49819_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_NY_Wadsworth_64197_0...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_NY_UB_00111_2020    |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_NM_UNM_00086_2020   |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|   hCoV_19_USA_TX_HMH_5167_2020    |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_TX_HMH_MCoV_25052_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_TX_HMH_MCoV_22700_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_TX_HMH_MCoV_17294_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|hCoV_19_USA_TX_HMH_MCoV_22346_20...|     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **7** tested.
+
+
+

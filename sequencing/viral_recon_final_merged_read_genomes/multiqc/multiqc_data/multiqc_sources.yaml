@@ -1,0 +1,105 @@
+'PREPROCESS: FastQC (raw reads)':
+  all_sections:
+    '3165': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/3165_fastqc.zip
+    '3182': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/3182_fastqc.zip
+    '4534': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4534_fastqc.zip
+    '4535': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4535_fastqc.zip
+    '4538': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4538_fastqc.zip
+    '4542': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4542_fastqc.zip
+    '4581': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4581_fastqc.zip
+    '4645': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4645_fastqc.zip
+    '4649': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4649_fastqc.zip
+    '4658': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4658_fastqc.zip
+    '4662': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4662_fastqc.zip
+    '4676': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4676_fastqc.zip
+    '4693': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastqc/4693_fastqc.zip
+'PREPROCESS: fastp (adapter trimming)':
+  all_sections:
+    '3165': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/3165.fastp.json
+    '3182': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/3182.fastp.json
+    '4534': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4534.fastp.json
+    '4535': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4535.fastp.json
+    '4538': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4538.fastp.json
+    '4542': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4542.fastp.json
+    '4581': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4581.fastp.json
+    '4645': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4645.fastp.json
+    '4649': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4649.fastp.json
+    '4658': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4658.fastp.json
+    '4662': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4662.fastp.json
+    '4676': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4676.fastp.json
+    '4693': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/fastp/4693.fastp.json
+'VARIANTS: BCFTools':
+  stats:
+    '3165': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/3165.bcftools_stats.txt
+    '3182': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/3182.bcftools_stats.txt
+    '4534': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4534.bcftools_stats.txt
+    '4535': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4535.bcftools_stats.txt
+    '4538': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4538.bcftools_stats.txt
+    '4542': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4542.bcftools_stats.txt
+    '4581': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4581.bcftools_stats.txt
+    '4645': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4645.bcftools_stats.txt
+    '4649': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4649.bcftools_stats.txt
+    '4658': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4658.bcftools_stats.txt
+    '4662': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4662.bcftools_stats.txt
+    '4676': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4676.bcftools_stats.txt
+    '4693': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4693.bcftools_stats.txt
+'VARIANTS: Bowtie 2':
+  all_sections:
+    '3165': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/3165.bowtie2.log
+    '3182': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/3182.bowtie2.log
+    '4534': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4534.bowtie2.log
+    '4535': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4535.bowtie2.log
+    '4538': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4538.bowtie2.log
+    '4542': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4542.bowtie2.log
+    '4581': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4581.bowtie2.log
+    '4645': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4645.bowtie2.log
+    '4649': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4649.bowtie2.log
+    '4658': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4658.bowtie2.log
+    '4662': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4662.bowtie2.log
+    '4676': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4676.bowtie2.log
+    '4693': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4693.bowtie2.log
+'VARIANTS: SAMTools (raw)':
+  flagstat:
+    '3165': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/3165.sorted.bam.flagstat
+    '3182': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/3182.sorted.bam.flagstat
+    '4534': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4534.sorted.bam.flagstat
+    '4535': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4535.sorted.bam.flagstat
+    '4538': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4538.sorted.bam.flagstat
+    '4542': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4542.sorted.bam.flagstat
+    '4581': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4581.sorted.bam.flagstat
+    '4645': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4645.sorted.bam.flagstat
+    '4649': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4649.sorted.bam.flagstat
+    '4658': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4658.sorted.bam.flagstat
+    '4662': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4662.sorted.bam.flagstat
+    '4676': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4676.sorted.bam.flagstat
+    '4693': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/bowtie2/4693.sorted.bam.flagstat
+'VARIANTS: SnpEff':
+  all_sections:
+    '3165': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/3165.snpeff.csv
+    '3182': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/3182.snpeff.csv
+    '4534': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4534.snpeff.csv
+    '4535': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4535.snpeff.csv
+    '4538': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4538.snpeff.csv
+    '4542': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4542.snpeff.csv
+    '4581': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4581.snpeff.csv
+    '4645': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4645.snpeff.csv
+    '4649': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4649.snpeff.csv
+    '4658': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4658.snpeff.csv
+    '4662': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4662.snpeff.csv
+    '4676': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4676.snpeff.csv
+    '4693': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/variants/4693.snpeff.csv
+'VARIANTS: mosdepth':
+  genome_results:
+    '3165': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/3165.mosdepth.global.dist.txt
+    '3182': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/3182.mosdepth.global.dist.txt
+    '4534': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4534.mosdepth.global.dist.txt
+    '4535': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4535.mosdepth.global.dist.txt
+    '4538': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4538.mosdepth.global.dist.txt
+    '4542': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4542.mosdepth.global.dist.txt
+    '4581': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4581.mosdepth.global.dist.txt
+    '4645': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4645.mosdepth.global.dist.txt
+    '4649': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4649.mosdepth.global.dist.txt
+    '4658': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4658.mosdepth.global.dist.txt
+    '4662': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4662.mosdepth.global.dist.txt
+    '4676': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4676.mosdepth.global.dist.txt
+    '4693': /home/pkruczkiewicz/projects/2022-02-14-on-wtd-sars-cov-2-merge-sbi-articv4-fusion-genomics/work/b5/91c44e934b16939f61159696877365/mosdepth/4693.mosdepth.global.dist.txt

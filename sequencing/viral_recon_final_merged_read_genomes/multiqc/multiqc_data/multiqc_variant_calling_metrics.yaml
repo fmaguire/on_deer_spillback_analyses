@@ -1,0 +1,208 @@
+3165.0:
+  '# INDELs': 7.0
+  '# Input reads': 56734.0
+  '# Mapped reads': 56086.0
+  '# Missense variants': 33.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 63.0
+  '# Trimmed reads (fastp)': 56086.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 51.0
+  '% Coverage > 1x': 72.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 11.0
+  Nextclade clade: NA
+  Pangolin lineage: None
+3182.0:
+  '# INDELs': 1.0
+  '# Input reads': 4708.0
+  '# Mapped reads': 4664.0
+  '# Missense variants': 7.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 17.0
+  '# Trimmed reads (fastp)': 4665.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 15.0
+  '% Coverage > 1x': 35.0
+  '% Mapped reads': 99.98
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: NA
+  Nextclade clade: NA
+  Pangolin lineage: None
+4534.0:
+  '# INDELs': 5.0
+  '# Input reads': 189086.0
+  '# Mapped reads': 188633.0
+  '# Missense variants': 58.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 109.0
+  '# Trimmed reads (fastp)': 188633.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 95.0
+  '% Coverage > 1x': 99.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 675.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4535.0:
+  '# INDELs': 1.0
+  '# Input reads': 45729.0
+  '# Mapped reads': 45688.0
+  '# Missense variants': 21.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 39.0
+  '# Trimmed reads (fastp)': 45688.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 28.000000000000004
+  '% Coverage > 1x': 57.99999999999999
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 2.0
+  Nextclade clade: NA
+  Pangolin lineage: None
+4538.0:
+  '# INDELs': NA
+  '# Input reads': 142201.0
+  '# Mapped reads': 139540.0
+  '# Missense variants': 35.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 78.0
+  '# Trimmed reads (fastp)': 139542.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 87.0
+  '% Coverage > 1x': 94.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 159.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4542.0:
+  '# INDELs': NA
+  '# Input reads': 3014.0
+  '# Mapped reads': 2922.0
+  '# Missense variants': 14.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 23.0
+  '# Trimmed reads (fastp)': 2922.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 22.0
+  '% Coverage > 1x': 61.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 2.0
+  Nextclade clade: NA
+  Pangolin lineage: None
+4581.0:
+  '# INDELs': 2.0
+  '# Input reads': 569222.0
+  '# Mapped reads': 564657.0
+  '# Missense variants': 40.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 82.0
+  '# Trimmed reads (fastp)': 564663.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 100.0
+  '% Coverage > 1x': 100.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 2432.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4645.0:
+  '# INDELs': 2.0
+  '# Input reads': 364995.0
+  '# Mapped reads': 360713.0
+  '# Missense variants': 38.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 79.0
+  '# Trimmed reads (fastp)': 360728.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 100.0
+  '% Coverage > 1x': 100.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 1444.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4649.0:
+  '# INDELs': 3.0
+  '# Input reads': 41763.0
+  '# Mapped reads': 41411.0
+  '# Missense variants': 38.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 85.0
+  '# Trimmed reads (fastp)': 41412.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 97.0
+  '% Coverage > 1x': 100.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 149.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4658.0:
+  '# INDELs': 2.0
+  '# Input reads': 582966.0
+  '# Mapped reads': 578548.0
+  '# Missense variants': 41.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 94.0
+  '# Trimmed reads (fastp)': 578550.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 100.0
+  '% Coverage > 1x': 100.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 2295.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4662.0:
+  '# INDELs': 3.0
+  '# Input reads': 196207.0
+  '# Mapped reads': 195945.0
+  '# Missense variants': 48.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 102.0
+  '# Trimmed reads (fastp)': 195946.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 99.0
+  '% Coverage > 1x': 100.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 875.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4676.0:
+  '# INDELs': 7.0
+  '# Input reads': 107410.0
+  '# Mapped reads': 107410.0
+  '# Missense variants': 48.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 85.0
+  '# Trimmed reads (fastp)': 107410.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 78.0
+  '% Coverage > 1x': 83.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 259.0
+  Nextclade clade: NA
+  Pangolin lineage: B.1
+4693.0:
+  '# INDELs': 3.0
+  '# Input reads': 48212.0
+  '# Mapped reads': 48212.0
+  '# Missense variants': 36.0
+  '# Ns per 100kb consensus': NA
+  '# SNPs': 67.0
+  '# Trimmed reads (fastp)': 48212.0
+  '# Trimmed reads (iVar)': NA
+  '% Coverage > 10x': 54.0
+  '% Coverage > 1x': 60.0
+  '% Mapped reads': 100.0
+  '% Non-host reads (Kraken 2)': NA
+  Coverage median: 32.0
+  Nextclade clade: NA
+  Pangolin lineage: None

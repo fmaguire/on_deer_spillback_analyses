@@ -1,0 +1,13 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_HIGH	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_downstream_gene_variant	variants_effect_frameshift_variant	variants_effect_missense_variant	variants_effect_stop_gained	variants_effect_synonymous_variant	variants_effect_upstream_gene_variant
+E	gene-E	TRANSCRIPT_gene-E	protein_coding	0	0	0	13	6	0	0	0	0	7
+M	gene-M	TRANSCRIPT_gene-M	protein_coding	0	0	0	12	6	0	0	0	0	6
+N	gene-N	TRANSCRIPT_gene-N	protein_coding	0	0	3	6	2	0	3	0	0	4
+ORF10	gene-ORF10	TRANSCRIPT_gene-ORF10	protein_coding	0	1	1	7	0	0	1	0	1	7
+ORF1a	gene-ORF1a	TRANSCRIPT_gene-ORF1a	protein_coding	0	10	8	8	8	0	8	0	10	0
+ORF1b	gene-ORF1b	TRANSCRIPT_gene-ORF1b	protein_coding	1	4	6	20	6	1	6	0	4	14
+ORF3a	gene-ORF3a	TRANSCRIPT_gene-ORF3a	protein_coding	0	1	2	10	6	0	2	0	1	4
+ORF6	gene-ORF6	TRANSCRIPT_gene-ORF6	protein_coding	0	0	0	9	6	0	0	0	0	3
+ORF7a	gene-ORF7a	TRANSCRIPT_gene-ORF7a	protein_coding	0	0	0	9	6	0	0	0	0	3
+ORF8	gene-ORF8	TRANSCRIPT_gene-ORF8	protein_coding	1	0	0	8	5	0	0	1	0	3
+S	gene-S	TRANSCRIPT_gene-S	protein_coding	0	1	2	16	9	0	2	0	1	7

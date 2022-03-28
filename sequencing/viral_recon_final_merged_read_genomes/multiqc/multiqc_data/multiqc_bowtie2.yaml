@@ -1,0 +1,91 @@
+'3165':
+  overall_alignment_rate: 100.0
+  total_reads: 56086
+  unpaired_aligned_multi: 2
+  unpaired_aligned_none: 0
+  unpaired_aligned_one: 56084
+  unpaired_total: 56086
+'3182':
+  overall_alignment_rate: 99.98
+  total_reads: 4665
+  unpaired_aligned_multi: 1
+  unpaired_aligned_none: 1
+  unpaired_aligned_one: 4663
+  unpaired_total: 4665
+'4534':
+  overall_alignment_rate: 100.0
+  total_reads: 188633
+  unpaired_aligned_multi: 4227
+  unpaired_aligned_none: 0
+  unpaired_aligned_one: 184406
+  unpaired_total: 188633
+'4535':
+  overall_alignment_rate: 100.0
+  total_reads: 45688
+  unpaired_aligned_multi: 1
+  unpaired_aligned_none: 0
+  unpaired_aligned_one: 45687
+  unpaired_total: 45688
+'4538':
+  overall_alignment_rate: 100.0
+  total_reads: 139542
+  unpaired_aligned_multi: 2
+  unpaired_aligned_none: 2
+  unpaired_aligned_one: 139538
+  unpaired_total: 139542
+'4542':
+  overall_alignment_rate: 100.0
+  total_reads: 2922
+  unpaired_aligned_multi: 0
+  unpaired_aligned_none: 0
+  unpaired_aligned_one: 2922
+  unpaired_total: 2922
+'4581':
+  overall_alignment_rate: 100.0
+  total_reads: 564663
+  unpaired_aligned_multi: 3062
+  unpaired_aligned_none: 6
+  unpaired_aligned_one: 561595
+  unpaired_total: 564663
+'4645':
+  overall_alignment_rate: 100.0
+  total_reads: 360728
+  unpaired_aligned_multi: 1749
+  unpaired_aligned_none: 15
+  unpaired_aligned_one: 358964
+  unpaired_total: 360728
+'4649':
+  overall_alignment_rate: 100.0
+  total_reads: 41412
+  unpaired_aligned_multi: 597
+  unpaired_aligned_none: 1
+  unpaired_aligned_one: 40814
+  unpaired_total: 41412
+'4658':
+  overall_alignment_rate: 100.0
+  total_reads: 578550
+  unpaired_aligned_multi: 1649
+  unpaired_aligned_none: 2
+  unpaired_aligned_one: 576899
+  unpaired_total: 578550
+'4662':
+  overall_alignment_rate: 100.0
+  total_reads: 195946
+  unpaired_aligned_multi: 463
+  unpaired_aligned_none: 1
+  unpaired_aligned_one: 195482
+  unpaired_total: 195946
+'4676':
+  overall_alignment_rate: 100.0
+  total_reads: 107410
+  unpaired_aligned_multi: 84
+  unpaired_aligned_none: 0
+  unpaired_aligned_one: 107326
+  unpaired_total: 107410
+'4693':
+  overall_alignment_rate: 100.0
+  total_reads: 48212
+  unpaired_aligned_multi: 1148
+  unpaired_aligned_none: 0
+  unpaired_aligned_one: 47064
+  unpaired_total: 48212

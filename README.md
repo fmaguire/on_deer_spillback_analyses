@@ -38,3 +38,13 @@ Peter Kruczkiewicz's [xlavir](https://github.com/CFIA-NCFAD/xlavir) reports for 
 Individual analyses can be found in individual directories within this folder.
 Each folder contains a README and run scripts as relevant that contain commands executed.
 
+    analyses/comparison_of_passaged_genomes_to_originals/
+    analyses/contamination_check_taxonomic_read_profiling/
+    analyses/maximum_likelihood_phylogenies/
+    analyses/mutation_distribution_across_genomes/
+    analyses/neutralisation_and_binding_assays/
+    analyses/parsimony_usher_analysis/
+    analyses/root_to_tip_regression/
+    analyses/selection_analyses/
+    analyses/testing_for_recombination/
+    analyses/treetime/

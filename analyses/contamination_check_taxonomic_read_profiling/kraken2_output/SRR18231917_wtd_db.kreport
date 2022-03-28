@@ -1,0 +1,54 @@
+  6.56	15201	15201	U	0	unclassified
+ 93.44	216395	0	R	1	root
+ 85.22	197366	0	R1	131567	  cellular organisms
+ 85.22	197366	0	D	2759	    Eukaryota
+ 85.22	197366	0	D1	33154	      Opisthokonta
+ 85.22	197366	0	K	33208	        Metazoa
+ 85.22	197366	0	K1	6072	          Eumetazoa
+ 85.22	197366	0	K2	33213	            Bilateria
+ 85.22	197366	0	K3	33511	              Deuterostomia
+ 85.22	197366	0	P	7711	                Chordata
+ 85.22	197366	0	P1	89593	                  Craniata
+ 85.22	197366	0	P2	7742	                    Vertebrata
+ 85.22	197366	0	P3	7776	                      Gnathostomata
+ 85.22	197366	0	P4	117570	                        Teleostomi
+ 85.22	197366	0	P5	117571	                          Euteleostomi
+ 85.22	197366	0	P6	8287	                            Sarcopterygii
+ 85.22	197366	0	P7	1338369	                              Dipnotetrapodomorpha
+ 85.22	197366	0	P8	32523	                                Tetrapoda
+ 85.22	197366	0	P9	32524	                                  Amniota
+ 85.22	197366	0	C	40674	                                    Mammalia
+ 85.22	197366	0	C1	32525	                                      Theria
+ 85.22	197366	0	C2	9347	                                        Eutheria
+ 85.22	197366	366	C3	1437010	                                          Boreoeutheria
+ 83.50	193372	0	C4	314145	                                            Laurasiatheria
+ 83.50	193372	0	O	91561	                                              Artiodactyla
+ 83.50	193372	0	O1	9845	                                                Ruminantia
+ 83.50	193372	0	O2	35500	                                                  Pecora
+ 83.50	193372	0	F	9850	                                                    Cervidae
+ 83.50	193372	0	F1	9881	                                                      Odocoileinae
+ 83.50	193372	0	G	9871	                                                        Odocoileus
+ 83.50	193372	193372	S	9874	                                                          Odocoileus virginianus
+  1.57	3628	0	C4	314146	                                            Euarchontoglires
+  1.57	3628	0	O	9443	                                              Primates
+  1.57	3628	0	O1	376913	                                                Haplorrhini
+  1.57	3628	0	O2	314293	                                                  Simiiformes
+  1.57	3628	0	O3	9526	                                                    Catarrhini
+  1.57	3628	0	O4	314295	                                                      Hominoidea
+  1.57	3628	0	F	9604	                                                        Hominidae
+  1.57	3628	0	F1	207598	                                                          Homininae
+  1.57	3628	0	G	9605	                                                            Homo
+  1.57	3628	3628	S	9606	                                                              Homo sapiens
+  8.22	19029	0	D	10239	  Viruses
+  8.22	19029	0	D1	2559587	    Riboviria
+  8.22	19029	0	K	2732396	      Orthornavirae
+  8.22	19029	0	P	2732408	        Pisuviricota
+  8.22	19029	0	C	2732506	          Pisoniviricetes
+  8.22	19029	0	O	76804	            Nidovirales
+  8.22	19029	0	O1	2499399	              Cornidovirineae
+  8.22	19029	0	F	11118	                Coronaviridae
+  8.22	19029	0	F1	2501931	                  Orthocoronavirinae
+  8.22	19029	0	G	694002	                    Betacoronavirus
+  8.22	19029	0	G1	2509511	                      Sarbecovirus
+  8.22	19029	0	S	694009	                        Severe acute respiratory syndrome-related coronavirus
+  8.22	19029	19029	S1	2697049	                          Severe acute respiratory syndrome coronavirus 2

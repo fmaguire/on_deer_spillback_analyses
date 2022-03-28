@@ -1,0 +1,62 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -full nextclade_canada_most_recent_and_usher_and_deer/nextclade_canada_most_recent_and_usher_and_deer.aligned.fasta -ptable ptable1000_canada_subset -d -t0.5 -id canada_subsample_1000_pvalue0.5
+
+Removing identical sequences.
+
+Using 588 sequences as parents.
+Using 588 sequences as children.
+
+Need a p-value of 2.47205e-09 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "canada_subsample_1000_pvalue0.5.3s.rec".
+
+Long recombinants will be recorded to the file "canada_subsample_1000_pvalue0.5.3s.longRec".
+
+Loading P-value table from file "ptable1000_canada_subset"
+  Table size : 1000 * 1000 * 1000
+
+This will take 1272 MB of memory (RAM). Proceed? (Y/N) - YES
+
+Please be patient while the table loads into memory.
+This will typically take less than twenty seconds.
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      003:18:44       1.385471e-10              196
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              2.02261e+08
+Number of p-values computed exactly :   2.02261e+08
+Number of p-values approximated (HS) :  0
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	196
+Number of distinct recombinant sequences :                     	107
+Number of distinct recombinant sequences at least 100nt long : 	106
+Longest of short recombinant segments :                        	8352nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 0.0276337
+                                                        p = 2.763e-02
+                                            Uncorrected p = 1.38547e-10
+                                            Bonferroni  p = 0.0280227
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "canada_subsample_1000_pvalue0.5.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2022/03/16 16:01:50 ║
+                                            ╚══════════════════════════════════╝
+

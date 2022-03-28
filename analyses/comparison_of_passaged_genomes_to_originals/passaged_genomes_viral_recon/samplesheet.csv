@@ -1,0 +1,5 @@
+sample,fastq_1,fastq_2
+4581-P0,raw_reads/WCOV4581-P0_S1_L001_R1_001.fastq.gz,raw_reads/WCOV4581-P0_S1_L001_R2_001.fastq.gz
+4645-P0,raw_reads/WCOV4645-P0_S2_L001_R1_001.fastq.gz,raw_reads/WCOV4645-P0_S2_L001_R2_001.fastq.gz
+4649-P0,raw_reads/WCOV4649-P0_S4_L001_R1_001.fastq.gz,raw_reads/WCOV4649-P0_S4_L001_R2_001.fastq.gz
+4658-P0,raw_reads/WCOV4658-P0_S3_L001_R1_001.fastq.gz,raw_reads/WCOV4658-P0_S3_L001_R2_001.fastq.gz

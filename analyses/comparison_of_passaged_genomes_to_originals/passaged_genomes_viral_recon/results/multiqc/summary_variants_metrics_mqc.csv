@@ -1,0 +1,5 @@
+Sample,# Input reads,# Trimmed reads (fastp),% Non-host reads (Kraken 2),% Mapped reads,# Mapped reads,# Trimmed reads (iVar),Coverage median,% Coverage > 1x,% Coverage > 10x,# SNPs,# INDELs,# Missense variants,# Ns per 100kb consensus,Pangolin lineage,Nextclade clade
+4581_P0,546720,482272,NA,99.35,479135,NA,1787,100.0,100.0,83,2,41,NA,B.1,20C
+4645_P0,838518,739158,NA,99.45,735065,NA,2789,100.0,100.0,79,2,38,NA,B.1,20C
+4649_P0,758350,664368,NA,99.24,659305,NA,2587,100.0,100.0,82,2,39,NA,B.1,20C
+4658_P0,595158,526926,NA,98.94,521349,NA,1888,100.0,100.0,96,2,42,NA,B.1,20C

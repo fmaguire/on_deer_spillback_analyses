@@ -1,0 +1,105 @@
+Mar-01 09:46:28.653 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nf-core/viralrecon --input samplesheet.csv --platform illumina --protocol amplicon --genome MN908947.3 -profile docker --max_cpus 4 --max_memory 12GB --primer_set artic --primer_set_version 4 -resume
+Mar-01 09:46:28.782 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Mar-01 09:46:30.601 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/fin/.nextflow/assets/nf-core/viralrecon/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/viralrecon.git
+Mar-01 09:46:30.624 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/fin/.nextflow/assets/nf-core/viralrecon/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/viralrecon.git
+Mar-01 09:46:30.790 [main] INFO  nextflow.cli.CmdRun - Launching `nf-core/viralrecon` [modest_morse] - revision: fc9fece226 [master]
+Mar-01 09:46:31.741 [main] INFO  nextflow.scm.AssetManager - NOTE: Your local project version looks outdated - a different revision is available in the remote repository [fbcb2ce94c]
+Mar-01 09:46:31.763 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/fin/.nextflow/assets/nf-core/viralrecon/nextflow.config
+Mar-01 09:46:31.764 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/fin/.nextflow/assets/nf-core/viralrecon/nextflow.config
+Mar-01 09:46:31.777 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Mar-01 09:46:32.214 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugins manager
+Mar-01 09:46:32.227 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-01 09:46:32.228 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-01 09:46:32.233 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Mar-01 09:46:32.238 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugins manager
+Mar-01 09:46:33.298 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugins manager
+Mar-01 09:46:33.299 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugins manager
+Mar-01 09:46:33.587 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugins manager
+Mar-01 09:46:33.587 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugins manager
+Mar-01 09:46:35.512 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [cfc_dev, ifb_core, denbi_qbic, genotoul, alice, uppmax, abims, nihbiowulf, nu_genomics, oist, mpcdf, lugh, cambridge, unibe_ibu, podman, czbiohub_aws, jax, cheaha, ccga_med, test, google, computerome, seg_globe, sanger, pasteur, test_full, eddie, test_sispa, azurebatch, bi, bigpurple, test_full_nanopore, docker, gis, eva, test_nanopore, utd_ganymede, charliecloud, conda, test_full_sispa, singularity, icr_davros, munin, rosalind, prince, hasta, hebbe, cfc, utd_sysbio, uzh, debug, genouest, cbe, ebc, ccga_dx, crick, marvin, phoenix, test_full_illumina, biohpc_gen, shifter, awsbatch, uct_hpc, imperial, maestro, aws_tower, binac]
+Mar-01 09:46:35.580 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/fin/.nextflow/plugins
+Mar-01 09:46:35.581 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-01 09:46:35.587 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-01 09:46:35.587 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-01 09:46:35.589 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Mar-01 09:46:35.601 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-01 09:46:35.670 [main] DEBUG nextflow.Session - Session uuid: 573d47e1-ef7c-4564-9dcd-2b6762057f59
+Mar-01 09:46:35.670 [main] DEBUG nextflow.Session - Run name: modest_morse
+Mar-01 09:46:35.670 [main] DEBUG nextflow.Session - Executor pool size: 4
+Mar-01 09:46:35.709 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (11:55 EDT)
+  System: Linux 5.16.8-arch1-1
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 10.0.2+13
+  Encoding: UTF-8 (UTF-8)
+  Process: 1314887@dahzbog [127.0.1.1]
+  CPUs: 4 - Mem: 15.5 GB (2.7 GB) - Swap: 4 GB (2.7 GB)
+Mar-01 09:46:35.734 [main] DEBUG nextflow.Session - Work-dir: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work [ext2/ext3]
+Mar-01 09:46:35.756 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-01 09:46:35.774 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-01 09:46:35.982 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Mar-01 09:46:36.175 [main] DEBUG nextflow.Session - Session start invoked
+Mar-01 09:46:36.181 [main] DEBUG nextflow.trace.TraceFileObserver - Flow starting -- trace file: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/results/pipeline_info/execution_trace_2022-03-01_09-46-34.txt
+Mar-01 09:46:36.197 [main] DEBUG nextflow.Session - Using default localLib path: /home/fin/.nextflow/assets/nf-core/viralrecon/lib
+Mar-01 09:46:36.204 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/fin/.nextflow/assets/nf-core/viralrecon/lib
+Mar-01 09:46:36.205 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/fin/.nextflow/assets/nf-core/viralrecon/lib/nfcore_external_java_deps.jar
+Mar-01 09:46:37.775 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-01 09:46:38.104 [main] INFO  nextflow.Nextflow - 
+
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/viralrecon v2.3[0m
+-[2m----------------------------------------------------[0m-
+[1mCore Nextflow options[0m
+  [0;34mrevision                   : [0;32mmaster[0m
+  [0;34mrunName                    : [0;32mmodest_morse[0m
+  [0;34mcontainerEngine            : [0;32mdocker[0m
+  [0;34mlaunchDir                  : [0;32m/home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis[0m
+  [0;34mworkDir                    : [0;32m/home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work[0m
+  [0;34mprojectDir                 : [0;32m/home/fin/.nextflow/assets/nf-core/viralrecon[0m
+  [0;34muserName                   : [0;32mfin[0m
+  [0;34mprofile                    : [0;32mdocker[0m
+  [0;34mconfigFiles                : [0;32m/home/fin/.nextflow/assets/nf-core/viralrecon/nextflow.config[0m
+
+[1mInput/output options[0m
+  [0;34minput                      : [0;32msamplesheet.csv[0m
+  [0;34mplatform                   : [0;32millumina[0m
+  [0;34mprotocol                   : [0;32mamplicon[0m
+
+[1mReference genome options[0m
+  [0;34mgenome                     : [0;32mMN908947.3[0m
+  [0;34mfasta                      : [0;32mhttps://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V4/SARS-CoV-2.reference.fasta[0m
+  [0;34mgff                        : [0;32mhttps://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz[0m
+  [0;34mprimer_bed                 : [0;32mhttps://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V4/SARS-CoV-2.scheme.bed[0m
+  [0;34mprimer_set                 : [0;32martic[0m
+  [0;34mprimer_set_version         : [0;32m4[0m
+
+[1mNanopore/Illumina options[0m
+  [0;34mnextclade_dataset          : [0;32mhttps://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/nextclade_sars-cov-2_MN908947_2022-01-18T12_00_00Z.tar.gz[0m
+  [0;34mnextclade_dataset_name     : [0;32msars-cov-2[0m
+  [0;34mnextclade_dataset_reference: [0;32mMN908947[0m
+  [0;34mnextclade_dataset_tag      : [0;32m2022-01-18T12:00:00Z[0m
+
+[1mMax job request options[0m
+  [0;34mmax_cpus                   : [0;32m4[0m
+  [0;34mmax_memory                 : [0;32m12GB[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-
+If you use nf-core/viralrecon for your analysis please cite:
+
+* The pipeline
+  https://doi.org/10.5281/zenodo.3901628
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://github.com/nf-core/viralrecon/blob/master/CITATIONS.md
+-[2m----------------------------------------------------[0m-
+Mar-01 09:46:41.349 [SIGINT handler] DEBUG nextflow.Session - Session aborted -- Cause: SIGINT
+Mar-01 09:46:42.231 [SIGINT handler] INFO  nextflow.Session - Adieu

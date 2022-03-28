@@ -1,0 +1,52 @@
+4581_P0:
+  ambiguity_score: '1.0'
+  conflict: '0.0'
+  lineage: B.1
+  note: ''
+  pangoLEARN_version: '2022-01-20'
+  pango_version: v1.2.123
+  pangolin_version: 3.1.19
+  qc_status: passed_qc
+  scorpio_call: ''
+  scorpio_conflict: ''
+  scorpio_support: ''
+  version: PLEARN-v1.2.123
+4645_P0:
+  ambiguity_score: '1.0'
+  conflict: '0.0'
+  lineage: B.1
+  note: ''
+  pangoLEARN_version: '2022-01-20'
+  pango_version: v1.2.123
+  pangolin_version: 3.1.19
+  qc_status: passed_qc
+  scorpio_call: ''
+  scorpio_conflict: ''
+  scorpio_support: ''
+  version: PLEARN-v1.2.123
+4649_P0:
+  ambiguity_score: '1.0'
+  conflict: '0.0'
+  lineage: B.1
+  note: ''
+  pangoLEARN_version: '2022-01-20'
+  pango_version: v1.2.123
+  pangolin_version: 3.1.19
+  qc_status: passed_qc
+  scorpio_call: ''
+  scorpio_conflict: ''
+  scorpio_support: ''
+  version: PLEARN-v1.2.123
+4658_P0:
+  ambiguity_score: '1.0'
+  conflict: '0.0'
+  lineage: B.1
+  note: ''
+  pangoLEARN_version: '2022-01-20'
+  pango_version: v1.2.123
+  pangolin_version: 3.1.19
+  qc_status: passed_qc
+  scorpio_call: ''
+  scorpio_conflict: ''
+  scorpio_support: ''
+  version: PLEARN-v1.2.123

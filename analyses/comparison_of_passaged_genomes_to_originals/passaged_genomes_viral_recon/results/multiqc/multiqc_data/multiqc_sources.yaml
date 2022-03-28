@@ -1,0 +1,46 @@
+'PREPROCESS: FastQC (raw reads)':
+  all_sections:
+    4581_P0_1: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4581_P0_1_fastqc.zip
+    4581_P0_2: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4581_P0_2_fastqc.zip
+    4645_P0_1: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4645_P0_1_fastqc.zip
+    4645_P0_2: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4645_P0_2_fastqc.zip
+    4649_P0_1: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4649_P0_1_fastqc.zip
+    4649_P0_2: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4649_P0_2_fastqc.zip
+    4658_P0_1: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4658_P0_1_fastqc.zip
+    4658_P0_2: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastqc/4658_P0_2_fastqc.zip
+'PREPROCESS: fastp (adapter trimming)':
+  all_sections:
+    4581_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastp/4581_P0.fastp.json
+    4645_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastp/4645_P0.fastp.json
+    4649_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastp/4649_P0.fastp.json
+    4658_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/fastp/4658_P0.fastp.json
+'VARIANTS: BCFTools':
+  stats:
+    4581_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4581_P0.bcftools_stats.txt
+    4645_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4645_P0.bcftools_stats.txt
+    4649_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4649_P0.bcftools_stats.txt
+    4658_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4658_P0.bcftools_stats.txt
+'VARIANTS: Bowtie 2':
+  all_sections:
+    4581_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4581_P0.bowtie2.log
+    4645_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4645_P0.bowtie2.log
+    4649_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4649_P0.bowtie2.log
+    4658_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4658_P0.bowtie2.log
+'VARIANTS: SAMTools (raw)':
+  flagstat:
+    4581_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4581_P0.sorted.bam.flagstat
+    4645_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4645_P0.sorted.bam.flagstat
+    4649_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4649_P0.sorted.bam.flagstat
+    4658_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/bowtie2/4658_P0.sorted.bam.flagstat
+'VARIANTS: SnpEff':
+  all_sections:
+    4581_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4581_P0.snpeff.csv
+    4645_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4645_P0.snpeff.csv
+    4649_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4649_P0.snpeff.csv
+    4658_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/variants/4658_P0.snpeff.csv
+'VARIANTS: mosdepth':
+  genome_results:
+    4581_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/mosdepth/4581_P0.mosdepth.global.dist.txt
+    4645_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/mosdepth/4645_P0.mosdepth.global.dist.txt
+    4649_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/mosdepth/4649_P0.mosdepth.global.dist.txt
+    4658_P0: /home/fin/Documents/research/bioinformatics/covid-19/sunnybrook_ncov_surveillance/analyses/on_deer_spillback_paper/culture_comparison/viral_recon_analysis/work/58/3ae6c0ab3d294d8fb3a1748ad61bac/mosdepth/4658_P0.mosdepth.global.dist.txt

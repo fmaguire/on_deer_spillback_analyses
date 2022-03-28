@@ -1,5 +1,7 @@
 # Ontario White-Tailed Deer SARS-CoV-2 Analyses
 
+[![DOI](https://zenodo.org/badge/474818523.svg)](https://zenodo.org/badge/latestdoi/474818523)
+
 This repository contains analysis scripts, outputs, and figure generation code
 for the Ontario White-Tailed Deer SARS-CoV-2 lineage manuscript.
 

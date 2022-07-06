@@ -45,6 +45,7 @@ Each folder contains a README and run scripts as relevant that contain commands 
     analyses/maximum_likelihood_phylogenies/
     analyses/mutation_distribution_across_genomes/
     analyses/neutralisation_and_binding_assays/
+    analyses/beast_node_dating/
     analyses/parsimony_usher_analysis/
     analyses/root_to_tip_regression/
     analyses/selection_analyses/
